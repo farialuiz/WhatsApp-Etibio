@@ -1,0 +1,1764 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Archive Reader - Visualizador de Conversas Exportadas</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- JSZip para leitura de arquivos .zip exportados do WhatsApp -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Fonte Inter / Segoe UI fallback -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Segoe UI', 'Helvetica Neue', 'Helvetica', 'Lucida Grande', 'Arial', 'Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        wa: {
+                            darkBg: '#111b21',
+                            darkHeader: '#202c33',
+                            darkChatBg: '#0b141a',
+                            darkIncoming: '#202c33',
+                            darkOutgoing: '#005c4b',
+                            darkSystem: '#182229',
+                            darkBorder: '#2a3942',
+                            darkHover: '#2a3942',
+                            darkText: '#e9edef',
+                            darkSubtext: '#8696a0',
+                            lightBg: '#ffffff',
+                            lightHeader: '#f0f2f5',
+                            lightChatBg: '#efeae2',
+                            lightIncoming: '#ffffff',
+                            lightOutgoing: '#d9fdd3',
+                            lightSystem: '#ffeecd',
+                            lightBorder: '#e9edef',
+                            lightHover: '#f5f6f6',
+                            lightText: '#111b21',
+                            lightSubtext: '#667781',
+                            teal: '#00a884',
+                            tealHover: '#008f6f',
+                            blueCheck: '#53bdeb'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        /* Custom Scrollbars estilo WhatsApp Web */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .dark ::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.16);
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(11, 20, 26, 0.2);
+            border-radius: 3px;
+        }
+
+        /* Padrão de fundo Doodle do WhatsApp em SVG Data URI sutil */
+        .wa-chat-bg {
+            background-color: #efeae2;
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d4cfc7' fill-opacity='0.35' fill-rule='evenodd'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z'/%3E%3C/g%3E%3C/svg%3E");
+        }
+        .dark .wa-chat-bg {
+            background-color: #0b141a;
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23182229' fill-opacity='0.65' fill-rule='evenodd'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z'/%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        /* Pontinhas dos balões do WhatsApp */
+        .tail-in::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -8px;
+            width: 0;
+            height: 0;
+            border-top: 0px solid transparent;
+            border-bottom: 12px solid transparent;
+            border-right: 10px solid #ffffff;
+        }
+        .dark .tail-in::before {
+            border-right-color: #202c33;
+        }
+        .tail-out::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: -8px;
+            width: 0;
+            height: 0;
+            border-top: 0px solid transparent;
+            border-bottom: 12px solid transparent;
+            border-left: 10px solid #d9fdd3;
+        }
+        .dark .tail-out::before {
+            border-left-color: #005c4b;
+        }
+
+        /* Destaque de texto pesquisado */
+        mark.wa-highlight {
+            background-color: #facc15;
+            color: #111b21;
+            padding: 0 2px;
+            border-radius: 2px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="bg-wa-lightBg dark:bg-wa-darkBg text-wa-lightText dark:text-wa-darkText font-sans antialiased h-screen w-screen overflow-hidden select-none">
+
+    <!-- Overlay Global de Drag & Drop -->
+    <div id="dropOverlay" class="fixed inset-0 z-50 bg-black/75 backdrop-blur-xs hidden flex-col items-center justify-center p-6 text-white pointer-events-none">
+        <div class="border-4 border-dashed border-wa-teal rounded-3xl p-10 flex flex-col items-center max-w-md text-center bg-wa-darkHeader/90 shadow-2xl">
+            <i class="fa-solid fa-file-zipper text-6xl text-wa-teal mb-4 animate-bounce"></i>
+            <h3 class="text-xl font-bold mb-2">Solte os arquivos aqui</h3>
+            <p class="text-sm text-wa-darkSubtext">Você pode soltar um ou vários arquivos <strong>.ZIP</strong> (com fotos, áudios e vídeos) ou <strong>.TXT</strong> exportados do WhatsApp.</p>
+        </div>
+    </div>
+
+    <!-- Modal Lightbox para Visualização de Fotos em Tela Cheia -->
+    <div id="lightboxModal" class="fixed inset-0 z-50 bg-black/90 hidden flex-col justify-between p-4 select-none">
+        <div class="flex items-center justify-between text-white px-4 py-2 bg-black/40 rounded-xl">
+            <div class="min-w-0">
+                <h4 id="lightboxTitle" class="font-semibold text-sm truncate">Imagem</h4>
+                <p id="lightboxMeta" class="text-xs text-gray-400 truncate"></p>
+            </div>
+            <div class="flex items-center gap-3">
+                <a id="lightboxDownload" href="#" download class="p-2.5 hover:bg-white/10 rounded-full transition" title="Baixar imagem">
+                    <i class="fa-solid fa-download"></i>
+                </a>
+                <button onclick="closeLightbox()" class="p-2.5 hover:bg-white/10 rounded-full transition" title="Fechar (ESC)">
+                    <i class="fa-solid fa-xmark text-xl"></i>
+                </button>
+            </div>
+        </div>
+        <div class="flex-1 flex items-center justify-center overflow-hidden my-2" onclick="closeLightbox()">
+            <img id="lightboxImg" src="" alt="Visualização" class="max-h-full max-w-full object-contain rounded-lg shadow-2xl" onclick="event.stopPropagation()">
+        </div>
+    </div>
+
+    <!-- Modal de Ajuda: Como Exportar Conversas do WhatsApp -->
+    <div id="helpModal" class="fixed inset-0 z-50 bg-black/70 hidden items-center justify-center p-4">
+        <div class="bg-wa-lightBg dark:bg-wa-darkHeader max-w-lg w-full rounded-2xl shadow-2xl border border-wa-lightBorder dark:border-wa-darkBorder overflow-hidden">
+            <div class="bg-wa-teal px-6 py-4 text-white flex items-center justify-between">
+                <div class="flex items-center gap-2.5">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+                    <h3 class="font-semibold text-base">Como exportar e manter suas conversas</h3>
+                </div>
+                <button onclick="toggleHelpModal(false)" class="hover:bg-white/20 p-1.5 rounded-full transition">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="p-6 space-y-4 text-sm max-h-[80vh] overflow-y-auto">
+                <div class="p-3.5 rounded-xl bg-wa-teal/10 border border-wa-teal/30 text-xs leading-relaxed">
+                    <strong class="text-wa-teal block mb-1"><i class="fa-solid fa-shield-halved mr-1"></i> 100% Privado e Permanente:</strong>
+                    Seus arquivos nunca saem do seu computador. Tudo é lido e salvo diretamente na memória interna do seu navegador (IndexedDB).
+                </div>
+                <ol class="space-y-3 list-decimal list-inside text-wa-lightText dark:text-wa-darkText">
+                    <li>Abra a conversa ou grupo desejado no seu <strong>WhatsApp</strong>.</li>
+                    <li>Toque no nome do contato no topo (ou nos três pontinhos &rarr; <strong>Mais</strong>).</li>
+                    <li>Selecione <strong>Exportar conversa</strong> e escolha <strong>Incluir mídia</strong> (gera um arquivo <code>.zip</code> com fotos, vídeos e áudios) ou <strong>Sem mídia</strong> (arquivo <code>.txt</code>).</li>
+                    <li>Envie os arquivos para o computador e clique em <strong>Carregar Conversa (.ZIP ou .TXT)</strong> ou arraste vários arquivos de uma vez para esta tela.</li>
+                </ol>
+                <div class="pt-3 border-t border-wa-lightBorder dark:border-wa-darkBorder flex justify-end">
+                    <button onclick="toggleHelpModal(false)" class="bg-wa-teal hover:bg-wa-tealHover text-white px-5 py-2 rounded-lg font-medium text-sm transition">
+                        Entendi
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Confirmação para Limpar Banco -->
+    <div id="confirmClearModal" class="fixed inset-0 z-50 bg-black/70 hidden items-center justify-center p-4">
+        <div class="bg-wa-lightBg dark:bg-wa-darkHeader max-w-md w-full rounded-2xl shadow-2xl border border-wa-lightBorder dark:border-wa-darkBorder p-6">
+            <h3 class="text-lg font-semibold mb-2">Apagar conversas salvas no navegador?</h3>
+            <p class="text-sm text-wa-lightSubtext dark:text-wa-darkSubtext mb-6">
+                Isso removerá todas as conversas importadas da memória deste navegador (IndexedDB). Seus arquivos originais <code>.zip</code> ou <code>.txt</code> no computador não serão afetados.
+            </p>
+            <div class="flex justify-end gap-3">
+                <button onclick="toggleClearModal(false)" class="px-4 py-2 rounded-lg border border-wa-lightBorder dark:border-wa-darkBorder hover:bg-black/5 dark:hover:bg-white/5 text-sm font-medium transition">
+                    Cancelar
+                </button>
+                <button onclick="clearAllSavedChats()" class="px-4 py-2 rounded-lg bg-red-600 hover:bg-red-700 text-white text-sm font-medium transition">
+                    Sim, limpar tudo
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Input Oculto para Upload de Foto de Avatar -->
+    <input type="file" id="avatarInput" accept="image/*" class="hidden" onchange="handleAvatarFileSelect(event)">
+
+    <!-- Modal de Edição de Contato, Avatar e Nomes dos Participantes -->
+    <div id="editContactModal" class="fixed inset-0 z-50 bg-black/70 hidden items-center justify-center p-4">
+        <div class="bg-wa-lightBg dark:bg-wa-darkHeader max-w-lg w-full rounded-2xl shadow-2xl border border-wa-lightBorder dark:border-wa-darkBorder overflow-hidden">
+            <div class="bg-wa-teal px-6 py-4 text-white flex items-center justify-between">
+                <div class="flex items-center gap-2.5">
+                    <i class="fa-solid fa-user-pen text-lg"></i>
+                    <h3 class="font-semibold text-base sm:text-lg">Editar Contato e Participantes</h3>
+                </div>
+                <button onclick="closeEditContactModal()" class="hover:bg-white/20 p-1.5 rounded-full transition">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <div class="p-6 space-y-5 text-sm max-h-[80vh] overflow-y-auto">
+                <!-- Seção Foto do Avatar -->
+                <div class="flex items-center gap-4 pb-4 border-b border-wa-lightBorder dark:border-wa-darkBorder">
+                    <div id="editModalAvatarPreview" onclick="triggerAvatarUpload(state.editingChatId)" 
+                         class="w-16 h-16 rounded-full flex items-center justify-center text-white font-semibold text-xl flex-shrink-0 shadow cursor-pointer relative group overflow-hidden">
+                    </div>
+                    <div class="flex-1">
+                        <p class="font-medium mb-1">Foto do Perfil da Conversa</p>
+                        <div class="flex flex-wrap gap-2">
+                            <button type="button" onclick="triggerAvatarUpload(state.editingChatId)" 
+                                class="px-3 py-1.5 bg-wa-teal hover:bg-wa-tealHover text-white rounded-lg text-xs font-medium transition flex items-center gap-1.5">
+                                <i class="fa-solid fa-camera"></i> Escolher Foto
+                            </button>
+                            <button type="button" id="btnRemoveAvatar" onclick="removeChatAvatar()" 
+                                class="hidden px-3 py-1.5 bg-red-500/10 hover:bg-red-500/20 text-red-500 rounded-lg text-xs font-medium transition">
+                                <i class="fa-solid fa-trash-can mr-1"></i> Remover Foto
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nome de Exibição da Conversa e Telefone -->
+                <div class="space-y-3">
+                    <div>
+                        <label class="block text-xs font-semibold uppercase tracking-wider text-wa-lightSubtext dark:text-wa-darkSubtext mb-1">
+                            Título da Conversa / Nome do Contato
+                        </label>
+                        <input type="text" id="editChatTitleInput" placeholder="Ex: Thiago (Primo) - (11) 99999-9999" 
+                            class="w-full px-3.5 py-2 rounded-lg bg-wa-lightHeader dark:bg-wa-darkBg border border-wa-lightBorder dark:border-wa-darkBorder focus:outline-none focus:border-wa-teal text-wa-lightText dark:text-wa-darkText text-sm">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold uppercase tracking-wider text-wa-lightSubtext dark:text-wa-darkSubtext mb-1">
+                            Telefone / Observação (Opcional - aparece abaixo ou junto ao nome)
+                        </label>
+                        <div class="flex gap-2">
+                            <input type="text" id="editChatPhoneInput" placeholder="Ex: +55 11 98888-7777" 
+                                class="flex-1 px-3.5 py-2 rounded-lg bg-wa-lightHeader dark:bg-wa-darkBg border border-wa-lightBorder dark:border-wa-darkBorder focus:outline-none focus:border-wa-teal text-wa-lightText dark:text-wa-darkText text-sm">
+                            <button type="button" onclick="appendPhoneToTitleAndParticipant()" 
+                                class="px-3 py-2 bg-black/5 dark:bg-white/10 hover:bg-black/10 dark:hover:bg-white/15 rounded-lg text-xs font-medium transition whitespace-nowrap"
+                                title="Insere o número diretamente junto ao nome">
+                                + Anexar ao Nome
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Renomear Participantes nas Mensagens -->
+                <div class="pt-3 border-t border-wa-lightBorder dark:border-wa-darkBorder">
+                    <label class="block text-xs font-semibold uppercase tracking-wider text-wa-lightSubtext dark:text-wa-darkSubtext mb-1">
+                        Nomes dos Usuários nos Balões da Conversa
+                    </label>
+                    <p class="text-xs text-wa-lightSubtext dark:text-wa-darkSubtext mb-3">
+                        Altere o nome de qualquer participante abaixo para acrescentar o telefone ou corrigir o nome em todas as mensagens enviadas por ele:
+                    </p>
+                    <div id="editParticipantsList" class="space-y-2.5">
+                        <!-- Campos gerados via JS -->
+                    </div>
+                </div>
+
+                <div class="pt-4 border-t border-wa-lightBorder dark:border-wa-darkBorder flex justify-end gap-2.5">
+                    <button type="button" onclick="closeEditContactModal()" class="px-4 py-2 rounded-lg border border-wa-lightBorder dark:border-wa-darkBorder hover:bg-black/5 dark:hover:bg-white/5 text-sm font-medium transition">
+                        Cancelar
+                    </button>
+                    <button type="button" onclick="saveContactAndParticipantEdits()" class="bg-wa-teal hover:bg-wa-tealHover text-white px-5 py-2 rounded-lg font-medium text-sm transition flex items-center gap-2 shadow-sm">
+                        <i class="fa-solid fa-check"></i> Salvar Alterações
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Layout Principal (Estilo WhatsApp Web) -->
+    <div class="flex h-full w-full max-w-[1700px] mx-auto shadow-2xl overflow-hidden">
+        
+        <!-- COLUNA ESQUERDA: Lista de Conversas -->
+        <aside id="sidebarPanel" class="w-full md:w-[390px] lg:w-[430px] flex-shrink-0 flex flex-col border-r border-wa-lightBorder dark:border-wa-darkBorder bg-wa-lightBg dark:bg-wa-darkBg h-full z-20">
+            
+            <!-- Header da Sidebar -->
+            <header class="h-[60px] px-4 bg-wa-lightHeader dark:bg-wa-darkHeader flex items-center justify-between flex-shrink-0">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-full bg-wa-teal flex items-center justify-center text-white shadow-sm">
+                        <i class="fa-brands fa-whatsapp text-2xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="font-semibold text-sm leading-tight">WhatsApp Archive</h1>
+                        <span class="text-[11px] text-wa-lightSubtext dark:text-wa-darkSubtext flex items-center gap-1">
+                            <i class="fa-solid fa-lock text-[9px] text-wa-teal"></i> Leitor Local Offline
+                        </span>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 text-wa-lightSubtext dark:text-wa-darkSubtext">
+                    <!-- Botão Upload Rápido -->
+                    <button onclick="document.getElementById('fileInput').click()" class="p-2.5 hover:bg-black/5 dark:hover:bg-white/5 rounded-full transition text-wa-teal" title="Importar arquivos .zip ou .txt">
+                        <i class="fa-solid fa-folder-plus text-lg"></i>
+                    </button>
+                    <!-- Alternar Tema Claro/Escuro -->
+                    <button onclick="toggleTheme()" class="p-2.5 hover:bg-black/5 dark:hover:bg-white/5 rounded-full transition" title="Alternar Modo Escuro / Claro">
+                        <i id="themeIcon" class="fa-solid fa-sun text-lg"></i>
+                    </button>
+                    <!-- Botão Ajuda -->
+                    <button onclick="toggleHelpModal(true)" class="p-2.5 hover:bg-black/5 dark:hover:bg-white/5 rounded-full transition" title="Como exportar conversas do WhatsApp">
+                        <i class="fa-regular fa-circle-question text-lg"></i>
+                    </button>
+                    <!-- Limpar Tudo -->
+                    <button onclick="toggleClearModal(true)" class="p-2.5 hover:bg-black/5 dark:hover:bg-white/5 rounded-full transition hover:text-red-400" title="Limpar conversas da memória do navegador">
+                        <i class="fa-regular fa-trash-can text-base"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Botão Destacado de Importar Conversa (.ZIP / .TXT) -->
+            <div class="p-3 pb-2 bg-wa-lightBg dark:bg-wa-darkBg border-b border-wa-lightBorder dark:border-wa-darkBorder">
+                <input type="file" id="fileInput" accept=".txt,.zip" multiple class="hidden" onchange="handleFileSelect(event)">
+                <button onclick="document.getElementById('fileInput').click()" 
+                    class="w-full py-2.5 px-4 bg-wa-teal hover:bg-wa-tealHover text-white rounded-xl font-medium text-sm flex items-center justify-center gap-2.5 shadow-sm transition transform active:scale-[0.99]">
+                    <i class="fa-solid fa-file-zipper text-base"></i>
+                    <span>Carregar Conversas (.ZIP ou .TXT)</span>
+                </button>
+            </div>
+
+            <!-- Barra de Busca de Conversas + Filtro de Ordenação por Data -->
+            <div class="p-2 px-3 bg-wa-lightBg dark:bg-wa-darkBg border-b border-wa-lightBorder dark:border-wa-darkBorder flex items-center gap-2">
+                <div class="flex-1 flex items-center bg-wa-lightHeader dark:bg-wa-darkHeader rounded-lg px-3 py-1.5 gap-2">
+                    <i class="fa-solid fa-magnifying-glass text-wa-lightSubtext dark:text-wa-darkSubtext text-xs"></i>
+                    <input type="text" id="chatListSearch" oninput="renderChatList()" placeholder="Pesquisar ou filtrar conversas..." 
+                        class="bg-transparent text-sm w-full focus:outline-none text-wa-lightText dark:text-wa-darkText placeholder-wa-lightSubtext dark:placeholder-wa-darkSubtext">
+                </div>
+                <!-- Seletor de Ordenação (Decrescente / Crescente / A-Z) -->
+                <div class="flex items-center bg-wa-lightHeader dark:bg-wa-darkHeader rounded-lg px-2 py-1.5 border border-transparent hover:border-wa-lightBorder dark:hover:border-wa-darkBorder transition flex-shrink-0" title="Ordenar conversas por data da última mensagem ou nome">
+                    <i class="fa-solid fa-arrow-down-wide-short text-wa-teal text-xs mr-1.5"></i>
+                    <select id="chatSortSelect" onchange="changeSortOrder(this.value)" 
+                        class="bg-transparent text-xs font-medium focus:outline-none cursor-pointer text-wa-lightText dark:text-wa-darkText">
+                        <option value="desc" class="bg-wa-lightBg dark:bg-wa-darkHeader">Mais recentes</option>
+                        <option value="asc" class="bg-wa-lightBg dark:bg-wa-darkHeader">Mais antigas</option>
+                        <option value="alpha" class="bg-wa-lightBg dark:bg-wa-darkHeader">Nome (A-Z)</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Lista de Conversas Carregadas -->
+            <div id="chatListContainer" class="flex-1 overflow-y-auto divide-y divide-wa-lightBorder/60 dark:divide-wa-darkBorder/60">
+                <!-- Preenchido via JS -->
+            </div>
+
+            <!-- Rodapé de Status Local -->
+            <div class="px-3 py-2 bg-wa-lightHeader/60 dark:bg-wa-darkHeader/60 border-t border-wa-lightBorder dark:border-wa-darkBorder flex items-center justify-between text-[11px] text-wa-lightSubtext dark:text-wa-darkSubtext">
+                <span id="storageBadge"><i class="fa-solid fa-database text-wa-teal mr-1"></i> Salvo no navegador</span>
+                <span>Arraste arquivos <code>.zip</code> para a tela</span>
+            </div>
+        </aside>
+
+        <!-- COLUNA DIREITA: Área Principal do Chat -->
+        <main id="chatPanel" class="hidden md:flex flex-1 flex-col h-full bg-wa-lightChatBg dark:bg-wa-darkChatBg relative overflow-hidden">
+            
+            <!-- Cabeçalho da Conversa Ativa -->
+            <header id="chatHeader" class="h-[60px] px-4 bg-wa-lightHeader dark:bg-wa-darkHeader border-b border-wa-lightBorder dark:border-wa-darkBorder flex items-center justify-between flex-shrink-0 z-10">
+                <div class="flex items-center gap-3 min-w-0">
+                    <!-- Botão Voltar (Apenas Mobile) -->
+                    <button onclick="showMobileSidebar()" class="md:hidden p-2 -ml-2 hover:bg-black/5 dark:hover:bg-white/5 rounded-full">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    <!-- Avatar do Contato/Grupo (Clicável para subir foto) -->
+                    <div id="activeChatAvatar" onclick="triggerAvatarUpload(state.activeChatId, event)" 
+                         title="Clique para alterar a foto do contato"
+                         class="w-10 h-10 rounded-full bg-emerald-600 text-white font-semibold flex items-center justify-center flex-shrink-0 text-sm shadow cursor-pointer relative group overflow-hidden">
+                        WA
+                    </div>
+                    <div class="min-w-0">
+                        <div class="flex items-center gap-1.5">
+                            <h2 id="activeChatTitle" onclick="openEditContactModal(state.activeChatId)" 
+                                title="Clique para editar nome dos usuários, acrescentar telefone ou trocar foto"
+                                class="font-semibold text-sm md:text-base truncate cursor-pointer hover:underline">Selecione uma conversa</h2>
+                            <button onclick="openEditContactModal(state.activeChatId)" 
+                                class="p-1 text-wa-lightSubtext dark:text-wa-darkSubtext hover:text-wa-teal rounded transition flex-shrink-0" 
+                                title="Editar nome dos usuários, telefone ou foto">
+                                <i class="fa-solid fa-pen text-xs"></i>
+                            </button>
+                        </div>
+                        <p id="activeChatSubtitle" class="text-xs text-wa-lightSubtext dark:text-wa-darkSubtext truncate">0 mensagens</p>
+                    </div>
+                </div>
+
+                <!-- Controles Superiores da Conversa: "Quem sou eu?" e Busca -->
+                <div class="flex items-center gap-2 sm:gap-3">
+                    <!-- Seletor "Quem sou eu?" -->
+                    <div class="flex items-center gap-1.5 bg-wa-lightBg dark:bg-wa-darkBg px-2.5 py-1.5 rounded-lg border border-wa-lightBorder dark:border-wa-darkBorder shadow-sm">
+                        <i class="fa-solid fa-user-check text-wa-teal text-xs" title="Escolha seu nome para alinhar suas mensagens à direita (balão verde)"></i>
+                        <span class="text-xs text-wa-lightSubtext dark:text-wa-darkSubtext hidden sm:inline">Eu sou:</span>
+                        <select id="perspectiveSelect" onchange="changePerspective(this.value)" 
+                            class="bg-transparent text-xs sm:text-sm font-medium focus:outline-none cursor-pointer text-wa-lightText dark:text-wa-darkText max-w-[120px] sm:max-w-[160px] truncate">
+                        </select>
+                    </div>
+
+                    <!-- Botão Abrir Barra de Pesquisa e Filtro de Data -->
+                    <button onclick="toggleInChatSearch()" id="btnSearchInChat" class="p-2.5 hover:bg-black/5 dark:hover:bg-white/5 rounded-full transition text-wa-lightSubtext dark:text-wa-darkSubtext" title="Pesquisar mensagens ou filtrar por data">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Barra Expansível de Busca Interna e Filtro por Data -->
+            <div id="inChatSearchBar" class="hidden bg-wa-lightHeader dark:bg-wa-darkHeader border-b border-wa-lightBorder dark:border-wa-darkBorder px-4 py-2.5 flex-wrap items-center gap-3 z-10 shadow-md">
+                <div class="flex-1 min-w-[200px] flex items-center bg-wa-lightBg dark:bg-wa-darkBg rounded-lg px-3 py-1.5 gap-2 border border-wa-lightBorder dark:border-wa-darkBorder">
+                    <i class="fa-solid fa-magnifying-glass text-xs text-wa-lightSubtext dark:text-wa-darkSubtext"></i>
+                    <input type="text" id="messageSearchInput" oninput="applyMessageFilters()" placeholder="Buscar palavra ou frase na conversa..." 
+                        class="bg-transparent text-sm w-full focus:outline-none text-wa-lightText dark:text-wa-darkText">
+                    <button onclick="clearMessageSearch()" class="text-xs text-wa-lightSubtext hover:text-wa-lightText dark:hover:text-white">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <label class="text-xs text-wa-lightSubtext dark:text-wa-darkSubtext flex items-center gap-1.5">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span class="hidden sm:inline">Ir para data:</span>
+                    </label>
+                    <input type="date" id="dateFilterInput" onchange="jumpToDate(this.value)" 
+                        class="bg-wa-lightBg dark:bg-wa-darkBg border border-wa-lightBorder dark:border-wa-darkBorder rounded-lg px-2.5 py-1 text-xs focus:outline-none text-wa-lightText dark:text-wa-darkText">
+                </div>
+
+                <div id="searchResultCount" class="text-xs text-wa-teal font-medium"></div>
+
+                <button onclick="toggleInChatSearch()" class="p-1.5 text-wa-lightSubtext hover:text-wa-lightText dark:hover:text-white ml-auto">
+                    <i class="fa-solid fa-chevron-up"></i>
+                </button>
+            </div>
+
+            <!-- Indicador de Carregamento de Arquivo ZIP/TXT -->
+            <div id="loadingBanner" class="hidden absolute inset-0 z-30 bg-black/60 backdrop-blur-xs flex-col items-center justify-center text-white">
+                <div class="w-12 h-12 border-4 border-wa-teal border-t-transparent rounded-full animate-spin mb-3"></div>
+                <p id="loadingText" class="font-medium text-sm">Extraindo conversa e mídias...</p>
+            </div>
+
+            <!-- Área de Rolagem das Mensagens com Fundo Doodle -->
+            <div id="messagesViewport" class="flex-1 overflow-y-auto wa-chat-bg px-3 sm:px-8 md:px-14 py-4 space-y-1.5 select-text">
+                <!-- Balões renderizados via JS -->
+            </div>
+
+            <!-- Botão Flutuante de Rolar para o Fim -->
+            <button id="scrollToBottomBtn" onclick="scrollToBottom()" 
+                class="hidden absolute bottom-16 right-6 z-20 w-10 h-10 rounded-full bg-wa-lightHeader dark:bg-wa-darkHeader text-wa-lightSubtext dark:text-wa-darkSubtext shadow-lg border border-wa-lightBorder dark:border-wa-darkBorder items-center justify-center hover:scale-105 transition">
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+
+            <!-- Rodapé Informativo (Modo Arquivo Somente Leitura) -->
+            <footer class="h-[52px] px-4 bg-wa-lightHeader dark:bg-wa-darkHeader border-t border-wa-lightBorder dark:border-wa-darkBorder flex items-center justify-between text-xs text-wa-lightSubtext dark:text-wa-darkSubtext flex-shrink-0 z-10">
+                <div class="flex items-center gap-2 truncate">
+                    <i class="fa-solid fa-box-archive text-wa-teal"></i>
+                    <span class="truncate">Clique na bolinha de iniciais para subir foto de perfil ou no lápis ao lado do nome para editar nome/telefone.</span>
+                </div>
+                <div id="mediaCountFooter" class="hidden sm:flex items-center gap-3 font-medium text-wa-teal flex-shrink-0">
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <script>
+        /********************************************************************
+         * ESTADO GLOBAL E PERSISTÊNCIA (INDEXEDDB COM FALLBACK SEGURO)
+         ********************************************************************/
+        const DB_NAME = 'WhatsAppArchiveReaderDB';
+        const DB_VERSION = 1;
+        const STORE_NAME = 'chats';
+
+        let dbInstance = null;
+        let state = {
+            chats: [],
+            activeChatId: null,
+            searchKeyword: '',
+            sortOrder: 'desc', // 'desc' (Mais recentes), 'asc' (Mais antigas), 'alpha' (A-Z)
+            avatarTargetChatId: null,
+            editingChatId: null
+        };
+
+        const AUTHOR_COLORS = [
+            '#e542a3', '#00a884', '#53bdeb', '#ff7f50', 
+            '#9b59b6', '#e67e22', '#2ecc71', '#3498db', '#f39c12'
+        ];
+
+        function getAuthorColor(name) {
+            let hash = 0;
+            const str = String(name || 'WA');
+            for (let i = 0; i < str.length; i++) {
+                hash = str.charCodeAt(i) + ((hash << 5) - hash);
+            }
+            return AUTHOR_COLORS[Math.abs(hash) % AUTHOR_COLORS.length];
+        }
+
+        // Extrai as iniciais ignorando parênteses e símbolos (ex: "Thiago (Primo)" -> "TP")
+        function getInitials(title) {
+            const cleaned = String(title || '')
+                .replace(/Conversa do WhatsApp com /i, '')
+                .replace(/WhatsApp Chat with /i, '')
+                .replace(/[()\[\]{}<>\/\\|"'`~@#$%^&*+=?:;.,!_-]/g, ' ')
+                .trim();
+            const parts = cleaned.split(/\s+/).filter(w => /[a-zA-ZÀ-ÿ]/.test(w));
+            if (parts.length >= 2) {
+                return (parts[0][0] + parts[1][0]).toUpperCase();
+            }
+            if (parts.length === 1 && parts[0].length >= 2) {
+                return parts[0].slice(0, 2).toUpperCase();
+            }
+            if (parts.length === 1 && parts[0].length === 1) {
+                return parts[0][0].toUpperCase();
+            }
+            const digits = String(title || '').replace(/\D/g, '');
+            if (digits.length >= 2) return digits.slice(-2);
+            return 'WA';
+        }
+
+        // Converte "DD/MM/YYYY" e "HH:MM" para timestamp numérico para ordenação cronológica exata
+        function computeMessageTimestamp(dateStr, timeStr) {
+            if (!dateStr) return 0;
+            const parts = String(dateStr).split(/[\/\.\-]/);
+            if (parts.length !== 3) return 0;
+            let day, month, year;
+            if (parts[0].length === 4) {
+                [year, month, day] = parts.map(Number);
+            } else {
+                [day, month, year] = parts.map(Number);
+            }
+            if (year < 100) year += 2000;
+            let hours = 0, minutes = 0;
+            if (timeStr) {
+                const tParts = String(timeStr).replace(/[^\d:]/g, '').split(':');
+                hours = parseInt(tParts[0] || '0', 10) || 0;
+                minutes = parseInt(tParts[1] || '0', 10) || 0;
+            }
+            const dt = new Date(year, (month || 1) - 1, day || 1, hours, minutes);
+            return isNaN(dt.getTime()) ? 0 : dt.getTime();
+        }
+
+        function getChatLastTimestamp(chat) {
+            if (!chat || !chat.messages || chat.messages.length === 0) {
+                return chat ? (chat.createdAt || 0) : 0;
+            }
+            for (let i = chat.messages.length - 1; i >= 0; i--) {
+                const m = chat.messages[i];
+                const ts = computeMessageTimestamp(m.dateStr, m.timeStr);
+                if (ts > 0) return ts;
+            }
+            return chat.createdAt || 0;
+        }
+
+        function buildAvatarInnerHtml(chat, sizeClass = 'text-xs') {
+            const cameraOverlay = `
+                <div class="absolute inset-0 bg-black/50 opacity-0 group-hover/avatar:opacity-100 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-full">
+                    <i class="fa-solid fa-camera text-white ${sizeClass}"></i>
+                </div>`;
+            if (chat && chat.avatarDataUrl) {
+                return `<img src="${chat.avatarDataUrl}" alt="${escapeHtml(chat.title)}" class="w-full h-full object-cover rounded-full">${cameraOverlay}`;
+            }
+            return `<span>${getInitials(chat ? chat.title : 'WA')}</span>${cameraOverlay}`;
+        }
+
+        function initDB() {
+            return new Promise((resolve) => {
+                try {
+                    if (!window.indexedDB) {
+                        resolve(null);
+                        return;
+                    }
+                    const request = indexedDB.open(DB_NAME, DB_VERSION);
+                    request.onupgradeneeded = (e) => {
+                        const db = e.target.result;
+                        if (!db.objectStoreNames.contains(STORE_NAME)) {
+                            db.createObjectStore(STORE_NAME, { keyPath: 'id' });
+                        }
+                    };
+                    request.onsuccess = (e) => {
+                        dbInstance = e.target.result;
+                        resolve(dbInstance);
+                    };
+                    request.onerror = () => resolve(null);
+                } catch (err) {
+                    resolve(null);
+                }
+            });
+        }
+
+        async function saveChatToDB(chatObj) {
+            if (!dbInstance) return;
+            return new Promise((resolve) => {
+                try {
+                    const clone = {
+                        id: chatObj.id,
+                        title: chatObj.title,
+                        phoneNote: chatObj.phoneNote || '',
+                        avatarDataUrl: chatObj.avatarDataUrl || null,
+                        createdAt: chatObj.createdAt,
+                        myUser: chatObj.myUser,
+                        participants: chatObj.participants,
+                        messages: chatObj.messages,
+                        mediaBlobs: chatObj.mediaBlobs || {},
+                        isDemo: !!chatObj.isDemo
+                    };
+                    const tx = dbInstance.transaction(STORE_NAME, 'readwrite');
+                    tx.objectStore(STORE_NAME).put(clone);
+                    tx.oncomplete = () => resolve(true);
+                    tx.onerror = () => resolve(false);
+                } catch (err) {
+                    resolve(false);
+                }
+            });
+        }
+
+        async function loadChatsFromDB() {
+            if (!dbInstance) return [];
+            return new Promise((resolve) => {
+                try {
+                    const tx = dbInstance.transaction(STORE_NAME, 'readonly');
+                    const store = tx.objectStore(STORE_NAME);
+                    const req = store.getAll();
+                    req.onsuccess = () => {
+                        const list = req.result || [];
+                        list.forEach(chat => {
+                            chat.mediaUrls = {};
+                            if (chat.mediaBlobs) {
+                                for (const [fileName, blob] of Object.entries(chat.mediaBlobs)) {
+                                    try {
+                                        chat.mediaUrls[fileName] = URL.createObjectURL(blob);
+                                    } catch (e) {}
+                                }
+                            }
+                        });
+                        resolve(list);
+                    };
+                    req.onerror = () => resolve([]);
+                } catch (e) {
+                    resolve([]);
+                }
+            });
+        }
+
+        async function deleteChatFromDB(chatId) {
+            if (!dbInstance) return;
+            return new Promise((resolve) => {
+                try {
+                    const tx = dbInstance.transaction(STORE_NAME, 'readwrite');
+                    tx.objectStore(STORE_NAME).delete(chatId);
+                    tx.oncomplete = () => resolve();
+                    tx.onerror = () => resolve();
+                } catch (e) {
+                    resolve();
+                }
+            });
+        }
+
+        async function clearAllSavedChats() {
+            if (dbInstance) {
+                try {
+                    const tx = dbInstance.transaction(STORE_NAME, 'readwrite');
+                    tx.objectStore(STORE_NAME).clear();
+                } catch (e) {}
+            }
+            state.chats.forEach(c => {
+                if (c.mediaUrls) Object.values(c.mediaUrls).forEach(u => URL.revokeObjectURL(u));
+            });
+            state.chats = [];
+            state.activeChatId = null;
+            toggleClearModal(false);
+            createDemoChats();
+            renderChatList();
+            const sorted = getSortedChats(state.chats);
+            if (sorted.length > 0) selectChat(sorted[0].id);
+        }
+
+        /********************************************************************
+         * PARSER UNIVERSAL DE CONVERSAS DO WHATSAPP (ANDROID & iOS)
+         ********************************************************************/
+        function parseWhatsAppTxt(rawText, defaultTitle = 'Conversa Importada') {
+            const lines = rawText.replace(/\r\n/g, '\n').replace(/\r/g, '\n').split('\n');
+            const messages = [];
+            const participantsSet = new Set();
+
+            const iosRegex = /^[\u200e\u200f]*\[(\d{1,2}[\/\.\-]\d{1,2}[\/\.\-]\d{2,4}),?\s+(\d{1,2}:\d{2}(?::\d{2})?(?:\s?[APap][Mm])?)\]\s+(.*?):\s([\s\S]*)$/;
+            const androidRegex = /^[\u200e\u200f]*(\d{1,2}[\/\.\-]\d{1,2}[\/\.\-]\d{2,4}),?\s+(\d{1,2}:\d{2}(?::\d{2})?(?:\s?[APap][Mm])?)\s+-\s+(.*?):\s([\s\S]*)$/;
+            const iosSystemRegex = /^[\u200e\u200f]*\[(\d{1,2}[\/\.\-]\d{1,2}[\/\.\-]\d{2,4}),?\s+(\d{1,2}:\d{2}(?::\d{2})?(?:\s?[APap][Mm])?)\]\s+([\s\S]*)$/;
+            const androidSystemRegex = /^[\u200e\u200f]*(\d{1,2}[\/\.\-]\d{1,2}[\/\.\-]\d{2,4}),?\s+(\d{1,2}:\d{2}(?::\d{2})?(?:\s?[APap][Mm])?)\s+-\s+([\s\S]*)$/;
+
+            let currentMsg = null;
+
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i];
+                if (!line.trim() && !currentMsg) continue;
+
+                let match = line.match(iosRegex) || line.match(androidRegex);
+                if (match) {
+                    const [, dateStr, timeStr, authorRaw, contentRaw] = match;
+                    const author = authorRaw.replace(/[\u200e\u200f]/g, '').trim();
+                    participantsSet.add(author);
+
+                    currentMsg = {
+                        id: 'm_' + i,
+                        dateStr: normalizeDateDisplay(dateStr),
+                        isoDate: toIsoDate(dateStr),
+                        timeStr: timeStr.slice(0, 5),
+                        author: author,
+                        text: contentRaw.replace(/[\u200e\u200f]/g, ''),
+                        isSystem: false,
+                        attachment: extractAttachmentFilename(contentRaw)
+                    };
+                    messages.push(currentMsg);
+                    continue;
+                }
+
+                let sysMatch = line.match(iosSystemRegex) || line.match(androidSystemRegex);
+                if (sysMatch) {
+                    const [, dateStr, timeStr, sysText] = sysMatch;
+                    currentMsg = {
+                        id: 'm_' + i,
+                        dateStr: normalizeDateDisplay(dateStr),
+                        isoDate: toIsoDate(dateStr),
+                        timeStr: timeStr.slice(0, 5),
+                        author: null,
+                        text: sysText.replace(/[\u200e\u200f]/g, '').trim(),
+                        isSystem: true,
+                        attachment: null
+                    };
+                    messages.push(currentMsg);
+                    continue;
+                }
+
+                if (currentMsg) {
+                    currentMsg.text += '\n' + line;
+                    if (!currentMsg.attachment) {
+                        currentMsg.attachment = extractAttachmentFilename(line);
+                    }
+                }
+            }
+
+            const participants = Array.from(participantsSet);
+            const cleanTitle = defaultTitle
+                .replace(/^Conversa do WhatsApp com /i, '')
+                .replace(/^WhatsApp Chat with /i, '')
+                .replace(/^_chat/i, 'Conversa Exportada')
+                .replace(/\.(txt|zip)$/i, '')
+                .trim();
+
+            let guessedMe = participants[0] || 'Você';
+            if (participants.length === 2) {
+                const otherIdx = participants.findIndex(p => cleanTitle.toLowerCase().includes(p.toLowerCase()));
+                if (otherIdx === 0) guessedMe = participants[1];
+                else if (otherIdx === 1) guessedMe = participants[0];
+            }
+
+            return {
+                title: cleanTitle || 'Conversa do WhatsApp',
+                participants,
+                myUser: guessedMe,
+                messages
+            };
+        }
+
+        function extractAttachmentFilename(text) {
+            if (!text) return null;
+            const cleaned = text.replace(/[\u200e\u200f]/g, '').trim();
+
+            const iosAttach = cleaned.match(/<(?:anexado|attached|adjunto):\s*([^>]+)>/i);
+            if (iosAttach) return iosAttach[1].trim();
+
+            const androidAttach = cleaned.match(/([^\s\/\\]+\.[a-zA-Z0-9]{2,5})\s*\((?:arquivo anexado|file attached|archivo adjunto)\)/i);
+            if (androidAttach) return androidAttach[1].trim();
+
+            const standaloneFile = cleaned.match(/^((?:IMG|VID|AUD|PTT|DOC|STK)-\d{8}-WA\d+\.[a-zA-Z0-9]{2,5}|\d{8}-[A-Z]+-[\d-]+\.[a-zA-Z0-9]{2,5})$/i);
+            if (standaloneFile) return standaloneFile[1].trim();
+
+            return null;
+        }
+
+        function normalizeDateDisplay(dateStr) {
+            const parts = dateStr.split(/[\/\.\-]/);
+            if (parts.length !== 3) return dateStr;
+            let [d, m, y] = parts;
+            if (y.length === 2) y = '20' + y;
+            return `${d.padStart(2, '0')}/${m.padStart(2, '0')}/${y}`;
+        }
+
+        function toIsoDate(dateStr) {
+            const parts = dateStr.split(/[\/\.\-]/);
+            if (parts.length !== 3) return '';
+            let [d, m, y] = parts;
+            if (y.length === 2) y = '20' + y;
+            return `${y}-${m.padStart(2, '0')}-${d.padStart(2, '0')}`;
+        }
+
+        /********************************************************************
+         * LEITOR DE ARQUIVOS (.ZIP COM MÍDIAS E .TXT)
+         ********************************************************************/
+        async function handleFileSelect(event) {
+            const files = Array.from(event.target.files || []);
+            if (!files.length) return;
+            await processUploadedFiles(files);
+            event.target.value = '';
+        }
+
+        async function processUploadedFiles(files) {
+            showLoading(true, 'Lendo arquivos e mídias...');
+            let lastCreatedId = null;
+            try {
+                for (const file of files) {
+                    const lowerName = file.name.toLowerCase();
+                    if (lowerName.endsWith('.zip')) {
+                        const chat = await processZipFile(file);
+                        if (chat) lastCreatedId = chat.id;
+                    } else if (lowerName.endsWith('.txt')) {
+                        const chat = await processTxtFile(file);
+                        if (chat) lastCreatedId = chat.id;
+                    }
+                }
+                renderChatList();
+                if (lastCreatedId) {
+                    selectChat(lastCreatedId);
+                }
+            } catch (err) {
+                console.error('Erro ao processar arquivo:', err);
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        async function processTxtFile(file) {
+            const text = await file.text();
+            const parsed = parseWhatsAppTxt(text, file.name);
+            const newChat = {
+                id: 'chat_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6),
+                title: parsed.title,
+                phoneNote: '',
+                avatarDataUrl: null,
+                createdAt: Date.now(),
+                participants: parsed.participants,
+                myUser: parsed.myUser,
+                messages: parsed.messages,
+                mediaBlobs: {},
+                mediaUrls: {}
+            };
+            state.chats.unshift(newChat);
+            await saveChatToDB(newChat);
+            return newChat;
+        }
+
+        async function processZipFile(file) {
+            showLoading(true, `Descompactando "${file.name}"...`);
+            const zip = await JSZip.loadAsync(file);
+            let txtFileEntry = null;
+            const mediaEntries = [];
+
+            zip.forEach((relativePath, zipEntry) => {
+                if (zipEntry.dir) return;
+                const baseName = relativePath.split('/').pop();
+                if (baseName.startsWith('._')) return;
+
+                if (baseName.toLowerCase().endsWith('.txt')) {
+                    txtFileEntry = zipEntry;
+                } else {
+                    mediaEntries.push({ baseName, zipEntry });
+                }
+            });
+
+            if (!txtFileEntry) return null;
+
+            const rawText = await txtFileEntry.async('string');
+            const titleCandidate = file.name.replace(/\.zip$/i, '') || txtFileEntry.name;
+            const parsed = parseWhatsAppTxt(rawText, titleCandidate);
+
+            const mediaBlobs = {};
+            const mediaUrls = {};
+
+            for (let i = 0; i < mediaEntries.length; i++) {
+                const { baseName, zipEntry } = mediaEntries[i];
+                showLoading(true, `Carregando mídias (${i + 1}/${mediaEntries.length}): ${baseName}`);
+                const blob = await zipEntry.async('blob');
+                const typedBlob = new Blob([blob], { type: getMimeType(baseName) });
+                mediaBlobs[baseName] = typedBlob;
+                mediaUrls[baseName] = URL.createObjectURL(typedBlob);
+            }
+
+            const newChat = {
+                id: 'chat_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6),
+                title: parsed.title,
+                phoneNote: '',
+                avatarDataUrl: null,
+                createdAt: Date.now(),
+                participants: parsed.participants,
+                myUser: parsed.myUser,
+                messages: parsed.messages,
+                mediaBlobs,
+                mediaUrls
+            };
+
+            state.chats.unshift(newChat);
+            await saveChatToDB(newChat);
+            return newChat;
+        }
+
+        function getMimeType(filename) {
+            const ext = filename.split('.').pop().toLowerCase();
+            const map = {
+                jpg: 'image/jpeg', jpeg: 'image/jpeg', png: 'image/png', webp: 'image/webp', gif: 'image/gif',
+                opus: 'audio/ogg', ogg: 'audio/ogg', mp3: 'audio/mpeg', m4a: 'audio/mp4', wav: 'audio/wav',
+                mp4: 'video/mp4', mov: 'video/quicktime', webm: 'video/webm',
+                pdf: 'application/pdf'
+            };
+            return map[ext] || 'application/octet-stream';
+        }
+
+        /********************************************************************
+         * RENDERIZAÇÃO DA LISTA DE CONVERSAS E MENSAGENS
+         ********************************************************************/
+        function changeSortOrder(newOrder) {
+            state.sortOrder = newOrder;
+            try { localStorage.setItem('wa_reader_sort', newOrder); } catch (e) {}
+            renderChatList();
+        }
+
+        function getSortedChats(chatsArray) {
+            const copy = [...chatsArray];
+            copy.sort((a, b) => {
+                if (state.sortOrder === 'alpha') {
+                    return a.title.localeCompare(b.title, 'pt-BR', { sensitivity: 'base' });
+                }
+                const tsA = getChatLastTimestamp(a);
+                const tsB = getChatLastTimestamp(b);
+                if (tsA !== tsB) {
+                    return state.sortOrder === 'asc' ? tsA - tsB : tsB - tsA;
+                }
+                return (b.createdAt || 0) - (a.createdAt || 0);
+            });
+            return copy;
+        }
+
+        function renderChatList() {
+            const container = document.getElementById('chatListContainer');
+            const searchInput = document.getElementById('chatListSearch');
+            const filter = (searchInput ? searchInput.value : '').toLowerCase().trim();
+
+            const filteredChats = getSortedChats(state.chats).filter(c => {
+                if (!filter) return true;
+                return c.title.toLowerCase().includes(filter) ||
+                    (c.phoneNote && c.phoneNote.toLowerCase().includes(filter)) ||
+                    c.participants.some(p => p.toLowerCase().includes(filter));
+            });
+
+            if (filteredChats.length === 0) {
+                container.innerHTML = `
+                    <div class="p-8 text-center text-wa-lightSubtext dark:text-wa-darkSubtext text-sm">
+                        Nenhuma conversa encontrada.
+                    </div>`;
+                return;
+            }
+
+            container.innerHTML = filteredChats.map(chat => {
+                const isActive = chat.id === state.activeChatId;
+                const lastMsg = chat.messages[chat.messages.length - 1];
+                const lastPreview = lastMsg ? lastMsg.text.replace(/\n/g, ' ').slice(0, 48) : 'Sem mensagens';
+                const lastDate = lastMsg ? lastMsg.dateStr : '';
+                const mediaCount = Object.keys(chat.mediaUrls || {}).length;
+
+                return `
+                <div onclick="selectChat('${chat.id}')" 
+                    class="group flex items-center gap-3 px-3 py-3 cursor-pointer transition ${isActive ? 'bg-wa-lightHover dark:bg-wa-darkHover' : 'hover:bg-wa-lightHover/60 dark:hover:bg-wa-darkHover/50'}">
+                    <!-- Bolinha do Avatar (Clicável para subir foto) -->
+                    <div onclick="triggerAvatarUpload('${chat.id}', event)" 
+                         title="Clique para enviar uma foto de perfil para ${escapeHtml(chat.title)}"
+                         class="group/avatar relative w-12 h-12 rounded-full flex items-center justify-center text-white font-semibold text-base flex-shrink-0 shadow-xs overflow-hidden"
+                         style="background-color: ${getAuthorColor(chat.title)}">
+                        ${buildAvatarInnerHtml(chat, 'text-sm')}
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center justify-between mb-0.5">
+                            <h3 class="font-medium text-sm truncate text-wa-lightText dark:text-wa-darkText">${escapeHtml(chat.title)}</h3>
+                            <span class="text-[11px] text-wa-lightSubtext dark:text-wa-darkSubtext flex-shrink-0 ml-2">${lastDate}</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <p class="text-xs text-wa-lightSubtext dark:text-wa-darkSubtext truncate pr-2">${escapeHtml(lastPreview)}</p>
+                            <div class="flex items-center gap-1.5 flex-shrink-0">
+                                ${mediaCount > 0 ? `<span class="text-[10px] px-1.5 py-0.5 rounded bg-wa-teal/15 text-wa-teal font-medium" title="${mediaCount} mídias anexadas"><i class="fa-solid fa-paperclip mr-0.5"></i>${mediaCount}</span>` : ''}
+                                <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-black/5 dark:bg-white/10 text-wa-lightSubtext dark:text-wa-darkSubtext">${chat.messages.length}</span>
+                                <button onclick="openEditContactModal('${chat.id}', event)" class="opacity-0 group-hover:opacity-100 p-1 hover:text-wa-teal transition" title="Editar nome, telefone ou foto">
+                                    <i class="fa-solid fa-pen text-[11px]"></i>
+                                </button>
+                                <button onclick="removeChat(event, '${chat.id}')" class="opacity-0 group-hover:opacity-100 p-1 hover:text-red-400 transition" title="Remover conversa">
+                                    <i class="fa-solid fa-xmark text-xs"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>`;
+            }).join('');
+        }
+
+        function selectChat(chatId) {
+            const chat = state.chats.find(c => c.id === chatId);
+            if (!chat) return;
+            state.activeChatId = chatId;
+
+            if (window.innerWidth < 768) {
+                document.getElementById('sidebarPanel').classList.add('hidden');
+                document.getElementById('chatPanel').classList.remove('hidden');
+                document.getElementById('chatPanel').classList.add('flex');
+            }
+
+            updateActiveChatHeader(chat);
+            renderChatList();
+            renderMessages();
+            scrollToBottom();
+        }
+
+        function updateActiveChatHeader(chat) {
+            if (!chat) return;
+            const avatarEl = document.getElementById('activeChatAvatar');
+            avatarEl.style.backgroundColor = getAuthorColor(chat.title);
+            avatarEl.innerHTML = buildAvatarInnerHtml(chat, 'text-xs');
+
+            document.getElementById('activeChatTitle').textContent = chat.title;
+            const mediaCount = Object.keys(chat.mediaUrls || {}).length;
+            const phoneBadge = chat.phoneNote ? `📞 ${chat.phoneNote} • ` : '';
+            document.getElementById('activeChatSubtitle').textContent = 
+                `${phoneBadge}${chat.messages.length} mensagens • ${chat.participants.length} participantes` + (mediaCount ? ` • ${mediaCount} mídias` : '');
+
+            const footerMedia = document.getElementById('mediaCountFooter');
+            if (mediaCount > 0) {
+                footerMedia.innerHTML = `<i class="fa-solid fa-photo-film"></i> <span>${mediaCount} mídias carregadas</span>`;
+            } else {
+                footerMedia.innerHTML = `<span>Histórico em texto</span>`;
+            }
+
+            const selectEl = document.getElementById('perspectiveSelect');
+            if (chat.participants.length > 0) {
+                selectEl.innerHTML = chat.participants.map(p => 
+                    `<option value="${escapeHtml(p)}" ${p === chat.myUser ? 'selected' : ''}>${escapeHtml(p)}</option>`
+                ).join('');
+            } else {
+                selectEl.innerHTML = `<option value="">Sem participantes</option>`;
+            }
+        }
+
+        async function changePerspective(newMe) {
+            const chat = state.chats.find(c => c.id === state.activeChatId);
+            if (!chat) return;
+            chat.myUser = newMe;
+            await saveChatToDB(chat);
+            renderMessages();
+        }
+
+        async function removeChat(event, chatId) {
+            event.stopPropagation();
+            const idx = state.chats.findIndex(c => c.id === chatId);
+            if (idx === -1) return;
+
+            const removed = state.chats[idx];
+            if (removed.mediaUrls) {
+                Object.values(removed.mediaUrls).forEach(u => URL.revokeObjectURL(u));
+            }
+            state.chats.splice(idx, 1);
+            await deleteChatFromDB(chatId);
+
+            if (state.chats.length === 0) {
+                createDemoChats();
+            }
+            if (state.activeChatId === chatId) {
+                const sorted = getSortedChats(state.chats);
+                state.activeChatId = sorted[0].id;
+            }
+            renderChatList();
+            selectChat(state.activeChatId);
+        }
+
+        function renderMessages() {
+            const viewport = document.getElementById('messagesViewport');
+            const chat = state.chats.find(c => c.id === state.activeChatId);
+            if (!chat) {
+                viewport.innerHTML = '';
+                return;
+            }
+
+            const keyword = (document.getElementById('messageSearchInput').value || '').trim();
+            const lowerKeyword = keyword.toLowerCase();
+
+            let lastDateRendered = null;
+            let lastAuthorRendered = null;
+            let matchCount = 0;
+
+            const htmlParts = [];
+            const isGroup = chat.participants.length > 2;
+
+            for (let i = 0; i < chat.messages.length; i++) {
+                const msg = chat.messages[i];
+
+                if (lowerKeyword) {
+                    const hay = `${msg.text} ${msg.author || ''} ${msg.dateStr}`.toLowerCase();
+                    if (!hay.includes(lowerKeyword)) continue;
+                    matchCount++;
+                }
+
+                // Divisor de Data estilo WhatsApp
+                if (msg.dateStr && msg.dateStr !== lastDateRendered) {
+                    lastDateRendered = msg.dateStr;
+                    lastAuthorRendered = null;
+                    htmlParts.push(`
+                        <div class="sticky top-2 z-10 flex justify-center my-3" data-date="${msg.isoDate}">
+                            <span class="px-3 py-1 rounded-lg text-[11px] font-medium shadow-xs bg-wa-lightHeader dark:bg-wa-darkSystem text-wa-lightSubtext dark:text-wa-darkSubtext border border-black/5 dark:border-white/5">
+                                ${escapeHtml(msg.dateStr)}
+                            </span>
+                        </div>
+                    `);
+                }
+
+                // Aviso de Sistema
+                if (msg.isSystem) {
+                    lastAuthorRendered = null;
+                    htmlParts.push(`
+                        <div class="flex justify-center my-2">
+                            <div class="max-w-md text-center px-3.5 py-1.5 rounded-lg text-xs bg-wa-lightSystem dark:bg-wa-darkSystem text-wa-lightSubtext dark:text-wa-darkSubtext shadow-xs">
+                                <i class="fa-solid fa-lock text-[10px] mr-1 opacity-75"></i>${highlightText(msg.text, keyword)}
+                            </div>
+                        </div>
+                    `);
+                    continue;
+                }
+
+                const isOutgoing = msg.author === chat.myUser;
+                const isFirstFromAuthor = msg.author !== lastAuthorRendered;
+                lastAuthorRendered = msg.author;
+
+                const mediaHtml = renderMediaAttachment(chat, msg);
+
+                let displayBody = msg.text;
+                if (msg.attachment) {
+                    displayBody = displayBody
+                        .replace(new RegExp(`<(?:anexado|attached|adjunto):\\s*${escapeRegExp(msg.attachment)}>`, 'i'), '')
+                        .replace(new RegExp(`${escapeRegExp(msg.attachment)}\\s*\\((?:arquivo anexado|file attached|archivo adjunto)\\)`, 'i'), '')
+                        .trim();
+                    if (displayBody === msg.attachment) displayBody = '';
+                }
+
+                const tailClass = isFirstFromAuthor ? (isOutgoing ? 'tail-out rounded-tr-none' : 'tail-in rounded-tl-none') : '';
+                const bubbleColors = isOutgoing 
+                    ? 'bg-wa-lightOutgoing dark:bg-wa-darkOutgoing text-wa-lightText dark:text-wa-darkText' 
+                    : 'bg-wa-lightIncoming dark:bg-wa-darkIncoming text-wa-lightText dark:text-wa-darkText';
+
+                const authorHeaderHtml = (!isOutgoing && (isGroup || isFirstFromAuthor))
+                    ? `<div onclick="openEditContactModal('${chat.id}')" class="text-xs font-semibold mb-0.5 leading-tight cursor-pointer hover:underline" title="Clique para editar o nome ou adicionar telefone" style="color: ${getAuthorColor(msg.author)}">${escapeHtml(msg.author)}</div>`
+                    : '';
+
+                htmlParts.push(`
+                    <div class="flex ${isOutgoing ? 'justify-end' : 'justify-start'} ${isFirstFromAuthor ? 'mt-2' : 'mt-0.5'}">
+                        <div class="relative max-w-[85%] sm:max-w-[70%] lg:max-w-[62%] rounded-lg px-2.5 py-1.5 shadow-xs ${bubbleColors} ${tailClass}">
+                            ${authorHeaderHtml}
+                            ${mediaHtml}
+                            <div class="text-[14.2px] leading-[19px] break-words whitespace-pre-wrap">${formatWhatsAppText(displayBody, keyword)}<span class="inline-block w-16"></span></div>
+                            <div class="float-right -mt-3.5 ml-2 flex items-center gap-1 text-[10.5px] text-wa-lightSubtext dark:text-wa-darkSubtext select-none">
+                                <span>${escapeHtml(msg.timeStr)}</span>
+                                ${isOutgoing ? `<i class="fa-solid fa-check-double text-wa-blueCheck text-[11px]"></i>` : ''}
+                            </div>
+                        </div>
+                    </div>
+                `);
+            }
+
+            const countEl = document.getElementById('searchResultCount');
+            if (lowerKeyword) {
+                countEl.textContent = `${matchCount} resultado(s)`;
+            } else {
+                countEl.textContent = '';
+            }
+
+            viewport.innerHTML = htmlParts.length > 0 ? htmlParts.join('') : `
+                <div class="flex flex-col items-center justify-center h-full text-wa-lightSubtext dark:text-wa-darkSubtext text-sm">
+                    <i class="fa-solid fa-magnifying-glass text-2xl mb-2 opacity-50"></i>
+                    <p>Nenhuma mensagem corresponde ao filtro.</p>
+                </div>
+            `;
+        }
+
+        function escapeRegExp(str) {
+            return String(str).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        }
+
+        /********************************************************************
+         * UPLOAD DE FOTO DE AVATAR & EDIÇÃO DE NOMES / TELEFONE
+         ********************************************************************/
+        function triggerAvatarUpload(chatId, event) {
+            if (event) event.stopPropagation();
+            if (!chatId) return;
+            state.avatarTargetChatId = chatId;
+            const input = document.getElementById('avatarInput');
+            input.value = '';
+            input.click();
+        }
+
+        function handleAvatarFileSelect(event) {
+            const file = event.target.files && event.target.files[0];
+            if (!file || !state.avatarTargetChatId) return;
+
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                const img = new Image();
+                img.onload = async () => {
+                    const canvas = document.createElement('canvas');
+                    const SIZE = 256;
+                    canvas.width = SIZE;
+                    canvas.height = SIZE;
+                    const ctx = canvas.getContext('2d');
+
+                    const minSide = Math.min(img.width, img.height);
+                    const sx = (img.width - minSide) / 2;
+                    const sy = (img.height - minSide) / 2;
+                    ctx.drawImage(img, sx, sy, minSide, minSide, 0, 0, SIZE, SIZE);
+
+                    const dataUrl = canvas.toDataURL('image/jpeg', 0.85);
+                    const chat = state.chats.find(c => c.id === state.avatarTargetChatId);
+                    if (chat) {
+                        chat.avatarDataUrl = dataUrl;
+                        await saveChatToDB(chat);
+                        renderChatList();
+                        if (state.activeChatId === chat.id) {
+                            updateActiveChatHeader(chat);
+                        }
+                        if (state.editingChatId === chat.id) {
+                            refreshModalAvatarPreview(chat);
+                        }
+                    }
+                };
+                img.src = e.target.result;
+            };
+            reader.readAsDataURL(file);
+        }
+
+        async function removeChatAvatar() {
+            const chat = state.chats.find(c => c.id === state.editingChatId);
+            if (!chat) return;
+            chat.avatarDataUrl = null;
+            await saveChatToDB(chat);
+            refreshModalAvatarPreview(chat);
+            renderChatList();
+            if (state.activeChatId === chat.id) {
+                updateActiveChatHeader(chat);
+            }
+        }
+
+        function refreshModalAvatarPreview(chat) {
+            const previewEl = document.getElementById('editModalAvatarPreview');
+            const removeBtn = document.getElementById('btnRemoveAvatar');
+            previewEl.style.backgroundColor = getAuthorColor(chat.title);
+            previewEl.innerHTML = buildAvatarInnerHtml(chat, 'text-base');
+            if (chat.avatarDataUrl) {
+                removeBtn.classList.remove('hidden');
+            } else {
+                removeBtn.classList.add('hidden');
+            }
+        }
+
+        function openEditContactModal(chatId, event) {
+            if (event) event.stopPropagation();
+            const chat = state.chats.find(c => c.id === chatId);
+            if (!chat) return;
+            state.editingChatId = chatId;
+
+            document.getElementById('editChatTitleInput').value = chat.title || '';
+            document.getElementById('editChatPhoneInput').value = chat.phoneNote || '';
+            refreshModalAvatarPreview(chat);
+
+            const listEl = document.getElementById('editParticipantsList');
+            if (chat.participants.length === 0) {
+                listEl.innerHTML = `<p class="text-xs text-wa-lightSubtext dark:text-wa-darkSubtext italic">Nenhum participante detectado nesta conversa.</p>`;
+            } else {
+                listEl.innerHTML = chat.participants.map(p => `
+                    <div class="flex items-center gap-2.5">
+                        <span class="w-3 h-3 rounded-full flex-shrink-0" style="background-color: ${getAuthorColor(p)}"></span>
+                        <span class="text-xs text-wa-lightSubtext dark:text-wa-darkSubtext w-28 truncate" title="${escapeHtml(p)}">${escapeHtml(p)}:</span>
+                        <input type="text" data-original-name="${escapeHtml(p)}" value="${escapeHtml(p)}" 
+                            placeholder="Novo nome ou Nome + Telefone"
+                            class="participant-rename-input flex-1 px-3 py-1.5 rounded-lg bg-wa-lightHeader dark:bg-wa-darkBg border border-wa-lightBorder dark:border-wa-darkBorder focus:outline-none focus:border-wa-teal text-wa-lightText dark:text-wa-darkText text-sm">
+                    </div>
+                `).join('');
+            }
+
+            const modal = document.getElementById('editContactModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeEditContactModal() {
+            const modal = document.getElementById('editContactModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            state.editingChatId = null;
+        }
+
+        function appendPhoneToTitleAndParticipant() {
+            const phoneInput = document.getElementById('editChatPhoneInput');
+            const titleInput = document.getElementById('editChatTitleInput');
+            const phone = phoneInput.value.trim();
+            if (!phone) return;
+
+            if (!titleInput.value.includes(phone)) {
+                titleInput.value = `${titleInput.value.trim()} - ${phone}`;
+            }
+
+            const chat = state.chats.find(c => c.id === state.editingChatId);
+            const inputs = document.querySelectorAll('.participant-rename-input');
+            inputs.forEach(inp => {
+                const orig = inp.getAttribute('data-original-name');
+                if (chat && orig !== chat.myUser && !inp.value.includes(phone)) {
+                    inp.value = `${inp.value.trim()} (${phone})`;
+                }
+            });
+        }
+
+        async function saveContactAndParticipantEdits() {
+            const chat = state.chats.find(c => c.id === state.editingChatId);
+            if (!chat) return;
+
+            const newTitle = document.getElementById('editChatTitleInput').value.trim();
+            const newPhone = document.getElementById('editChatPhoneInput').value.trim();
+            if (newTitle) chat.title = newTitle;
+            chat.phoneNote = newPhone;
+
+            const renameMap = {};
+            const inputs = document.querySelectorAll('.participant-rename-input');
+            inputs.forEach(inp => {
+                const oldName = inp.getAttribute('data-original-name');
+                const updatedName = inp.value.trim();
+                if (oldName && updatedName && oldName !== updatedName) {
+                    renameMap[oldName] = updatedName;
+                }
+            });
+
+            if (Object.keys(renameMap).length > 0) {
+                const updatedParticipants = [];
+                chat.participants.forEach(p => {
+                    const target = renameMap[p] || p;
+                    if (!updatedParticipants.includes(target)) {
+                        updatedParticipants.push(target);
+                    }
+                });
+                chat.participants = updatedParticipants;
+
+                if (renameMap[chat.myUser]) {
+                    chat.myUser = renameMap[chat.myUser];
+                }
+
+                chat.messages.forEach(msg => {
+                    if (!msg.isSystem && msg.author && renameMap[msg.author]) {
+                        msg.author = renameMap[msg.author];
+                    }
+                });
+            }
+
+            await saveChatToDB(chat);
+            closeEditContactModal();
+            renderChatList();
+            if (state.activeChatId === chat.id) {
+                updateActiveChatHeader(chat);
+                renderMessages();
+            }
+        }
+
+        /********************************************************************
+         * RENDERIZAÇÃO DE MÍDIAS E FORMATAÇÃO DE TEXTO
+         ********************************************************************/
+        function findMediaUrl(chat, attachmentName) {
+            if (!chat.mediaUrls || !attachmentName) return null;
+            if (chat.mediaUrls[attachmentName]) return chat.mediaUrls[attachmentName];
+
+            const lowerTarget = attachmentName.toLowerCase();
+            for (const [key, url] of Object.entries(chat.mediaUrls)) {
+                if (key.toLowerCase() === lowerTarget || key.toLowerCase().endsWith(lowerTarget)) {
+                    return url;
+                }
+            }
+            return null;
+        }
+
+        function renderMediaAttachment(chat, msg) {
+            if (!msg.attachment) return '';
+            const fileName = msg.attachment;
+            const mediaUrl = findMediaUrl(chat, fileName);
+            const ext = fileName.split('.').pop().toLowerCase();
+
+            if (!mediaUrl) {
+                return `
+                    <div class="my-1 p-2.5 rounded-md bg-black/5 dark:bg-black/20 border border-black/10 dark:border-white/10 flex items-center gap-3">
+                        <i class="fa-solid fa-paperclip text-wa-teal text-lg"></i>
+                        <div class="min-w-0 flex-1">
+                            <p class="text-xs font-medium truncate">${escapeHtml(fileName)}</p>
+                            <p class="text-[11px] text-wa-lightSubtext dark:text-wa-darkSubtext">Anexo mencionado (importe o arquivo .ZIP com mídia para visualizar)</p>
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (['jpg', 'jpeg', 'png', 'webp', 'gif', 'svg'].includes(ext)) {
+                return `
+                    <div class="my-1 overflow-hidden rounded-md cursor-pointer group relative bg-black/10" 
+                         onclick="openLightbox('${mediaUrl}', '${escapeHtml(fileName)}', '${escapeHtml(msg.author || '')} • ${msg.dateStr} às ${msg.timeStr}')">
+                        <img src="${mediaUrl}" alt="${escapeHtml(fileName)}" loading="lazy" 
+                             class="max-h-80 w-full object-cover rounded-md group-hover:brightness-95 transition">
+                    </div>
+                `;
+            }
+
+            if (['opus', 'ogg', 'mp3', 'm4a', 'wav'].includes(ext)) {
+                return `
+                    <div class="my-1.5 pt-1 pb-0.5 px-1 min-w-[240px] sm:min-w-[290px] flex items-center gap-2.5">
+                        <div class="w-9 h-9 rounded-full bg-wa-teal text-white flex items-center justify-center flex-shrink-0">
+                            <i class="fa-solid fa-microphone text-sm"></i>
+                        </div>
+                        <div class="flex-1">
+                            <audio controls preload="metadata" class="w-full h-8">
+                                <source src="${mediaUrl}" type="${getMimeType(fileName)}">
+                            </audio>
+                            <div class="text-[10px] text-wa-lightSubtext dark:text-wa-darkSubtext truncate mt-0.5">${escapeHtml(fileName)}</div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (['mp4', 'webm', 'mov'].includes(ext)) {
+                return `
+                    <div class="my-1 overflow-hidden rounded-md bg-black">
+                        <video controls preload="metadata" class="max-h-80 w-full rounded-md">
+                            <source src="${mediaUrl}" type="${getMimeType(fileName)}">
+                        </video>
+                    </div>
+                `;
+            }
+
+            return `
+                <a href="${mediaUrl}" download="${escapeHtml(fileName)}" 
+                   class="my-1 p-2.5 rounded-md bg-black/5 dark:bg-black/25 hover:bg-black/10 dark:hover:bg-black/35 border border-black/10 dark:border-white/10 flex items-center gap-3 transition">
+                    <i class="fa-solid fa-file-arrow-down text-wa-teal text-xl"></i>
+                    <div class="min-w-0 flex-1">
+                        <p class="text-xs font-medium truncate">${escapeHtml(fileName)}</p>
+                        <p class="text-[10px] text-wa-lightSubtext dark:text-wa-darkSubtext">Clique para baixar o documento</p>
+                    </div>
+                </a>
+            `;
+        }
+
+        function formatWhatsAppText(text, keyword) {
+            if (!text) return '';
+            let safe = highlightText(text, keyword);
+            safe = safe.replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener" class="text-[#027eb5] dark:text-[#53bdeb] underline break-all">$1</a>');
+            safe = safe.replace(/\*([^*\n]+)\*/g, '<strong>$1</strong>');
+            safe = safe.replace(/\b_([^_\n]+)_\b/g, '<em>$1</em>');
+            safe = safe.replace(/~([^~\n]+)~/g, '<del>$1</del>');
+            return safe;
+        }
+
+        function highlightText(text, keyword) {
+            const escaped = escapeHtml(text);
+            if (!keyword) return escaped;
+            const safeKey = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const regex = new RegExp(`(${safeKey})`, 'gi');
+            return escaped.replace(regex, '<mark class="wa-highlight">$1</mark>');
+        }
+
+        function escapeHtml(str) {
+            if (!str) return '';
+            return String(str)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#039;');
+        }
+
+        /********************************************************************
+         * CONTROLES DE BUSCA, MODAIS E TEMA
+         ********************************************************************/
+        function toggleInChatSearch() {
+            const bar = document.getElementById('inChatSearchBar');
+            const isHidden = bar.classList.contains('hidden');
+            if (isHidden) {
+                bar.classList.remove('hidden');
+                bar.classList.add('flex');
+                document.getElementById('messageSearchInput').focus();
+            } else {
+                bar.classList.add('hidden');
+                bar.classList.remove('flex');
+                clearMessageSearch();
+            }
+        }
+
+        function applyMessageFilters() {
+            renderMessages();
+        }
+
+        function clearMessageSearch() {
+            document.getElementById('messageSearchInput').value = '';
+            document.getElementById('searchResultCount').textContent = '';
+            renderMessages();
+        }
+
+        function jumpToDate(isoDate) {
+            if (!isoDate) return;
+            const viewport = document.getElementById('messagesViewport');
+            const dateBadges = Array.from(viewport.querySelectorAll('[data-date]'));
+            let target = dateBadges.find(el => el.getAttribute('data-date') >= isoDate);
+            if (!target && dateBadges.length) {
+                target = dateBadges[dateBadges.length - 1];
+            }
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+
+        function openLightbox(url, title, meta) {
+            document.getElementById('lightboxImg').src = url;
+            document.getElementById('lightboxTitle').textContent = title;
+            document.getElementById('lightboxMeta').textContent = meta;
+            document.getElementById('lightboxDownload').href = url;
+            document.getElementById('lightboxDownload').download = title;
+            const modal = document.getElementById('lightboxModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeLightbox() {
+            const modal = document.getElementById('lightboxModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.getElementById('lightboxImg').src = '';
+        }
+
+        function toggleHelpModal(show) {
+            const modal = document.getElementById('helpModal');
+            modal.classList.toggle('hidden', !show);
+            modal.classList.toggle('flex', show);
+        }
+
+        function toggleClearModal(show) {
+            const modal = document.getElementById('confirmClearModal');
+            modal.classList.toggle('hidden', !show);
+            modal.classList.toggle('flex', show);
+        }
+
+        function showLoading(show, text = 'Processando...') {
+            const banner = document.getElementById('loadingBanner');
+            document.getElementById('loadingText').textContent = text;
+            banner.classList.toggle('hidden', !show);
+            banner.classList.toggle('flex', show);
+        }
+
+        function toggleTheme() {
+            const html = document.documentElement;
+            const isDark = html.classList.toggle('dark');
+            const icon = document.getElementById('themeIcon');
+            icon.className = isDark ? 'fa-solid fa-sun text-lg' : 'fa-solid fa-moon text-lg';
+            try { localStorage.setItem('wa_reader_theme', isDark ? 'dark' : 'light'); } catch (e) {}
+        }
+
+        function showMobileSidebar() {
+            document.getElementById('sidebarPanel').classList.remove('hidden');
+            document.getElementById('chatPanel').classList.add('hidden');
+            document.getElementById('chatPanel').classList.remove('flex');
+        }
+
+        function scrollToBottom() {
+            const viewport = document.getElementById('messagesViewport');
+            if (viewport) viewport.scrollTop = viewport.scrollHeight;
+        }
+
+        /********************************************************************
+         * CONVERSAS DE DEMONSTRAÇÃO INICIAIS (PARA NUNCA ABRIR EM BRANCO)
+         ********************************************************************/
+        function createDemoSvgDataUrl() {
+            const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+                <defs>
+                    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#005c4b"/>
+                        <stop offset="100%" stop-color="#00a884"/>
+                    </linearGradient>
+                </defs>
+                <rect width="800" height="480" fill="url(#g)"/>
+                <circle cx="400" cy="195" r="64" fill="rgba(255,255,255,0.15)"/>
+                <text x="400" y="215" font-family="Segoe UI, Arial" font-size="56" fill="#ffffff" text-anchor="middle">📷</text>
+                <text x="400" y="320" font-family="Segoe UI, Arial" font-weight="bold" font-size="26" fill="#ffffff" text-anchor="middle">Mídia Extraída do Arquivo .ZIP</text>
+                <text x="400" y="360" font-family="Segoe UI, Arial" font-size="18" fill="#d9fdd3" text-anchor="middle">Clique nas imagens das conversas para abrir em tela cheia</text>
+            </svg>`;
+            return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+        }
+
+        function createDemoChats() {
+            const sampleTxt1 = `23/01/2026 09:14 - As mensagens e as chamadas são protegidas com a criptografia de ponta a ponta.
+23/01/2026 09:15 - Maria Eduarda Gerente Uniclass Itaú: Bom dia! Tudo bem? Como posso ajudar com a sua conta hoje?
+23/01/2026 09:18 - Você: Bom dia Maria Eduarda! Gostaria de confirmar como faço para guardar essas conversas importantes.
+23/01/2026 09:20 - Maria Eduarda Gerente Uniclass Itaú: IMG-20260123-WA0001.jpg (arquivo anexado)
+Você pode clicar na bolinha com as iniciais "ME" para colocar uma foto de perfil, ou clicar no ícone de lápis no topo para acrescentar o telefone ao lado do meu nome!
+23/01/2026 09:22 - Você: Perfeito! E as conversas já ficam ordenadas automaticamente da mais recente para a mais antiga.`;
+
+            const parsed1 = parseWhatsAppTxt(sampleTxt1, 'Maria Eduarda Gerente Uniclass Itaú');
+            parsed1.myUser = 'Você';
+
+            const sampleTxt2 = `01/01/2025 14:10 - Thiago (Primo): Feliz Ano Novo primo! Tudo de bom pra vocês!
+01/01/2025 14:15 - Você: Boa tarde Thiago! Mensagem linda, tudo de bom pra nós!`;
+
+            const parsed2 = parseWhatsAppTxt(sampleTxt2, 'Thiago (Primo)');
+            parsed2.myUser = 'Você';
+
+            state.chats.push({
+                id: 'demo_chat_1',
+                title: parsed1.title,
+                phoneNote: '+55 11 98888-0000',
+                avatarDataUrl: null,
+                createdAt: Date.now(),
+                participants: parsed1.participants,
+                myUser: parsed1.myUser,
+                messages: parsed1.messages,
+                mediaBlobs: {},
+                mediaUrls: {
+                    'IMG-20260123-WA0001.jpg': createDemoSvgDataUrl()
+                },
+                isDemo: true
+            });
+
+            state.chats.push({
+                id: 'demo_chat_2',
+                title: parsed2.title,
+                phoneNote: '',
+                avatarDataUrl: null,
+                createdAt: Date.now() - 10000,
+                participants: parsed2.participants,
+                myUser: parsed2.myUser,
+                messages: parsed2.messages,
+                mediaBlobs: {},
+                mediaUrls: {},
+                isDemo: true
+            });
+        }
+
+        /********************************************************************
+         * INICIALIZAÇÃO SEGURA (NUNCA FALHA EM FILE:// OU PREVIEW)
+         ********************************************************************/
+        function setupEventListeners() {
+            let dragCounter = 0;
+            const overlay = document.getElementById('dropOverlay');
+
+            window.addEventListener('dragenter', (e) => {
+                e.preventDefault();
+                dragCounter++;
+                overlay.classList.remove('hidden');
+                overlay.classList.add('flex');
+            });
+
+            window.addEventListener('dragleave', (e) => {
+                e.preventDefault();
+                dragCounter--;
+                if (dragCounter <= 0) {
+                    dragCounter = 0;
+                    overlay.classList.add('hidden');
+                    overlay.classList.remove('flex');
+                }
+            });
+
+            window.addEventListener('dragover', (e) => {
+                e.preventDefault();
+            });
+
+            window.addEventListener('drop', async (e) => {
+                e.preventDefault();
+                dragCounter = 0;
+                overlay.classList.add('hidden');
+                overlay.classList.remove('flex');
+
+                const files = Array.from(e.dataTransfer.files || []);
+                if (files.length > 0) {
+                    await processUploadedFiles(files);
+                }
+            });
+
+            const viewport = document.getElementById('messagesViewport');
+            const scrollBtn = document.getElementById('scrollToBottomBtn');
+            viewport.addEventListener('scroll', () => {
+                const distanceFromBottom = viewport.scrollHeight - viewport.scrollTop - viewport.clientHeight;
+                if (distanceFromBottom > 300) {
+                    scrollBtn.classList.remove('hidden');
+                    scrollBtn.classList.add('flex');
+                } else {
+                    scrollBtn.classList.add('hidden');
+                    scrollBtn.classList.remove('flex');
+                }
+            });
+
+            window.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
+                    closeLightbox();
+                    toggleHelpModal(false);
+                    toggleClearModal(false);
+                    closeEditContactModal();
+                }
+            });
+        }
+
+        window.addEventListener('DOMContentLoaded', async () => {
+            try {
+                try {
+                    const savedTheme = localStorage.getItem('wa_reader_theme');
+                    if (savedTheme === 'light') {
+                        document.documentElement.classList.remove('dark');
+                        document.getElementById('themeIcon').className = 'fa-solid fa-moon text-lg';
+                    }
+                    const savedSort = localStorage.getItem('wa_reader_sort') || 'desc';
+                    state.sortOrder = savedSort;
+                    const sortSelect = document.getElementById('chatSortSelect');
+                    if (sortSelect) sortSelect.value = savedSort;
+                } catch (e) {}
+
+                setupEventListeners();
+                await initDB();
+
+                const savedChats = await loadChatsFromDB();
+                if (savedChats && savedChats.length > 0) {
+                    state.chats = getSortedChats(savedChats);
+                } else {
+                    createDemoChats();
+                }
+
+                renderChatList();
+                const sorted = getSortedChats(state.chats);
+                if (sorted.length > 0) {
+                    selectChat(sorted[0].id);
+                }
+            } catch (err) {
+                console.error('Erro na inicialização, carregando modo de segurança:', err);
+                if (state.chats.length === 0) createDemoChats();
+                renderChatList();
+                if (state.chats.length > 0) selectChat(state.chats[0].id);
+            }
+        });
+    </script>
+</body>
+</html>
