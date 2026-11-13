@@ -1,0 +1,2561 @@
+{
+  "id": "chat_1794591087770_24f3",
+  "title": "Jaqueline Sotilo",
+  "folderSlug": "jaqueline-sotilo",
+  "phoneNote": "",
+  "pinned": false,
+  "pinnedAt": 0,
+  "avatarDataUrl": "data:image/jpeg;base64,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",
+  "createdAt": 1794591087837,
+  "participants": [
+    "Etibio Faria",
+    "Jaqueline Sotilo"
+  ],
+  "myUser": "Etibio Faria",
+  "messages": [
+    {
+      "id": "m_0",
+      "dateStr": "09/10/2022",
+      "isoDate": "2022-10-09",
+      "timeStr": "10:52",
+      "author": null,
+      "text": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. *Saiba mais*",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_1",
+      "dateStr": "09/10/2022",
+      "isoDate": "2022-10-09",
+      "timeStr": "10:52",
+      "author": "Etibio Faria",
+      "text": "Oi",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_2",
+      "dateStr": "09/10/2022",
+      "isoDate": "2022-10-09",
+      "timeStr": "11:26",
+      "author": "Jaqueline Sotilo",
+      "text": "Oi",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_3",
+      "dateStr": "12/10/2022",
+      "isoDate": "2022-10-12",
+      "timeStr": "20:20",
+      "author": "Etibio Faria",
+      "text": "Já estão em casa",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_4",
+      "dateStr": "12/10/2022",
+      "isoDate": "2022-10-12",
+      "timeStr": "20:22",
+      "author": "Jaqueline Sotilo",
+      "text": "Sim",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_5",
+      "dateStr": "18/11/2022",
+      "isoDate": "2022-11-18",
+      "timeStr": "21:33",
+      "author": "Jaqueline Sotilo",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_6",
+      "dateStr": "18/11/2022",
+      "isoDate": "2022-11-18",
+      "timeStr": "22:14",
+      "author": "Etibio Faria",
+      "text": "Fiquei com dúvida sobre a foto",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_7",
+      "dateStr": "19/11/2022",
+      "isoDate": "2022-11-19",
+      "timeStr": "08:27",
+      "author": "Jaqueline Sotilo",
+      "text": "A mulher da horta",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_8",
+      "dateStr": "19/11/2022",
+      "isoDate": "2022-11-19",
+      "timeStr": "08:28",
+      "author": "Jaqueline Sotilo",
+      "text": "Ela chama MEIRI",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_9",
+      "dateStr": "19/11/2022",
+      "isoDate": "2022-11-19",
+      "timeStr": "09:08",
+      "author": "Jaqueline Sotilo",
+      "text": "Que os pais morreram",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_10",
+      "dateStr": "18/03/2023",
+      "isoDate": "2023-03-18",
+      "timeStr": "11:12",
+      "author": "Jaqueline Sotilo",
+      "text": "https://fb.watch/jlw4n7CbxS/?mibextid=VhDh1V",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_11",
+      "dateStr": "18/03/2023",
+      "isoDate": "2023-03-18",
+      "timeStr": "11:12",
+      "author": "Jaqueline Sotilo",
+      "text": "Já realizaram minha ideia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_12",
+      "dateStr": "18/03/2023",
+      "isoDate": "2023-03-18",
+      "timeStr": "11:12",
+      "author": "Jaqueline Sotilo",
+      "text": "😳🤦‍♀️",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_13",
+      "dateStr": "23/03/2023",
+      "isoDate": "2023-03-23",
+      "timeStr": "22:02",
+      "author": "Jaqueline Sotilo",
+      "text": "Oi churrasco da paolla a partir das 10h domingo na edicula da minha irmã",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_14",
+      "dateStr": "23/03/2023",
+      "isoDate": "2023-03-23",
+      "timeStr": "22:03",
+      "author": "Jaqueline Sotilo",
+      "text": "Conto com sua presença",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_15",
+      "dateStr": "24/03/2023",
+      "isoDate": "2023-03-24",
+      "timeStr": "12:50",
+      "author": "Etibio Faria",
+      "text": "Estalarei",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_16",
+      "dateStr": "14/04/2023",
+      "isoDate": "2023-04-14",
+      "timeStr": "19:50",
+      "author": "Jaqueline Sotilo",
+      "text": "Oi td bem ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_17",
+      "dateStr": "14/04/2023",
+      "isoDate": "2023-04-14",
+      "timeStr": "19:51",
+      "author": "Jaqueline Sotilo",
+      "text": "Vi as fotos da viagem é isso ai.",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_18",
+      "dateStr": "16/04/2023",
+      "isoDate": "2023-04-16",
+      "timeStr": "11:13",
+      "author": "Etibio Faria",
+      "text": "É foi bom lugar muito bonito comida boa e barato e o tempo a",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_19",
+      "dateStr": "16/04/2023",
+      "isoDate": "2023-04-16",
+      "timeStr": "11:13",
+      "author": "Etibio Faria",
+      "text": "Ajudou",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_20",
+      "dateStr": "16/04/2023",
+      "isoDate": "2023-04-16",
+      "timeStr": "11:14",
+      "author": "Etibio Faria",
+      "text": "Até",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_21",
+      "dateStr": "28/04/2023",
+      "isoDate": "2023-04-28",
+      "timeStr": "17:48",
+      "author": "Jaqueline Sotilo",
+      "text": "Oi Boa tarde \nTa tudo bem por aí?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_23",
+      "dateStr": "28/04/2023",
+      "isoDate": "2023-04-28",
+      "timeStr": "17:48",
+      "author": "Jaqueline Sotilo",
+      "text": "Domingo aniversário da sophie",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_24",
+      "dateStr": "28/04/2023",
+      "isoDate": "2023-04-28",
+      "timeStr": "23:26",
+      "author": "Jaqueline Sotilo",
+      "text": "Dia 13/05\nNa edicula mesmo \nAs 19 h \nChurrasco comunitário",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_28",
+      "dateStr": "28/04/2023",
+      "isoDate": "2023-04-28",
+      "timeStr": "23:26",
+      "author": "Jaqueline Sotilo",
+      "text": "Musica ao vivo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_29",
+      "dateStr": "28/04/2023",
+      "isoDate": "2023-04-28",
+      "timeStr": "23:26",
+      "author": "Jaqueline Sotilo",
+      "text": "Meu niver 51",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_30",
+      "dateStr": "28/04/2023",
+      "isoDate": "2023-04-28",
+      "timeStr": "23:27",
+      "author": "Jaqueline Sotilo",
+      "text": "Dia 13/05\nNa edicula mesmo \nAs 19 h \nChurrasco comunitário",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_34",
+      "dateStr": "28/04/2023",
+      "isoDate": "2023-04-28",
+      "timeStr": "23:27",
+      "author": "Jaqueline Sotilo",
+      "text": "Musica ao vivo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_35",
+      "dateStr": "28/04/2023",
+      "isoDate": "2023-04-28",
+      "timeStr": "23:27",
+      "author": "Jaqueline Sotilo",
+      "text": "Meu niver 51",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_36",
+      "dateStr": "29/04/2023",
+      "isoDate": "2023-04-29",
+      "timeStr": "11:47",
+      "author": "Etibio Faria",
+      "text": "Esse número não é pra qual quer um",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_37",
+      "dateStr": "29/04/2023",
+      "isoDate": "2023-04-29",
+      "timeStr": "11:47",
+      "author": "Etibio Faria",
+      "text": "QR tá lá",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_38",
+      "dateStr": "29/04/2023",
+      "isoDate": "2023-04-29",
+      "timeStr": "11:47",
+      "author": "Jaqueline Sotilo",
+      "text": "Né  kkkkk",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_39",
+      "dateStr": "29/04/2023",
+      "isoDate": "2023-04-29",
+      "timeStr": "11:47",
+      "author": "Jaqueline Sotilo",
+      "text": "19 h",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_40",
+      "dateStr": "29/04/2023",
+      "isoDate": "2023-04-29",
+      "timeStr": "11:47",
+      "author": "Jaqueline Sotilo",
+      "text": "Dia 13",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_41",
+      "dateStr": "29/04/2023",
+      "isoDate": "2023-04-29",
+      "timeStr": "11:48",
+      "author": "Jaqueline Sotilo",
+      "text": "E amanhã da sophie",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_42",
+      "dateStr": "13/05/2023",
+      "isoDate": "2023-05-13",
+      "timeStr": "09:14",
+      "author": "Jaqueline Sotilo",
+      "text": "Etibio vai hj lá na edicula 19 h",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_43",
+      "dateStr": "13/05/2023",
+      "isoDate": "2023-05-13",
+      "timeStr": "16:23",
+      "author": "Etibio Faria",
+      "text": "Estalarei",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_44",
+      "dateStr": "26/05/2023",
+      "isoDate": "2023-05-26",
+      "timeStr": "11:22",
+      "author": "Jaqueline Sotilo",
+      "text": "Oi Boa tarde vão em casa hj 18 h aniversário do marco",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_45",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "14:49",
+      "author": "Jaqueline Sotilo",
+      "text": "Oi Etibio boa tarde .\nTufo bem por aí?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_47",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "14:50",
+      "author": "Etibio Faria",
+      "text": "Tudo bem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_48",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "14:51",
+      "author": "Etibio Faria",
+      "text": "Eco você tudo bem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_49",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "15:23",
+      "author": "Jaqueline Sotilo",
+      "text": "Nada bem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_50",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "15:23",
+      "author": "Jaqueline Sotilo",
+      "text": "Eu quebrei o tornozelo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_51",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "15:23",
+      "author": "Jaqueline Sotilo",
+      "text": "🫣",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_52",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "15:24",
+      "author": "Jaqueline Sotilo",
+      "text": "Fiquei um mês sem pisar agira estou começando a fisioterapia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_53",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "16:04",
+      "author": "Jaqueline Sotilo",
+      "text": "E... tbm tem mais coisa p contar.",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_54",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "16:05",
+      "author": "Jaqueline Sotilo",
+      "text": "O pai do sandro seu Gilberto que estava no azilo morreu .",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_55",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "16:10",
+      "author": "Jaqueline Sotilo",
+      "text": "Domingo faremos um almoço n edicula da minha irmã.  Gostaríamos que vc fosse começa as 10",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_56",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:04",
+      "author": "Etibio Faria",
+      "text": "Dinovo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_57",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:04",
+      "author": "Etibio Faria",
+      "text": "Agora",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_58",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:05",
+      "author": "Etibio Faria",
+      "text": "Se eu não morrer eu vou",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_59",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:05",
+      "author": "Etibio Faria",
+      "text": "Obrigado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_60",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:06",
+      "author": "Etibio Faria",
+      "text": "Tá legal",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_61",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:06",
+      "author": "Jaqueline Sotilo",
+      "text": "Mas porque se não morrer?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_62",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:06",
+      "author": "Jaqueline Sotilo",
+      "text": "Ta mal?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_63",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:06",
+      "author": "Etibio Faria",
+      "text": "Homem não morreu",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_64",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:07",
+      "author": "Etibio Faria",
+      "text": "Vou sim beleza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_65",
+      "dateStr": "13/08/2023",
+      "isoDate": "2023-08-13",
+      "timeStr": "13:45",
+      "author": "Etibio Faria",
+      "text": "Toninho Protético.vcf (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "Protético.vcf"
+    },
+    {
+      "id": "m_66",
+      "dateStr": "13/08/2023",
+      "isoDate": "2023-08-13",
+      "timeStr": "19:21",
+      "author": "Jaqueline Sotilo",
+      "text": "Oi obrigada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_67",
+      "dateStr": "13/08/2023",
+      "isoDate": "2023-08-13",
+      "timeStr": "19:23",
+      "author": "Etibio Faria",
+      "text": "Vou trazer um cartão dele  amanhã",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_68",
+      "dateStr": "13/08/2023",
+      "isoDate": "2023-08-13",
+      "timeStr": "19:25",
+      "author": "Jaqueline Sotilo",
+      "text": "Legal",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_69",
+      "dateStr": "13/08/2023",
+      "isoDate": "2023-08-13",
+      "timeStr": "19:26",
+      "author": "Etibio Faria",
+      "text": "Falou",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_70",
+      "dateStr": "02/09/2023",
+      "isoDate": "2023-09-02",
+      "timeStr": "17:54",
+      "author": "Jaqueline Sotilo",
+      "text": "Oi \nA carol falou sobre o exame.\nSinto muito .\nEstou aqui para qualquer ajuda",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_74",
+      "dateStr": "02/09/2023",
+      "isoDate": "2023-09-02",
+      "timeStr": "17:57",
+      "author": "Etibio Faria",
+      "text": "Beleza brigado vou contar com você",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_75",
+      "dateStr": "03/09/2023",
+      "isoDate": "2023-09-03",
+      "timeStr": "09:55",
+      "author": "Jaqueline Sotilo",
+      "text": "Venha almoçar aqui em casa hoje.",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_76",
+      "dateStr": "03/09/2023",
+      "isoDate": "2023-09-03",
+      "timeStr": "09:59",
+      "author": "Etibio Faria",
+      "text": "Oi JK tudo bem é por kilo eu vou",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_77",
+      "dateStr": "03/09/2023",
+      "isoDate": "2023-09-03",
+      "timeStr": "09:59",
+      "author": "Jaqueline Sotilo",
+      "text": "Kkkkkk sim",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_78",
+      "dateStr": "07/09/2023",
+      "isoDate": "2023-09-07",
+      "timeStr": "14:11",
+      "author": "Jaqueline Sotilo",
+      "text": "Estamos na carol  venha aqui kkkk",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_79",
+      "dateStr": "07/09/2023",
+      "isoDate": "2023-09-07",
+      "timeStr": "14:11",
+      "author": "Jaqueline Sotilo",
+      "text": "Hj não tá chovendo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_80",
+      "dateStr": "07/09/2023",
+      "isoDate": "2023-09-07",
+      "timeStr": "14:11",
+      "author": "Jaqueline Sotilo",
+      "text": "O fundo tá aberto o portão",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_81",
+      "dateStr": "07/09/2023",
+      "isoDate": "2023-09-07",
+      "timeStr": "19:41",
+      "author": "Etibio Faria",
+      "text": "Não ouvi o recado o fone não tá bom qn eu",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_82",
+      "dateStr": "15/09/2023",
+      "isoDate": "2023-09-15",
+      "timeStr": "20:03",
+      "author": "Jaqueline Sotilo",
+      "text": "Oi",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_83",
+      "dateStr": "15/09/2023",
+      "isoDate": "2023-09-15",
+      "timeStr": "20:03",
+      "author": "Jaqueline Sotilo",
+      "text": "Tudo bem por aí?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_84",
+      "dateStr": "15/09/2023",
+      "isoDate": "2023-09-15",
+      "timeStr": "20:03",
+      "author": "Jaqueline Sotilo",
+      "text": "🙏🏻",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_85",
+      "dateStr": "15/09/2023",
+      "isoDate": "2023-09-15",
+      "timeStr": "20:04",
+      "author": "Etibio Faria",
+      "text": "Tudo bem sim",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_86",
+      "dateStr": "15/09/2023",
+      "isoDate": "2023-09-15",
+      "timeStr": "20:06",
+      "author": "Jaqueline Sotilo",
+      "text": "Q bom",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_87",
+      "dateStr": "15/09/2023",
+      "isoDate": "2023-09-15",
+      "timeStr": "20:07",
+      "author": "Jaqueline Sotilo",
+      "text": "Amanhã se o tempo estiver bom vamos na edicula",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_88",
+      "dateStr": "15/09/2023",
+      "isoDate": "2023-09-15",
+      "timeStr": "20:08",
+      "author": "Etibio Faria",
+      "text": "Beleza então vou",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_89",
+      "dateStr": "15/09/2023",
+      "isoDate": "2023-09-15",
+      "timeStr": "20:13",
+      "author": "Jaqueline Sotilo",
+      "text": "A tarde",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_90",
+      "dateStr": "15/09/2023",
+      "isoDate": "2023-09-15",
+      "timeStr": "20:16",
+      "author": "Etibio Faria",
+      "text": "JK lembrei que tenho que ir na festa da Ana 6horas",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_91",
+      "dateStr": "15/09/2023",
+      "isoDate": "2023-09-15",
+      "timeStr": "20:17",
+      "author": "Jaqueline Sotilo",
+      "text": "No domingo a festa",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_92",
+      "dateStr": "15/09/2023",
+      "isoDate": "2023-09-15",
+      "timeStr": "20:18",
+      "author": "Jaqueline Sotilo",
+      "text": "Da menina q vai fazer primeira comunhão",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_93",
+      "dateStr": "15/09/2023",
+      "isoDate": "2023-09-15",
+      "timeStr": "20:18",
+      "author": "Etibio Faria",
+      "text": "Tá bom então",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_94",
+      "dateStr": "15/09/2023",
+      "isoDate": "2023-09-15",
+      "timeStr": "20:18",
+      "author": "Jaqueline Sotilo",
+      "text": "No domingo de manhã",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_95",
+      "dateStr": "15/09/2023",
+      "isoDate": "2023-09-15",
+      "timeStr": "20:18",
+      "author": "Jaqueline Sotilo",
+      "text": "Que festa as 6?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_96",
+      "dateStr": "15/09/2023",
+      "isoDate": "2023-09-15",
+      "timeStr": "20:19",
+      "author": "Etibio Faria",
+      "text": "Vou ver mensagens da Ana",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_97",
+      "dateStr": "15/09/2023",
+      "isoDate": "2023-09-15",
+      "timeStr": "20:19",
+      "author": "Jaqueline Sotilo",
+      "text": "Ta",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_98",
+      "dateStr": "16/09/2023",
+      "isoDate": "2023-09-16",
+      "timeStr": "14:42",
+      "author": "Jaqueline Sotilo",
+      "text": "Ligação de voz perdida",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_99",
+      "dateStr": "16/09/2023",
+      "isoDate": "2023-09-16",
+      "timeStr": "14:42",
+      "author": "Jaqueline Sotilo",
+      "text": "Vem na edicula",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_100",
+      "dateStr": "16/09/2023",
+      "isoDate": "2023-09-16",
+      "timeStr": "14:42",
+      "author": "Jaqueline Sotilo",
+      "text": "Estamos aqui",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_101",
+      "dateStr": "16/09/2023",
+      "isoDate": "2023-09-16",
+      "timeStr": "18:43",
+      "author": "Jaqueline Sotilo",
+      "text": "Pq não veio na edicula conversar jm pouco",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_102",
+      "dateStr": "16/09/2023",
+      "isoDate": "2023-09-16",
+      "timeStr": "22:12",
+      "author": "Etibio Faria",
+      "text": "Eu fui",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_103",
+      "dateStr": "16/09/2023",
+      "isoDate": "2023-09-16",
+      "timeStr": "23:15",
+      "author": "Jaqueline Sotilo",
+      "text": "Kkkkkk",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_104",
+      "dateStr": "17/09/2023",
+      "isoDate": "2023-09-17",
+      "timeStr": "13:23",
+      "author": "Jaqueline Sotilo",
+      "text": "Vc não vem na chácara que a Ana alugou?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_105",
+      "dateStr": "17/09/2023",
+      "isoDate": "2023-09-17",
+      "timeStr": "13:45",
+      "author": "Etibio Faria",
+      "text": "Vou sim",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_106",
+      "dateStr": "17/09/2023",
+      "isoDate": "2023-09-17",
+      "timeStr": "13:47",
+      "author": "Etibio Faria",
+      "text": "Eu pensei que era 6h",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_107",
+      "dateStr": "17/09/2023",
+      "isoDate": "2023-09-17",
+      "timeStr": "13:48",
+      "author": "Etibio Faria",
+      "text": "Vi agora k é 12h",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_108",
+      "dateStr": "17/09/2023",
+      "isoDate": "2023-09-17",
+      "timeStr": "13:56",
+      "author": "Jaqueline Sotilo",
+      "text": "Nossa vem não precisa trazer nada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_109",
+      "dateStr": "17/09/2023",
+      "isoDate": "2023-09-17",
+      "timeStr": "13:58",
+      "author": "Etibio Faria",
+      "text": "Vou fazer um acordo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_110",
+      "dateStr": "17/09/2023",
+      "isoDate": "2023-09-17",
+      "timeStr": "13:59",
+      "author": "Etibio Faria",
+      "text": "Vou fazer um esforço",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_111",
+      "dateStr": "21/09/2023",
+      "isoDate": "2023-09-21",
+      "timeStr": "19:01",
+      "author": "Jaqueline Sotilo",
+      "text": "Oi",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_112",
+      "dateStr": "21/09/2023",
+      "isoDate": "2023-09-21",
+      "timeStr": "19:01",
+      "author": "Jaqueline Sotilo",
+      "text": "Vc foi tomar medicação? \nComeçou o tratamento?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_114",
+      "dateStr": "24/09/2023",
+      "isoDate": "2023-09-24",
+      "timeStr": "09:58",
+      "author": "Jaqueline Sotilo",
+      "text": "Oi bom dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_115",
+      "dateStr": "24/09/2023",
+      "isoDate": "2023-09-24",
+      "timeStr": "09:58",
+      "author": "Jaqueline Sotilo",
+      "text": "Vamos para a Edicula",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_116",
+      "dateStr": "24/09/2023",
+      "isoDate": "2023-09-24",
+      "timeStr": "09:58",
+      "author": "Jaqueline Sotilo",
+      "text": "Bora distrair",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_117",
+      "dateStr": "24/09/2023",
+      "isoDate": "2023-09-24",
+      "timeStr": "09:58",
+      "author": "Jaqueline Sotilo",
+      "text": "Leva calção p entrar na agua",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_118",
+      "dateStr": "24/09/2023",
+      "isoDate": "2023-09-24",
+      "timeStr": "20:54",
+      "author": "Etibio Faria",
+      "text": "Não deu pra ir lá o Dudu veio e fizemos um rolê importante obrigado valeu",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_119",
+      "dateStr": "29/09/2023",
+      "isoDate": "2023-09-29",
+      "timeStr": "14:07",
+      "author": "Jaqueline Sotilo",
+      "text": "https://www.facebook.com/reel/211940651894881?sfnsn=wiwspwa&mibextid=6AJuK9",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_120",
+      "dateStr": "13/10/2023",
+      "isoDate": "2023-10-13",
+      "timeStr": "08:19",
+      "author": "Jaqueline Sotilo",
+      "text": "Bom dia \nComo você está?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_122",
+      "dateStr": "13/10/2023",
+      "isoDate": "2023-10-13",
+      "timeStr": "12:25",
+      "author": "Jaqueline Sotilo",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_123",
+      "dateStr": "13/10/2023",
+      "isoDate": "2023-10-13",
+      "timeStr": "12:25",
+      "author": "Jaqueline Sotilo",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_124",
+      "dateStr": "13/10/2023",
+      "isoDate": "2023-10-13",
+      "timeStr": "12:25",
+      "author": "Jaqueline Sotilo",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_125",
+      "dateStr": "13/10/2023",
+      "isoDate": "2023-10-13",
+      "timeStr": "13:54",
+      "author": "Etibio Faria",
+      "text": "Bom dia tá tudo bem tô trabalhando na casa a meu lado o inquilino mudou muito a fazer",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_126",
+      "dateStr": "22/10/2023",
+      "isoDate": "2023-10-22",
+      "timeStr": "13:03",
+      "author": "Jaqueline Sotilo",
+      "text": "Vem na carol comer feijoada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_127",
+      "dateStr": "22/10/2023",
+      "isoDate": "2023-10-22",
+      "timeStr": "13:03",
+      "author": "Jaqueline Sotilo",
+      "text": "Não precisa trazer nada tá td pronto",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_128",
+      "dateStr": "22/10/2023",
+      "isoDate": "2023-10-22",
+      "timeStr": "13:09",
+      "author": "Etibio Faria",
+      "text": "Tô no shopping de Itu já almocei vou na casa da minha prima",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_129",
+      "dateStr": "22/10/2023",
+      "isoDate": "2023-10-22",
+      "timeStr": "13:13",
+      "author": "Jaqueline Sotilo",
+      "text": "Ta",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_130",
+      "dateStr": "22/10/2023",
+      "isoDate": "2023-10-22",
+      "timeStr": "14:09",
+      "author": "Jaqueline Sotilo",
+      "text": "Precisamos conversar quando  der preocupada aqui com coisas que nem ouvi pois a pessoa sabe bem o que faz",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_131",
+      "dateStr": "22/11/2023",
+      "isoDate": "2023-11-22",
+      "timeStr": "12:51",
+      "author": "Jaqueline Sotilo",
+      "text": "Oi Boa tarde como você está?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_132",
+      "dateStr": "22/11/2023",
+      "isoDate": "2023-11-22",
+      "timeStr": "12:52",
+      "author": "Jaqueline Sotilo",
+      "text": "Ta td bem ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_133",
+      "dateStr": "23/11/2023",
+      "isoDate": "2023-11-23",
+      "timeStr": "16:36",
+      "author": "Etibio Faria",
+      "text": "Tudo bem muito serviço só vi agora a mensagem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_134",
+      "dateStr": "24/11/2023",
+      "isoDate": "2023-11-24",
+      "timeStr": "10:32",
+      "author": "Jaqueline Sotilo",
+      "text": "PTT-20231124-WA0002.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20231124-WA0002.opus"
+    },
+    {
+      "id": "m_135",
+      "dateStr": "24/11/2023",
+      "isoDate": "2023-11-24",
+      "timeStr": "18:41",
+      "author": "Etibio Faria",
+      "text": "Tem sim k que eu leve",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_136",
+      "dateStr": "24/11/2023",
+      "isoDate": "2023-11-24",
+      "timeStr": "18:42",
+      "author": "Jaqueline Sotilo",
+      "text": "Mas vc não tá ocupado? Kkkk",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_137",
+      "dateStr": "24/11/2023",
+      "isoDate": "2023-11-24",
+      "timeStr": "18:42",
+      "author": "Jaqueline Sotilo",
+      "text": "Vem aqui bater papo a carol tá aqui tbm",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_138",
+      "dateStr": "24/11/2023",
+      "isoDate": "2023-11-24",
+      "timeStr": "18:43",
+      "author": "Etibio Faria",
+      "text": "Vou aí daqui a pouco",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_139",
+      "dateStr": "24/11/2023",
+      "isoDate": "2023-11-24",
+      "timeStr": "18:43",
+      "author": "Jaqueline Sotilo",
+      "text": "Ok",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_140",
+      "dateStr": "26/11/2023",
+      "isoDate": "2023-11-26",
+      "timeStr": "13:40",
+      "author": "Etibio Faria",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_141",
+      "dateStr": "28/11/2023",
+      "isoDate": "2023-11-28",
+      "timeStr": "07:01",
+      "author": "Etibio Faria",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_142",
+      "dateStr": "01/12/2023",
+      "isoDate": "2023-12-01",
+      "timeStr": "19:51",
+      "author": "Etibio Faria",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_143",
+      "dateStr": "01/12/2023",
+      "isoDate": "2023-12-01",
+      "timeStr": "19:54",
+      "author": "Etibio Faria",
+      "text": "Não é fácil se comunicar com velho",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_144",
+      "dateStr": "22/12/2023",
+      "isoDate": "2023-12-22",
+      "timeStr": "19:30",
+      "author": "Jaqueline Sotilo",
+      "text": "PTT-20231222-WA0001.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20231222-WA0001.opus"
+    },
+    {
+      "id": "m_145",
+      "dateStr": "22/12/2023",
+      "isoDate": "2023-12-22",
+      "timeStr": "20:00",
+      "author": "Etibio Faria",
+      "text": "Tá ok vou sim",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_146",
+      "dateStr": "22/12/2023",
+      "isoDate": "2023-12-22",
+      "timeStr": "20:19",
+      "author": "Jaqueline Sotilo",
+      "text": "Isso mesmo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_147",
+      "dateStr": "22/12/2023",
+      "isoDate": "2023-12-22",
+      "timeStr": "20:19",
+      "author": "Jaqueline Sotilo",
+      "text": "E.... ainda estou com seu carro tá difícil",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_148",
+      "dateStr": "22/12/2023",
+      "isoDate": "2023-12-22",
+      "timeStr": "20:19",
+      "author": "Jaqueline Sotilo",
+      "text": "STK-20231222-WA0002.webp (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "STK-20231222-WA0002.webp"
+    },
+    {
+      "id": "m_149",
+      "dateStr": "29/12/2023",
+      "isoDate": "2023-12-29",
+      "timeStr": "13:46",
+      "author": "Jaqueline Sotilo",
+      "text": "Oi Ano novo estaremos na ediculas esta convidado e... se quiser participar vamos fazer uma brincadeira com:\n1 barra de chocolate + 10,00 o nome que sair por último leva a grana",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_151",
+      "dateStr": "29/12/2023",
+      "isoDate": "2023-12-29",
+      "timeStr": "15:35",
+      "author": "Etibio Faria",
+      "text": "Combinado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_152",
+      "dateStr": "05/01/2024",
+      "isoDate": "2024-01-05",
+      "timeStr": "18:13",
+      "author": "Jaqueline Sotilo",
+      "text": "Oi",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_153",
+      "dateStr": "05/01/2024",
+      "isoDate": "2024-01-05",
+      "timeStr": "18:14",
+      "author": "Jaqueline Sotilo",
+      "text": "Ta em casa?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_154",
+      "dateStr": "05/01/2024",
+      "isoDate": "2024-01-05",
+      "timeStr": "18:14",
+      "author": "Jaqueline Sotilo",
+      "text": "Graças a Deus achamos um carro",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_155",
+      "dateStr": "05/01/2024",
+      "isoDate": "2024-01-05",
+      "timeStr": "18:14",
+      "author": "Etibio Faria",
+      "text": "Não d",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_156",
+      "dateStr": "05/01/2024",
+      "isoDate": "2024-01-05",
+      "timeStr": "18:14",
+      "author": "Jaqueline Sotilo",
+      "text": "Preciso levar o seu pq não tem onde guardar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_157",
+      "dateStr": "05/01/2024",
+      "isoDate": "2024-01-05",
+      "timeStr": "18:15",
+      "author": "Jaqueline Sotilo",
+      "text": "Não tá?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_158",
+      "dateStr": "05/01/2024",
+      "isoDate": "2024-01-05",
+      "timeStr": "18:15",
+      "author": "Etibio Faria",
+      "text": "TÁ bom então",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_159",
+      "dateStr": "05/01/2024",
+      "isoDate": "2024-01-05",
+      "timeStr": "18:15",
+      "author": "Jaqueline Sotilo",
+      "text": "Vc não tá  ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_160",
+      "dateStr": "05/01/2024",
+      "isoDate": "2024-01-05",
+      "timeStr": "18:16",
+      "author": "Etibio Faria",
+      "text": "Tonosobrado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_161",
+      "dateStr": "05/01/2024",
+      "isoDate": "2024-01-05",
+      "timeStr": "18:16",
+      "author": "Jaqueline Sotilo",
+      "text": "Ah !",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_162",
+      "dateStr": "05/01/2024",
+      "isoDate": "2024-01-05",
+      "timeStr": "18:16",
+      "author": "Jaqueline Sotilo",
+      "text": "Tendi",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_163",
+      "dateStr": "05/01/2024",
+      "isoDate": "2024-01-05",
+      "timeStr": "18:16",
+      "author": "Jaqueline Sotilo",
+      "text": "Levo onde o carro?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_164",
+      "dateStr": "05/01/2024",
+      "isoDate": "2024-01-05",
+      "timeStr": "18:17",
+      "author": "Etibio Faria",
+      "text": "Aqui tá",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_165",
+      "dateStr": "05/01/2024",
+      "isoDate": "2024-01-05",
+      "timeStr": "18:17",
+      "author": "Jaqueline Sotilo",
+      "text": "No sobrado ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_166",
+      "dateStr": "05/01/2024",
+      "isoDate": "2024-01-05",
+      "timeStr": "18:17",
+      "author": "Etibio Faria",
+      "text": "Isso",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_167",
+      "dateStr": "05/01/2024",
+      "isoDate": "2024-01-05",
+      "timeStr": "18:17",
+      "author": "Jaqueline Sotilo",
+      "text": "Ok",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_168",
+      "dateStr": "05/01/2024",
+      "isoDate": "2024-01-05",
+      "timeStr": "18:42",
+      "author": "Jaqueline Sotilo",
+      "text": "Seu etibio o marco não levou o carro",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_169",
+      "dateStr": "05/01/2024",
+      "isoDate": "2024-01-05",
+      "timeStr": "18:42",
+      "author": "Jaqueline Sotilo",
+      "text": "Vou guardar na minha mae",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_170",
+      "dateStr": "12/02/2024",
+      "isoDate": "2024-02-12",
+      "timeStr": "19:29",
+      "author": "Jaqueline Sotilo",
+      "text": "PTT-20240212-WA0001.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20240212-WA0001.opus"
+    },
+    {
+      "id": "m_171",
+      "dateStr": "02/03/2024",
+      "isoDate": "2024-03-02",
+      "timeStr": "16:07",
+      "author": "Jaqueline Sotilo",
+      "text": "PTT-20240302-WA0004.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20240302-WA0004.opus"
+    },
+    {
+      "id": "m_172",
+      "dateStr": "02/03/2024",
+      "isoDate": "2024-03-02",
+      "timeStr": "20:58",
+      "author": "Jaqueline Sotilo",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_173",
+      "dateStr": "30/03/2024",
+      "isoDate": "2024-03-30",
+      "timeStr": "20:00",
+      "author": "Jaqueline Sotilo",
+      "text": "Etibio amanhã almoço em casa apareça",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_174",
+      "dateStr": "31/03/2024",
+      "isoDate": "2024-03-31",
+      "timeStr": "11:53",
+      "author": "Jaqueline Sotilo",
+      "text": "VID-20240331-WA0000.mp4 (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "VID-20240331-WA0000.mp4"
+    },
+    {
+      "id": "m_175",
+      "dateStr": "31/03/2024",
+      "isoDate": "2024-03-31",
+      "timeStr": "11:53",
+      "author": "Jaqueline Sotilo",
+      "text": "Vem em casa",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_176",
+      "dateStr": "31/03/2024",
+      "isoDate": "2024-03-31",
+      "timeStr": "20:52",
+      "author": "Etibio Faria",
+      "text": "Só vi agora hoje fui na casa da minha prima dê Itu mais obrigado valeu",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_177",
+      "dateStr": "02/04/2024",
+      "isoDate": "2024-04-02",
+      "timeStr": "07:00",
+      "author": "Etibio Faria",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_178",
+      "dateStr": "12/05/2024",
+      "isoDate": "2024-05-12",
+      "timeStr": "08:00",
+      "author": "Jaqueline Sotilo",
+      "text": "Bom dia \nVenha almoçar em casa hj 12.00",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_180",
+      "dateStr": "12/05/2024",
+      "isoDate": "2024-05-12",
+      "timeStr": "08:02",
+      "author": "Etibio Faria",
+      "text": "Levar o que",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_181",
+      "dateStr": "12/05/2024",
+      "isoDate": "2024-05-12",
+      "timeStr": "08:13",
+      "author": "Jaqueline Sotilo",
+      "text": "Só vc kkk se puder trás um refrigerante de 2 litros",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_182",
+      "dateStr": "12/05/2024",
+      "isoDate": "2024-05-12",
+      "timeStr": "11:17",
+      "author": "Etibio Faria",
+      "text": "Posso",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_183",
+      "dateStr": "24/05/2024",
+      "isoDate": "2024-05-24",
+      "timeStr": "13:30",
+      "author": "Jaqueline Sotilo",
+      "text": "Boa tarde! \nVim visitar o Márcio. A parte respiratória teve uma pequena melhora, conseguiram diminuir o ventilador. Porém a função renal mantém ruim. O médico, Dr Marcelo informou que a Creatinina está entre 7 e 8 (valor de referência é até 1.3) e a uréia está 200 (valor máximo é até 45/50). Porém, eles esperam que nos próximos dias a função renal melhore para que possam pensar em tirar a ventilação mecânica. Se piorar, terá que fazer hemodiálise. \nEle não está inchado hoje. Os sinais vitais estão normais.",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_186",
+      "dateStr": "24/05/2024",
+      "isoDate": "2024-05-24",
+      "timeStr": "13:30",
+      "author": "Jaqueline Sotilo",
+      "text": "ANDREIA MANDOU",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_187",
+      "dateStr": "24/05/2024",
+      "isoDate": "2024-05-24",
+      "timeStr": "13:35",
+      "author": "Etibio Faria",
+      "text": "Meu Deus nem sabia que ele estava doente onde ele tá casa ou hospital",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_188",
+      "dateStr": "24/05/2024",
+      "isoDate": "2024-05-24",
+      "timeStr": "13:36",
+      "author": "Jaqueline Sotilo",
+      "text": "Hospital uti",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_189",
+      "dateStr": "24/05/2024",
+      "isoDate": "2024-05-24",
+      "timeStr": "13:38",
+      "author": "Etibio Faria",
+      "text": "Hora de visita e dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_190",
+      "dateStr": "24/05/2024",
+      "isoDate": "2024-05-24",
+      "timeStr": "13:39",
+      "author": "Jaqueline Sotilo",
+      "text": "Não sei so a Andreia é a Ana sabem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_191",
+      "dateStr": "24/05/2024",
+      "isoDate": "2024-05-24",
+      "timeStr": "13:39",
+      "author": "Jaqueline Sotilo",
+      "text": "Marco 👎🏼",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_192",
+      "dateStr": "24/05/2024",
+      "isoDate": "2024-05-24",
+      "timeStr": "13:39",
+      "author": "Etibio Faria",
+      "text": "Beleza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_193",
+      "dateStr": "09/08/2024",
+      "isoDate": "2024-08-09",
+      "timeStr": "20:17",
+      "author": "Jaqueline Sotilo",
+      "text": "Mensagem apagada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_194",
+      "dateStr": "09/08/2024",
+      "isoDate": "2024-08-09",
+      "timeStr": "20:19",
+      "author": "Jaqueline Sotilo",
+      "text": "Mensagem apagada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_195",
+      "dateStr": "10/08/2024",
+      "isoDate": "2024-08-10",
+      "timeStr": "10:28",
+      "author": "Jaqueline Sotilo",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_196",
+      "dateStr": "10/08/2024",
+      "isoDate": "2024-08-10",
+      "timeStr": "10:29",
+      "author": "Jaqueline Sotilo",
+      "text": "Oi devido a chuva e frio vamos rever o q fazer",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_197",
+      "dateStr": "11/08/2024",
+      "isoDate": "2024-08-11",
+      "timeStr": "13:51",
+      "author": "Etibio Faria",
+      "text": "IMG-20240811-WA0003.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20240811-WA0003.jpg"
+    },
+    {
+      "id": "m_198",
+      "dateStr": "21/12/2024",
+      "isoDate": "2024-12-21",
+      "timeStr": "18:28",
+      "author": "Jaqueline Sotilo",
+      "text": "PTT-20241221-WA0004.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20241221-WA0004.opus"
+    },
+    {
+      "id": "m_199",
+      "dateStr": "21/12/2024",
+      "isoDate": "2024-12-21",
+      "timeStr": "21:07",
+      "author": "Etibio Faria",
+      "text": "Vou sim vou perder uma boca livre brigado Jak",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_200",
+      "dateStr": "21/12/2024",
+      "isoDate": "2024-12-21",
+      "timeStr": "21:33",
+      "author": "Jaqueline Sotilo",
+      "text": "Esperamos vc",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_201",
+      "dateStr": "03/03/2025",
+      "isoDate": "2025-03-03",
+      "timeStr": "19:01",
+      "author": "Jaqueline Sotilo",
+      "text": "PTT-20250303-WA0000.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20250303-WA0000.opus"
+    },
+    {
+      "id": "m_202",
+      "dateStr": "03/03/2025",
+      "isoDate": "2025-03-03",
+      "timeStr": "19:08",
+      "author": "Etibio Faria",
+      "text": "Tô bem um pouco stufado  acabei de engolir 500 g de macarrão a bolonhesa logo se fás a digestão  brigado Jak",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_203",
+      "dateStr": "03/03/2025",
+      "isoDate": "2025-03-03",
+      "timeStr": "19:16",
+      "author": "Jaqueline Sotilo",
+      "text": "Tá",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_204",
+      "dateStr": "03/03/2025",
+      "isoDate": "2025-03-03",
+      "timeStr": "19:16",
+      "author": "Jaqueline Sotilo",
+      "text": "Vem amanhã",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_205",
+      "dateStr": "03/03/2025",
+      "isoDate": "2025-03-03",
+      "timeStr": "19:17",
+      "author": "Jaqueline Sotilo",
+      "text": "Estaremos aquo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_206",
+      "dateStr": "03/03/2025",
+      "isoDate": "2025-03-03",
+      "timeStr": "19:17",
+      "author": "Jaqueline Sotilo",
+      "text": "Aqui",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_207",
+      "dateStr": "03/03/2025",
+      "isoDate": "2025-03-03",
+      "timeStr": "19:17",
+      "author": "Etibio Faria",
+      "text": "Se tiver busão eu vou",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_208",
+      "dateStr": "10/04/2025",
+      "isoDate": "2025-04-10",
+      "timeStr": "08:25",
+      "author": "Jaqueline Sotilo",
+      "text": "IMG-20250410-WA0000.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20250410-WA0000.jpg"
+    },
+    {
+      "id": "m_209",
+      "dateStr": "10/04/2025",
+      "isoDate": "2025-04-10",
+      "timeStr": "08:27",
+      "author": "Etibio Faria",
+      "text": "Esse segurando a neném é feio k dói",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_210",
+      "dateStr": "10/04/2025",
+      "isoDate": "2025-04-10",
+      "timeStr": "08:28",
+      "author": "Jaqueline Sotilo",
+      "text": "Kkkkkkk faz tempo heim",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_211",
+      "dateStr": "10/04/2025",
+      "isoDate": "2025-04-10",
+      "timeStr": "08:28",
+      "author": "Jaqueline Sotilo",
+      "text": "Neném já vai fazer 6 anos",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_212",
+      "dateStr": "11/04/2025",
+      "isoDate": "2025-04-11",
+      "timeStr": "15:51",
+      "author": "Etibio Faria",
+      "text": "Bon voyage et bon rendez-vous!",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_213",
+      "dateStr": "11/04/2025",
+      "isoDate": "2025-04-11",
+      "timeStr": "18:28",
+      "author": "Jaqueline Sotilo",
+      "text": "Oiê obrigada e se cuide",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_214",
+      "dateStr": "11/04/2025",
+      "isoDate": "2025-04-11",
+      "timeStr": "18:56",
+      "author": "Jaqueline Sotilo",
+      "text": "Como vc está hoje ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_215",
+      "dateStr": "11/04/2025",
+      "isoDate": "2025-04-11",
+      "timeStr": "23:07",
+      "author": "Etibio Faria",
+      "text": "Tô bem, parecendo uma tartaruga",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_216",
+      "dateStr": "11/04/2025",
+      "isoDate": "2025-04-11",
+      "timeStr": "23:08",
+      "author": "Etibio Faria",
+      "text": "IMG-20250411-WA0002.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20250411-WA0002.jpg"
+    },
+    {
+      "id": "m_217",
+      "dateStr": "11/04/2025",
+      "isoDate": "2025-04-11",
+      "timeStr": "23:08",
+      "author": "Etibio Faria",
+      "text": "IMG-20250411-WA0003.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20250411-WA0003.jpg"
+    },
+    {
+      "id": "m_218",
+      "dateStr": "11/04/2025",
+      "isoDate": "2025-04-11",
+      "timeStr": "23:08",
+      "author": "Etibio Faria",
+      "text": "O tempo tá bão aí?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_219",
+      "dateStr": "12/04/2025",
+      "isoDate": "2025-04-12",
+      "timeStr": "07:56",
+      "author": "Jaqueline Sotilo",
+      "text": "Tá joinha",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_220",
+      "dateStr": "12/04/2025",
+      "isoDate": "2025-04-12",
+      "timeStr": "08:50",
+      "author": "Etibio Faria",
+      "text": "Beleza é só tomar todas",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_221",
+      "dateStr": "12/04/2025",
+      "isoDate": "2025-04-12",
+      "timeStr": "21:57",
+      "author": "Jaqueline Sotilo",
+      "text": "Olha a casa que bonita",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_222",
+      "dateStr": "12/04/2025",
+      "isoDate": "2025-04-12",
+      "timeStr": "21:58",
+      "author": "Jaqueline Sotilo",
+      "text": "VID-20250412-WA0004.mp4 (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "VID-20250412-WA0004.mp4"
+    },
+    {
+      "id": "m_223",
+      "dateStr": "12/04/2025",
+      "isoDate": "2025-04-12",
+      "timeStr": "22:02",
+      "author": "Etibio Faria",
+      "text": "Dá pra sentir rica por ums dia sai da rotina muito bom divirtam muito",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_224",
+      "dateStr": "12/04/2025",
+      "isoDate": "2025-04-12",
+      "timeStr": "22:51",
+      "author": "Jaqueline Sotilo",
+      "text": "Nem fale",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_225",
+      "dateStr": "12/04/2025",
+      "isoDate": "2025-04-12",
+      "timeStr": "22:53",
+      "author": "Etibio Faria",
+      "text": "Já senti isso é surreal",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_226",
+      "dateStr": "14/04/2025",
+      "isoDate": "2025-04-14",
+      "timeStr": "11:07",
+      "author": "Jaqueline Sotilo",
+      "text": "IMG-20250414-WA0002.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20250414-WA0002.jpg"
+    },
+    {
+      "id": "m_227",
+      "dateStr": "14/04/2025",
+      "isoDate": "2025-04-14",
+      "timeStr": "11:09",
+      "author": "Etibio Faria",
+      "text": "Legal pensei que tivesse  voltado é isso mesmo tem que curtir",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_228",
+      "dateStr": "14/04/2025",
+      "isoDate": "2025-04-14",
+      "timeStr": "11:11",
+      "author": "Jaqueline Sotilo",
+      "text": "Amanhã",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_229",
+      "dateStr": "14/04/2025",
+      "isoDate": "2025-04-14",
+      "timeStr": "11:13",
+      "author": "Etibio Faria",
+      "text": "É muito dia enjoa  saudades da casa  o melhor lugar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_230",
+      "dateStr": "18/04/2025",
+      "isoDate": "2025-04-18",
+      "timeStr": "11:51",
+      "author": "Jaqueline Sotilo",
+      "text": "Oi tudo bem por aí?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_231",
+      "dateStr": "18/04/2025",
+      "isoDate": "2025-04-18",
+      "timeStr": "11:51",
+      "author": "Jaqueline Sotilo",
+      "text": "Quer vir comer um peixe?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_232",
+      "dateStr": "19/04/2025",
+      "isoDate": "2025-04-19",
+      "timeStr": "00:25",
+      "author": "Etibio Faria",
+      "text": "Nossa vi atrasado perdi de comer um peixe",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_233",
+      "dateStr": "01/05/2025",
+      "isoDate": "2025-05-01",
+      "timeStr": "14:16",
+      "author": "Etibio Faria",
+      "text": "IMG-20250501-WA0000.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20250501-WA0000.jpg"
+    },
+    {
+      "id": "m_234",
+      "dateStr": "18/05/2025",
+      "isoDate": "2025-05-18",
+      "timeStr": "10:20",
+      "author": "Jaqueline Sotilo",
+      "text": "Bom dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_235",
+      "dateStr": "18/05/2025",
+      "isoDate": "2025-05-18",
+      "timeStr": "10:20",
+      "author": "Jaqueline Sotilo",
+      "text": "Venha almoçar em casa hoje",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_236",
+      "dateStr": "18/05/2025",
+      "isoDate": "2025-05-18",
+      "timeStr": "10:22",
+      "author": "Etibio Faria",
+      "text": "Oi bom dia eu vou",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_237",
+      "dateStr": "18/05/2025",
+      "isoDate": "2025-05-18",
+      "timeStr": "10:22",
+      "author": "Jaqueline Sotilo",
+      "text": "Ok",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_238",
+      "dateStr": "18/05/2025",
+      "isoDate": "2025-05-18",
+      "timeStr": "10:23",
+      "author": "Jaqueline Sotilo",
+      "text": "Estou no mercado já chego",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_239",
+      "dateStr": "18/05/2025",
+      "isoDate": "2025-05-18",
+      "timeStr": "10:23",
+      "author": "Jaqueline Sotilo",
+      "text": "Pode vir às 11:30 ok?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_240",
+      "dateStr": "18/05/2025",
+      "isoDate": "2025-05-18",
+      "timeStr": "10:23",
+      "author": "Etibio Faria",
+      "text": "Beleza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_241",
+      "dateStr": "19/06/2025",
+      "isoDate": "2025-06-19",
+      "timeStr": "11:56",
+      "author": "Jaqueline Sotilo",
+      "text": "Oi Etibio como vc está?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_242",
+      "dateStr": "19/06/2025",
+      "isoDate": "2025-06-19",
+      "timeStr": "17:32",
+      "author": "Etibio Faria",
+      "text": "Oi Jak tá tudo bem tomando remédio às vezes desenteria  sem dor comendo normal dormindo bem acho que pra um velho até que tô bem vou chegar na final andando   obrigado por se preocupar tô legal",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_243",
+      "dateStr": "19/06/2025",
+      "isoDate": "2025-06-19",
+      "timeStr": "17:47",
+      "author": "Jaqueline Sotilo",
+      "text": "Que bom fico feliz",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_244",
+      "dateStr": "19/06/2025",
+      "isoDate": "2025-06-19",
+      "timeStr": "17:47",
+      "author": "Jaqueline Sotilo",
+      "text": "E estou aqui se precisar de algo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_245",
+      "dateStr": "19/06/2025",
+      "isoDate": "2025-06-19",
+      "timeStr": "17:47",
+      "author": "Jaqueline Sotilo",
+      "text": "Conte comigo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_246",
+      "dateStr": "19/06/2025",
+      "isoDate": "2025-06-19",
+      "timeStr": "17:50",
+      "author": "Etibio Faria",
+      "text": "Claro minha amiga sei que posso contar com você que Deus te abençoe",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_247",
+      "dateStr": "06/07/2025",
+      "isoDate": "2025-07-06",
+      "timeStr": "10:38",
+      "author": "Jaqueline Sotilo",
+      "text": "Bom dia \nVenha almoçar em casa",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_249",
+      "dateStr": "06/07/2025",
+      "isoDate": "2025-07-06",
+      "timeStr": "14:07",
+      "author": "Etibio Faria",
+      "text": "Oi Jak tudo bem então não vai dar só vi o convite agora mas fiquei feliz obrigado fica com Deus",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_250",
+      "dateStr": "06/07/2025",
+      "isoDate": "2025-07-06",
+      "timeStr": "14:39",
+      "author": "Jaqueline Sotilo",
+      "text": "Mas estamos aqui pode vir",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_251",
+      "dateStr": "06/07/2025",
+      "isoDate": "2025-07-06",
+      "timeStr": "15:25",
+      "author": "Etibio Faria",
+      "text": "Tô indo pra casa da Ana niver da filha",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_252",
+      "dateStr": "28/09/2025",
+      "isoDate": "2025-09-28",
+      "timeStr": "08:49",
+      "author": "Jaqueline Sotilo",
+      "text": "Bom dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_253",
+      "dateStr": "28/09/2025",
+      "isoDate": "2025-09-28",
+      "timeStr": "08:49",
+      "author": "Jaqueline Sotilo",
+      "text": "Vem almoçar em casa 12:00",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_254",
+      "dateStr": "28/09/2025",
+      "isoDate": "2025-09-28",
+      "timeStr": "08:49",
+      "author": "Jaqueline Sotilo",
+      "text": "Hoje",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_255",
+      "dateStr": "28/09/2025",
+      "isoDate": "2025-09-28",
+      "timeStr": "12:18",
+      "author": "Jaqueline Sotilo",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_256",
+      "dateStr": "28/09/2025",
+      "isoDate": "2025-09-28",
+      "timeStr": "12:18",
+      "author": "Jaqueline Sotilo",
+      "text": "Venha conversar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_257",
+      "dateStr": "28/09/2025",
+      "isoDate": "2025-09-28",
+      "timeStr": "12:21",
+      "author": "Etibio Faria",
+      "text": "Oi jak cheguei agora em indai vou dar um volta e passo aí tá bom",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_258",
+      "dateStr": "28/09/2025",
+      "isoDate": "2025-09-28",
+      "timeStr": "12:25",
+      "author": "Jaqueline Sotilo",
+      "text": "Ok",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_259",
+      "dateStr": "21/10/2025",
+      "isoDate": "2025-10-21",
+      "timeStr": "18:33",
+      "author": "Jaqueline Sotilo",
+      "text": "PTT-20251021-WA0001.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20251021-WA0001.opus"
+    },
+    {
+      "id": "m_260",
+      "dateStr": "21/10/2025",
+      "isoDate": "2025-10-21",
+      "timeStr": "18:34",
+      "author": "Jaqueline Sotilo",
+      "text": "PTT-20251021-WA0002.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20251021-WA0002.opus"
+    },
+    {
+      "id": "m_261",
+      "dateStr": "21/10/2025",
+      "isoDate": "2025-10-21",
+      "timeStr": "18:35",
+      "author": "Jaqueline Sotilo",
+      "text": "Domingo estaremos juntos.",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_262",
+      "dateStr": "21/10/2025",
+      "isoDate": "2025-10-21",
+      "timeStr": "18:39",
+      "author": "Etibio Faria",
+      "text": "Obrigado às duas o k dezejar ammim será em dobro pra vocês",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_263",
+      "dateStr": "27/10/2025",
+      "isoDate": "2025-10-27",
+      "timeStr": "11:56",
+      "author": "Jaqueline Sotilo",
+      "text": "IMG-20251027-WA0000.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20251027-WA0000.jpg"
+    },
+    {
+      "id": "m_264",
+      "dateStr": "27/10/2025",
+      "isoDate": "2025-10-27",
+      "timeStr": "11:59",
+      "author": "Etibio Faria",
+      "text": "Oi jak obrigado por esse momento que ficará na história",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_265",
+      "dateStr": "27/10/2025",
+      "isoDate": "2025-10-27",
+      "timeStr": "13:00",
+      "author": "Jaqueline Sotilo",
+      "text": "A vida é feita de momentos",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_266",
+      "dateStr": "27/10/2025",
+      "isoDate": "2025-10-27",
+      "timeStr": "20:47",
+      "author": "Etibio Faria",
+      "text": "Gostei de sse momento",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_267",
+      "dateStr": "27/10/2025",
+      "isoDate": "2025-10-27",
+      "timeStr": "20:47",
+      "author": "Etibio Faria",
+      "text": "Eita que massa\n",
+      "isSystem": false,
+      "attachment": null
+    }
+  ],
+  "mediaFiles": [
+    "Toninho Protético.vcf",
+    "PTT-20231124-WA0002.opus",
+    "PTT-20231222-WA0001.opus",
+    "STK-20231222-WA0002.webp",
+    "PTT-20240212-WA0001.opus",
+    "PTT-20240302-WA0004.opus",
+    "VID-20240331-WA0000.mp4",
+    "IMG-20240811-WA0003.jpg",
+    "PTT-20241221-WA0004.opus",
+    "PTT-20250303-WA0000.opus",
+    "IMG-20250410-WA0000.jpg",
+    "IMG-20250411-WA0002.jpg",
+    "IMG-20250411-WA0003.jpg",
+    "VID-20250412-WA0004.mp4",
+    "IMG-20250414-WA0002.jpg",
+    "IMG-20250501-WA0000.jpg",
+    "PTT-20251021-WA0001.opus",
+    "PTT-20251021-WA0002.opus",
+    "IMG-20251027-WA0000.jpg",
+    "Protético.vcf"
+  ],
+  "mediaDataUrls": {
+    "Toninho Protético.vcf": "./conversas/jaqueline-sotilo/Toninho%20Prot%C3%A9tico.vcf",
+    "PTT-20231124-WA0002.opus": "./conversas/jaqueline-sotilo/PTT-20231124-WA0002.opus",
+    "PTT-20231222-WA0001.opus": "./conversas/jaqueline-sotilo/PTT-20231222-WA0001.opus",
+    "STK-20231222-WA0002.webp": "./conversas/jaqueline-sotilo/STK-20231222-WA0002.webp",
+    "PTT-20240212-WA0001.opus": "./conversas/jaqueline-sotilo/PTT-20240212-WA0001.opus",
+    "PTT-20240302-WA0004.opus": "./conversas/jaqueline-sotilo/PTT-20240302-WA0004.opus",
+    "VID-20240331-WA0000.mp4": "./conversas/jaqueline-sotilo/VID-20240331-WA0000.mp4",
+    "IMG-20240811-WA0003.jpg": "./conversas/jaqueline-sotilo/IMG-20240811-WA0003.jpg",
+    "PTT-20241221-WA0004.opus": "./conversas/jaqueline-sotilo/PTT-20241221-WA0004.opus",
+    "PTT-20250303-WA0000.opus": "./conversas/jaqueline-sotilo/PTT-20250303-WA0000.opus",
+    "IMG-20250410-WA0000.jpg": "./conversas/jaqueline-sotilo/IMG-20250410-WA0000.jpg",
+    "IMG-20250411-WA0002.jpg": "./conversas/jaqueline-sotilo/IMG-20250411-WA0002.jpg",
+    "IMG-20250411-WA0003.jpg": "./conversas/jaqueline-sotilo/IMG-20250411-WA0003.jpg",
+    "VID-20250412-WA0004.mp4": "./conversas/jaqueline-sotilo/VID-20250412-WA0004.mp4",
+    "IMG-20250414-WA0002.jpg": "./conversas/jaqueline-sotilo/IMG-20250414-WA0002.jpg",
+    "IMG-20250501-WA0000.jpg": "./conversas/jaqueline-sotilo/IMG-20250501-WA0000.jpg",
+    "PTT-20251021-WA0001.opus": "./conversas/jaqueline-sotilo/PTT-20251021-WA0001.opus",
+    "PTT-20251021-WA0002.opus": "./conversas/jaqueline-sotilo/PTT-20251021-WA0002.opus",
+    "IMG-20251027-WA0000.jpg": "./conversas/jaqueline-sotilo/IMG-20251027-WA0000.jpg",
+    "Protético.vcf": "./conversas/jaqueline-sotilo/Prot%C3%A9tico.vcf"
+  }
+}
