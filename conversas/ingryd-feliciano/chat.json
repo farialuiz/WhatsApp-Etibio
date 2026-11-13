@@ -1,0 +1,1041 @@
+{
+  "id": "chat_1794591087685_yrdv",
+  "title": "Ingryd Feliciano",
+  "folderSlug": "ingryd-feliciano",
+  "phoneNote": "",
+  "pinned": false,
+  "pinnedAt": 0,
+  "avatarDataUrl": null,
+  "createdAt": 1794591087689,
+  "participants": [
+    "Ingryd Feliciano",
+    "Etibio Faria"
+  ],
+  "myUser": "Etibio Faria",
+  "messages": [
+    {
+      "id": "m_0",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "10:38",
+      "author": null,
+      "text": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. *Saiba mais*",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_1",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "10:38",
+      "author": null,
+      "text": "Ingryd Feliciano está na sua lista de contatos",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_2",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "10:38",
+      "author": "Ingryd Feliciano",
+      "text": "Bom dia . Tudo bem ? \nMeu nome é Ingryd . A Léia passou o contato do senhor e me indicou , referente a uma casa na vital Brasil",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_4",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:22",
+      "author": "Etibio Faria",
+      "text": "Oi Ingrid é rua pau Brasil n 192 parte de baixo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_5",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:23",
+      "author": "Ingryd Feliciano",
+      "text": "Qual seria o valor , meio de locação ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_6",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:23",
+      "author": "Ingryd Feliciano",
+      "text": "Teria fotos ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_7",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:24",
+      "author": "Etibio Faria",
+      "text": "Perto do rua do tino apelido do bairro",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_8",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:26",
+      "author": "Ingryd Feliciano",
+      "text": "Qual seria o valor ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_9",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:28",
+      "author": "Etibio Faria",
+      "text": "900 s teria que ver",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_10",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:30",
+      "author": "Ingryd Feliciano",
+      "text": "O senhor tá pedindo caução como e a forma de locação ?.",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_11",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:31",
+      "author": "Ingryd Feliciano",
+      "text": "Quanto a ver consigo de final de semana se possível",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_12",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:42",
+      "author": "Etibio Faria",
+      "text": "É possível",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_13",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:43",
+      "author": "Etibio Faria",
+      "text": "Diga a hora que t espero",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_14",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:44",
+      "author": "Ingryd Feliciano",
+      "text": "Se for possível na semana na parte da amanhã também , aí dou um jeito de ir também",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_15",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:44",
+      "author": "Ingryd Feliciano",
+      "text": "O senhor mora perto ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_16",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:44",
+      "author": "Etibio Faria",
+      "text": "A 500mts",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_17",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:45",
+      "author": "Etibio Faria",
+      "text": "S der m liga",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_18",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:46",
+      "author": "Ingryd Feliciano",
+      "text": "Amanhã ligo na parte da manhã pro senhor",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_19",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:46",
+      "author": "Ingryd Feliciano",
+      "text": "O senhor tá pedindo caução ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_20",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:47",
+      "author": "Ingryd Feliciano",
+      "text": "Estou procurando com urgência",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_21",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:49",
+      "author": "Etibio Faria",
+      "text": "Veja aí se conversa com urgência sei não",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_22",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:50",
+      "author": "Etibio Faria",
+      "text": "Antes veja",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_23",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:53",
+      "author": "Ingryd Feliciano",
+      "text": "Certo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_24",
+      "dateStr": "13/10/2025",
+      "isoDate": "2025-10-13",
+      "timeStr": "19:53",
+      "author": "Ingryd Feliciano",
+      "text": "Pode ser para quarta feira ? Na parte da manhã ? Uma 7:30/8:00?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_25",
+      "dateStr": "14/10/2025",
+      "isoDate": "2025-10-14",
+      "timeStr": "08:44",
+      "author": "Ingryd Feliciano",
+      "text": "Bom dia tudo bem ? \nO senhor tem disponibilidade para poder ir ver a casa na quinta feira ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_27",
+      "dateStr": "14/10/2025",
+      "isoDate": "2025-10-14",
+      "timeStr": "09:12",
+      "author": "Etibio Faria",
+      "text": "S tiver vivo sim",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_28",
+      "dateStr": "14/10/2025",
+      "isoDate": "2025-10-14",
+      "timeStr": "09:37",
+      "author": "Ingryd Feliciano",
+      "text": "Tá certo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_29",
+      "dateStr": "14/10/2025",
+      "isoDate": "2025-10-14",
+      "timeStr": "21:53",
+      "author": "Etibio Faria",
+      "text": "Ui",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_30",
+      "dateStr": "14/10/2025",
+      "isoDate": "2025-10-14",
+      "timeStr": "21:55",
+      "author": "Ingryd Feliciano",
+      "text": "Olá , boa noite",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_31",
+      "dateStr": "14/10/2025",
+      "isoDate": "2025-10-14",
+      "timeStr": "21:55",
+      "author": "Ingryd Feliciano",
+      "text": "Na quinta feira às 7:30 posso ir ver a casa ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_32",
+      "dateStr": "14/10/2025",
+      "isoDate": "2025-10-14",
+      "timeStr": "21:56",
+      "author": "Etibio Faria",
+      "text": "Você tem que ligar pra mim posso te dormindo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_33",
+      "dateStr": "14/10/2025",
+      "isoDate": "2025-10-14",
+      "timeStr": "22:00",
+      "author": "Ingryd Feliciano",
+      "text": "Ligo pro senhor cedo antes de ir",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_34",
+      "dateStr": "14/10/2025",
+      "isoDate": "2025-10-14",
+      "timeStr": "22:00",
+      "author": "Ingryd Feliciano",
+      "text": "Pode ser ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_35",
+      "dateStr": "15/10/2025",
+      "isoDate": "2025-10-15",
+      "timeStr": "16:02",
+      "author": "Ingryd Feliciano",
+      "text": "Olá boa tarde tudo bem ? \nAmanhã antes de ir eu ligo pro senhor tá bom ? \nVou lá pras 7:30 o horário que vou deixar minha filha na escola",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_38",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "06:24",
+      "author": "Ingryd Feliciano",
+      "text": "Olá bom dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_39",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "07:01",
+      "author": "Ingryd Feliciano",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_40",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "07:02",
+      "author": "Ingryd Feliciano",
+      "text": "Bom dia seu Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_41",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "07:03",
+      "author": "Ingryd Feliciano",
+      "text": "Tudo bem ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_42",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "07:05",
+      "author": "Etibio Faria",
+      "text": "Bom dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_43",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "07:05",
+      "author": "Ingryd Feliciano",
+      "text": "Já estou a caminho",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_44",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "07:05",
+      "author": "Ingryd Feliciano",
+      "text": "Me confirma o endereço por gentileza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_45",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "07:06",
+      "author": "Ingryd Feliciano",
+      "text": "E rua pau Brasil 192 ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_46",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "07:06",
+      "author": "Etibio Faria",
+      "text": "Isso",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_47",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "07:06",
+      "author": "Ingryd Feliciano",
+      "text": "Certo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_48",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "07:06",
+      "author": "Ingryd Feliciano",
+      "text": "Já estou a caminho",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_49",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "07:06",
+      "author": "Etibio Faria",
+      "text": "Beleza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_50",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "07:17",
+      "author": "Ingryd Feliciano",
+      "text": "Cheguei",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_51",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "07:17",
+      "author": "Etibio Faria",
+      "text": "%|^ tô aqui",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_52",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "07:17",
+      "author": "Ingryd Feliciano",
+      "text": "Manda foto da frente",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_53",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "07:18",
+      "author": "Ingryd Feliciano",
+      "text": "Por favor",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_54",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "07:18",
+      "author": "Ingryd Feliciano",
+      "text": "O mapa me jogou no lugar errado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_55",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "07:21",
+      "author": "Ingryd Feliciano",
+      "text": "E uma casa de portão preto ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_56",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "14:11",
+      "author": "Ingryd Feliciano",
+      "text": "Boa tarde senhor Etibio . Seria possível ir ver a casa novamente amanhã cedo ? \nAí no caso vou com meu marido",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_58",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "18:49",
+      "author": "Etibio Faria",
+      "text": "Pode",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_59",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "18:57",
+      "author": "Ingryd Feliciano",
+      "text": "Qual horário seria melhor pro senhor ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_60",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "18:59",
+      "author": "Etibio Faria",
+      "text": "8h pra frente",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_61",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "18:59",
+      "author": "Ingryd Feliciano",
+      "text": "Tá ok",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_62",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "18:59",
+      "author": "Ingryd Feliciano",
+      "text": "Mando mensagem pro senhor antes de irmos",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_63",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "18:59",
+      "author": "Etibio Faria",
+      "text": "Beleza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_64",
+      "dateStr": "17/10/2025",
+      "isoDate": "2025-10-17",
+      "timeStr": "06:56",
+      "author": "Etibio Faria",
+      "text": "Acordei cedo vou deixar aberto venha a hora que quiser",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_65",
+      "dateStr": "17/10/2025",
+      "isoDate": "2025-10-17",
+      "timeStr": "07:08",
+      "author": "Ingryd Feliciano",
+      "text": "Bom dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_66",
+      "dateStr": "17/10/2025",
+      "isoDate": "2025-10-17",
+      "timeStr": "07:09",
+      "author": "Ingryd Feliciano",
+      "text": "Tá bom . Hoje vamos um pouco mais tarde",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_67",
+      "dateStr": "17/10/2025",
+      "isoDate": "2025-10-17",
+      "timeStr": "07:11",
+      "author": "Etibio Faria",
+      "text": "Certo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_68",
+      "dateStr": "17/10/2025",
+      "isoDate": "2025-10-17",
+      "timeStr": "08:27",
+      "author": "Ingryd Feliciano",
+      "text": "Senhor Etibio, meu marido vai descer lá de bicicleta pra ver tá bom ? \nHoje meu irmão não conseguiu me levar . \nAí ele vai de bicicleta aí pra ver a casa tá bom ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_71",
+      "dateStr": "17/10/2025",
+      "isoDate": "2025-10-17",
+      "timeStr": "08:29",
+      "author": "Etibio Faria",
+      "text": "Beleza tá aberto o portão tá só com o trinco sem cadeado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_72",
+      "dateStr": "17/10/2025",
+      "isoDate": "2025-10-17",
+      "timeStr": "08:30",
+      "author": "Ingryd Feliciano",
+      "text": "Tá bom",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_73",
+      "dateStr": "17/10/2025",
+      "isoDate": "2025-10-17",
+      "timeStr": "08:31",
+      "author": "Etibio Faria",
+      "text": "Tá",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_74",
+      "dateStr": "17/10/2025",
+      "isoDate": "2025-10-17",
+      "timeStr": "17:01",
+      "author": "Ingryd Feliciano",
+      "text": "Boa tarde seu Etibio. Tudo bem ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_75",
+      "dateStr": "17/10/2025",
+      "isoDate": "2025-10-17",
+      "timeStr": "17:01",
+      "author": "Ingryd Feliciano",
+      "text": "Meu marido foi lá na casa . Acredito que vamos ficar sim .",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_76",
+      "dateStr": "17/10/2025",
+      "isoDate": "2025-10-17",
+      "timeStr": "18:12",
+      "author": "Etibio Faria",
+      "text": "Legal a gente vai se falando",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_77",
+      "dateStr": "21/10/2025",
+      "isoDate": "2025-10-21",
+      "timeStr": "15:11",
+      "author": "Ingryd Feliciano",
+      "text": "Boa tarde seu Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_78",
+      "dateStr": "21/10/2025",
+      "isoDate": "2025-10-21",
+      "timeStr": "15:11",
+      "author": "Ingryd Feliciano",
+      "text": "Tudo bem ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_79",
+      "dateStr": "21/10/2025",
+      "isoDate": "2025-10-21",
+      "timeStr": "18:40",
+      "author": "Etibio Faria",
+      "text": "Tudo bem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_80",
+      "dateStr": "09/11/2025",
+      "isoDate": "2025-11-09",
+      "timeStr": "11:46",
+      "author": "Ingryd Feliciano",
+      "text": "Bom dia seu Etibio tudo bem ? \nAmanhã cedo consigo ir lá na casa ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_82",
+      "dateStr": "09/11/2025",
+      "isoDate": "2025-11-09",
+      "timeStr": "17:40",
+      "author": "Ingryd Feliciano",
+      "text": "Boa tarde seu Etibio tudo bem ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_83",
+      "dateStr": "10/11/2025",
+      "isoDate": "2025-11-10",
+      "timeStr": "07:41",
+      "author": "Ingryd Feliciano",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_84",
+      "dateStr": "10/11/2025",
+      "isoDate": "2025-11-10",
+      "timeStr": "12:59",
+      "author": "Ingryd Feliciano",
+      "text": "PTT-20251110-WA0000.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20251110-WA0000.opus"
+    },
+    {
+      "id": "m_85",
+      "dateStr": "10/11/2025",
+      "isoDate": "2025-11-10",
+      "timeStr": "13:30",
+      "author": "Ingryd Feliciano",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_86",
+      "dateStr": "14/11/2025",
+      "isoDate": "2025-11-14",
+      "timeStr": "09:40",
+      "author": "Ingryd Feliciano",
+      "text": "Bom dia seu Etibio tudo bem ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_87",
+      "dateStr": "14/11/2025",
+      "isoDate": "2025-11-14",
+      "timeStr": "09:40",
+      "author": "Ingryd Feliciano",
+      "text": "Seu Etibio , a energia lá da casa e 110?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_88",
+      "dateStr": "14/11/2025",
+      "isoDate": "2025-11-14",
+      "timeStr": "16:16",
+      "author": "Etibio Faria",
+      "text": "Oi IF a energia é 110 e 220",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_89",
+      "dateStr": "14/11/2025",
+      "isoDate": "2025-11-14",
+      "timeStr": "16:20",
+      "author": "Ingryd Feliciano",
+      "text": "Ah então tá bom . Por que nossos móveis e tudo 110",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_90",
+      "dateStr": "14/11/2025",
+      "isoDate": "2025-11-14",
+      "timeStr": "16:21",
+      "author": "Etibio Faria",
+      "text": "Beleza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_91",
+      "dateStr": "17/11/2025",
+      "isoDate": "2025-11-17",
+      "timeStr": "12:29",
+      "author": "Ingryd Feliciano",
+      "text": "Boa tarde seu Etibio tudo bem com o senhor ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_92",
+      "dateStr": "17/11/2025",
+      "isoDate": "2025-11-17",
+      "timeStr": "12:30",
+      "author": "Ingryd Feliciano",
+      "text": "Seu Etibio, seria possível que nós conseguimos mudar no sábado dia 29? \nNo domingo o condomínio onde estou não permite mudança , e na segunda feira dia 1 meu marido trabalha . Queria aproveitar o maridão pra não precisar pagar ajudante kkkk",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_94",
+      "dateStr": "17/11/2025",
+      "isoDate": "2025-11-17",
+      "timeStr": "12:34",
+      "author": "Etibio Faria",
+      "text": "Oi não sei não tem muita coisa pra fazer se vc quiser vir ver não tá fácil",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_95",
+      "dateStr": "17/11/2025",
+      "isoDate": "2025-11-17",
+      "timeStr": "12:36",
+      "author": "Ingryd Feliciano",
+      "text": "O que está faltando fazer ? O senhor precisa de ajuda ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_96",
+      "dateStr": "17/11/2025",
+      "isoDate": "2025-11-17",
+      "timeStr": "12:38",
+      "author": "Etibio Faria",
+      "text": "Só vendo pra entender",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_97",
+      "dateStr": "17/11/2025",
+      "isoDate": "2025-11-17",
+      "timeStr": "12:39",
+      "author": "Ingryd Feliciano",
+      "text": "O senhor está na casa ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_98",
+      "dateStr": "17/11/2025",
+      "isoDate": "2025-11-17",
+      "timeStr": "13:09",
+      "author": "Ingryd Feliciano",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_99",
+      "dateStr": "18/11/2025",
+      "isoDate": "2025-11-18",
+      "timeStr": "07:50",
+      "author": "Ingryd Feliciano",
+      "text": "PTT-20251118-WA0000.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20251118-WA0000.opus"
+    },
+    {
+      "id": "m_100",
+      "dateStr": "24/11/2025",
+      "isoDate": "2025-11-24",
+      "timeStr": "09:29",
+      "author": "Ingryd Feliciano",
+      "text": "Bom dia Sr Etibio tudo bem ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_101",
+      "dateStr": "25/11/2025",
+      "isoDate": "2025-11-25",
+      "timeStr": "11:54",
+      "author": "Ingryd Feliciano",
+      "text": "Bom dia Sr Etibio tudo bem ? \nAmanhã cedo podemos passar aí na casa ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_103",
+      "dateStr": "29/11/2025",
+      "isoDate": "2025-11-29",
+      "timeStr": "09:20",
+      "author": "Ingryd Feliciano",
+      "text": "Bom dia senhor Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_104",
+      "dateStr": "29/11/2025",
+      "isoDate": "2025-11-29",
+      "timeStr": "09:26",
+      "author": "Etibio Faria",
+      "text": "Bom dia Ingrid",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_105",
+      "dateStr": "29/11/2025",
+      "isoDate": "2025-11-29",
+      "timeStr": "09:29",
+      "author": "Etibio Faria",
+      "text": "Tá tudo aberto às chaves tá na porta",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_106",
+      "dateStr": "29/11/2025",
+      "isoDate": "2025-11-29",
+      "timeStr": "09:30",
+      "author": "Ingryd Feliciano",
+      "text": "Tá bom . Gratidão 🙏🏻",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_107",
+      "dateStr": "03/12/2025",
+      "isoDate": "2025-12-03",
+      "timeStr": "09:27",
+      "author": "Ingryd Feliciano",
+      "text": "PTT-20251203-WA0000.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20251203-WA0000.opus"
+    },
+    {
+      "id": "m_108",
+      "dateStr": "04/12/2025",
+      "isoDate": "2025-12-04",
+      "timeStr": "13:13",
+      "author": "Etibio Faria",
+      "text": "Oki",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_109",
+      "dateStr": "04/12/2025",
+      "isoDate": "2025-12-04",
+      "timeStr": "13:14",
+      "author": "Ingryd Feliciano",
+      "text": "PTT-20251204-WA0001.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20251204-WA0001.opus"
+    },
+    {
+      "id": "m_110",
+      "dateStr": "04/12/2025",
+      "isoDate": "2025-12-04",
+      "timeStr": "15:56",
+      "author": "Ingryd Feliciano",
+      "text": "IMG-20251204-WA0002.jpg (arquivo anexado)\n",
+      "isSystem": false,
+      "attachment": "IMG-20251204-WA0002.jpg"
+    }
+  ],
+  "mediaFiles": [
+    "PTT-20251110-WA0000.opus",
+    "PTT-20251118-WA0000.opus",
+    "PTT-20251203-WA0000.opus",
+    "PTT-20251204-WA0001.opus",
+    "IMG-20251204-WA0002.jpg"
+  ],
+  "mediaDataUrls": {
+    "PTT-20251110-WA0000.opus": "./conversas/ingryd-feliciano/PTT-20251110-WA0000.opus",
+    "PTT-20251118-WA0000.opus": "./conversas/ingryd-feliciano/PTT-20251118-WA0000.opus",
+    "PTT-20251203-WA0000.opus": "./conversas/ingryd-feliciano/PTT-20251203-WA0000.opus",
+    "PTT-20251204-WA0001.opus": "./conversas/ingryd-feliciano/PTT-20251204-WA0001.opus",
+    "IMG-20251204-WA0002.jpg": "./conversas/ingryd-feliciano/IMG-20251204-WA0002.jpg"
+  }
+}
