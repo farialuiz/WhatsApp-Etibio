@@ -1,0 +1,79 @@
+{
+  "id": "chat_1794593378974_0ioj",
+  "title": "Carlos",
+  "folderSlug": "carlos",
+  "phoneNote": "",
+  "pinned": false,
+  "pinnedAt": 0,
+  "avatarDataUrl": null,
+  "createdAt": 1794593378974,
+  "participants": [
+    "Carlos",
+    "Etibio Faria"
+  ],
+  "myUser": "Etibio Faria",
+  "messages": [
+    {
+      "id": "m_0",
+      "dateStr": "08/10/2024",
+      "isoDate": "2024-10-08",
+      "timeStr": "20:49",
+      "author": null,
+      "text": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. *Saiba mais*",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_1",
+      "dateStr": "08/10/2024",
+      "isoDate": "2024-10-08",
+      "timeStr": "20:49",
+      "author": null,
+      "text": "Carlos está na sua lista de contatos",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_2",
+      "dateStr": "08/10/2024",
+      "isoDate": "2024-10-08",
+      "timeStr": "20:49",
+      "author": "Carlos",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_3",
+      "dateStr": "09/10/2024",
+      "isoDate": "2024-10-09",
+      "timeStr": "17:18",
+      "author": "Etibio Faria",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_4",
+      "dateStr": "09/10/2024",
+      "isoDate": "2024-10-09",
+      "timeStr": "17:39",
+      "author": "Carlos",
+      "text": "como seria o pagamento? contrato de 12 meses com um mês de calção?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_5",
+      "dateStr": "09/10/2024",
+      "isoDate": "2024-10-09",
+      "timeStr": "17:42",
+      "author": "Etibio Faria",
+      "text": "Isso mesmo faz um contrato você manda cópia do seu documento e só\n",
+      "isSystem": false,
+      "attachment": null
+    }
+  ],
+  "mediaFiles": [],
+  "mediaDataUrls": {}
+}

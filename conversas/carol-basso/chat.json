@@ -1,0 +1,2079 @@
+{
+  "id": "chat_1794591087481_zkk9",
+  "title": "Carol Basso",
+  "folderSlug": "carol-basso",
+  "phoneNote": "",
+  "pinned": false,
+  "pinnedAt": 0,
+  "avatarDataUrl": "data:image/jpeg;base64,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",
+  "createdAt": 1794591087491,
+  "participants": [
+    "Etibio Faria",
+    "Carol Basso"
+  ],
+  "myUser": "Etibio Faria",
+  "messages": [
+    {
+      "id": "m_0",
+      "dateStr": "13/03/2022",
+      "isoDate": "2022-03-13",
+      "timeStr": "21:08",
+      "author": null,
+      "text": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. *Saiba mais*",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_1",
+      "dateStr": "13/03/2022",
+      "isoDate": "2022-03-13",
+      "timeStr": "21:08",
+      "author": "Etibio Faria",
+      "text": "Oi",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_2",
+      "dateStr": "08/04/2022",
+      "isoDate": "2022-04-08",
+      "timeStr": "19:40",
+      "author": "Carol Basso",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_3",
+      "dateStr": "08/04/2022",
+      "isoDate": "2022-04-08",
+      "timeStr": "19:43",
+      "author": "Carol Basso",
+      "text": "Trazer somente bebidas alcoólicas pra quem beber claro",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_4",
+      "dateStr": "14/07/2022",
+      "isoDate": "2022-07-14",
+      "timeStr": "13:44",
+      "author": "Etibio Faria",
+      "text": "Loja é rua Bruxelas",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_5",
+      "dateStr": "14/07/2022",
+      "isoDate": "2022-07-14",
+      "timeStr": "16:58",
+      "author": "Carol Basso",
+      "text": "PTT-20220714-WA0000.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20220714-WA0000.opus"
+    },
+    {
+      "id": "m_6",
+      "dateStr": "26/07/2022",
+      "isoDate": "2022-07-26",
+      "timeStr": "21:11",
+      "author": "Carol Basso",
+      "text": "Hoje é dia doa avós parabéns vô 😁",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_7",
+      "dateStr": "27/07/2022",
+      "isoDate": "2022-07-27",
+      "timeStr": "22:03",
+      "author": "Etibio Faria",
+      "text": "Verdade  obrigado por me lembrar amo vc",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_8",
+      "dateStr": "26/11/2022",
+      "isoDate": "2022-11-26",
+      "timeStr": "17:44",
+      "author": "Carol Basso",
+      "text": "Oi vô como ta as coisas por ai",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_9",
+      "dateStr": "29/11/2022",
+      "isoDate": "2022-11-29",
+      "timeStr": "20:52",
+      "author": "Etibio Faria",
+      "text": "Oi Carol tudo bem sim e com vcs aí tudo certo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_10",
+      "dateStr": "30/11/2022",
+      "isoDate": "2022-11-30",
+      "timeStr": "08:05",
+      "author": "Carol Basso",
+      "text": "Ta tudo bem também 🙏🏻🙏🏻🙏🏻",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_11",
+      "dateStr": "05/01/2023",
+      "isoDate": "2023-01-05",
+      "timeStr": "10:05",
+      "author": "Carol Basso",
+      "text": "Oi vô como ta as coisas por ai",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_12",
+      "dateStr": "05/01/2023",
+      "isoDate": "2023-01-05",
+      "timeStr": "10:05",
+      "author": "Carol Basso",
+      "text": "Não veio pra ca ano novo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_13",
+      "dateStr": "05/01/2023",
+      "isoDate": "2023-01-05",
+      "timeStr": "10:05",
+      "author": "Carol Basso",
+      "text": "Feliz ano novo que esse ano seja cheio de saúde e bênçãos",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_14",
+      "dateStr": "09/01/2023",
+      "isoDate": "2023-01-09",
+      "timeStr": "19:26",
+      "author": "Etibio Faria",
+      "text": "É fikei por mesmo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_15",
+      "dateStr": "09/01/2023",
+      "isoDate": "2023-01-09",
+      "timeStr": "19:28",
+      "author": "Etibio Faria",
+      "text": "Prá vcs também feliz ano novo\nTudo de certo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_17",
+      "dateStr": "10/01/2023",
+      "isoDate": "2023-01-10",
+      "timeStr": "09:12",
+      "author": "Carol Basso",
+      "text": "Amém vô",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_18",
+      "dateStr": "24/01/2023",
+      "isoDate": "2023-01-24",
+      "timeStr": "16:38",
+      "author": "Carol Basso",
+      "text": "<Mídia oculta>\nImportante:  -crianças 👶até 5 anos não pagam  -Crianças de 6 a 10 anos 👧🏼👦🏻valor de 16,00 -A partir de 11 anos valor normal (31,00) *O rodízio são 4 horas e começara 12:30 🍕🍕🍕 *comprarei os refrigerantes 🥤porém não comprarei bebida alcoólica mas podem levar quem quiser * possui piscina 🏊‍♂️👙 * contratei um brinquedo inflável porém não teremos monitor  Obrigada mamãe 🤭",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_20",
+      "dateStr": "24/01/2023",
+      "isoDate": "2023-01-24",
+      "timeStr": "16:39",
+      "author": "Carol Basso",
+      "text": "estou mandando convite antecipado assim conseguem se programar pra irem e fica mais fácil com os valores 😘😘",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_21",
+      "dateStr": "02/02/2023",
+      "isoDate": "2023-02-02",
+      "timeStr": "14:44",
+      "author": "Etibio Faria",
+      "text": "Eu vou",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_22",
+      "dateStr": "10/04/2023",
+      "isoDate": "2023-04-10",
+      "timeStr": "19:47",
+      "author": "Carol Basso",
+      "text": "Oiiii tudo bem ? Passando só para lembrar do niver de soso",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_23",
+      "dateStr": "10/04/2023",
+      "isoDate": "2023-04-10",
+      "timeStr": "19:48",
+      "author": "Carol Basso",
+      "text": "<Mídia oculta>\nImportante:  -crianças 👶até 5 anos não pagam  -Crianças de 6 a 10 anos 👧🏼👦🏻valor de 16,00 -A partir de 11 anos valor normal (31,00) *O rodízio são 4 horas e começara 12:30 🍕🍕🍕 *comprarei os refrigerantes 🥤porém não comprarei bebida alcoólica mas podem levar quem quiser * possui piscina 🏊‍♂️👙 * contratei um brinquedo inflável porém não teremos monitor  Obrigada mamãe 🤭",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_25",
+      "dateStr": "20/04/2023",
+      "isoDate": "2023-04-20",
+      "timeStr": "10:46",
+      "author": "Carol Basso",
+      "text": "Oi vô",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_26",
+      "dateStr": "20/04/2023",
+      "isoDate": "2023-04-20",
+      "timeStr": "10:46",
+      "author": "Carol Basso",
+      "text": "Como o senhor ta ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_27",
+      "dateStr": "06/05/2023",
+      "isoDate": "2023-05-06",
+      "timeStr": "13:27",
+      "author": "Carol Basso",
+      "text": "Oi vô tdo bem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_28",
+      "dateStr": "06/05/2023",
+      "isoDate": "2023-05-06",
+      "timeStr": "13:27",
+      "author": "Carol Basso",
+      "text": "Viu por um acaso vc tem pia de cozinha aí sobrando lá em baixo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_29",
+      "dateStr": "06/05/2023",
+      "isoDate": "2023-05-06",
+      "timeStr": "13:28",
+      "author": "Carol Basso",
+      "text": "Não precisa ser bonita",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_30",
+      "dateStr": "09/05/2023",
+      "isoDate": "2023-05-09",
+      "timeStr": "10:15",
+      "author": "Etibio Faria",
+      "text": "Tem sim vou levar aí",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_31",
+      "dateStr": "02/06/2023",
+      "isoDate": "2023-06-02",
+      "timeStr": "11:45",
+      "author": "Carol Basso",
+      "text": "Olaaa pessoal \nSábado dia 10 aniversário do Feh em casa 14h faremos uma costela de chão… levar kit churrasco(pode ser fgo porco ou linguiça como faremos a costela) cerveja e refri",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_33",
+      "dateStr": "08/06/2023",
+      "isoDate": "2023-06-08",
+      "timeStr": "16:33",
+      "author": "Etibio Faria",
+      "text": "Combinado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_34",
+      "dateStr": "27/06/2023",
+      "isoDate": "2023-06-27",
+      "timeStr": "07:29",
+      "author": "Carol Basso",
+      "text": "Bom dia vô como você está?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_35",
+      "dateStr": "27/06/2023",
+      "isoDate": "2023-06-27",
+      "timeStr": "14:12",
+      "author": "Etibio Faria",
+      "text": "Tudo bem e com vcs tudo bem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_36",
+      "dateStr": "27/06/2023",
+      "isoDate": "2023-06-27",
+      "timeStr": "16:13",
+      "author": "Carol Basso",
+      "text": "To bem vô",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_37",
+      "dateStr": "27/06/2023",
+      "isoDate": "2023-06-27",
+      "timeStr": "16:13",
+      "author": "Carol Basso",
+      "text": "🙏🏻🙏🏻🙏🏻",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_38",
+      "dateStr": "27/06/2023",
+      "isoDate": "2023-06-27",
+      "timeStr": "17:07",
+      "author": "Etibio Faria",
+      "text": "Beleza então",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_39",
+      "dateStr": "15/07/2023",
+      "isoDate": "2023-07-15",
+      "timeStr": "10:26",
+      "author": "Carol Basso",
+      "text": "Bom dia vô",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_40",
+      "dateStr": "15/07/2023",
+      "isoDate": "2023-07-15",
+      "timeStr": "10:26",
+      "author": "Carol Basso",
+      "text": "Tudo bem ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_41",
+      "dateStr": "15/07/2023",
+      "isoDate": "2023-07-15",
+      "timeStr": "10:28",
+      "author": "Etibio Faria",
+      "text": "Bom dia Carol  tudo bem sim e com vcs",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_42",
+      "dateStr": "15/07/2023",
+      "isoDate": "2023-07-15",
+      "timeStr": "10:42",
+      "author": "Carol Basso",
+      "text": "Tdo bem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_43",
+      "dateStr": "15/07/2023",
+      "isoDate": "2023-07-15",
+      "timeStr": "10:42",
+      "author": "Carol Basso",
+      "text": "Vou assar uma carninha as 16h em casa",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_44",
+      "dateStr": "15/07/2023",
+      "isoDate": "2023-07-15",
+      "timeStr": "10:44",
+      "author": "Etibio Faria",
+      "text": "Muito bom mesmo talvez eu passo aí",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_45",
+      "dateStr": "07/09/2023",
+      "isoDate": "2023-09-07",
+      "timeStr": "12:30",
+      "author": "Carol Basso",
+      "text": "Boa tarde",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_46",
+      "dateStr": "07/09/2023",
+      "isoDate": "2023-09-07",
+      "timeStr": "12:30",
+      "author": "Carol Basso",
+      "text": "Tdo bem ai?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_47",
+      "dateStr": "07/09/2023",
+      "isoDate": "2023-09-07",
+      "timeStr": "19:42",
+      "author": "Etibio Faria",
+      "text": "Tudo bem não ouvi o recado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_48",
+      "dateStr": "07/09/2023",
+      "isoDate": "2023-09-07",
+      "timeStr": "19:43",
+      "author": "Carol Basso",
+      "text": "Vem aqui um pouco",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_49",
+      "dateStr": "07/09/2023",
+      "isoDate": "2023-09-07",
+      "timeStr": "19:43",
+      "author": "Carol Basso",
+      "text": "Agora",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_50",
+      "dateStr": "07/09/2023",
+      "isoDate": "2023-09-07",
+      "timeStr": "19:43",
+      "author": "Carol Basso",
+      "text": "Não precisa trazenda",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_51",
+      "dateStr": "07/09/2023",
+      "isoDate": "2023-09-07",
+      "timeStr": "19:43",
+      "author": "Carol Basso",
+      "text": "Nda",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_52",
+      "dateStr": "07/09/2023",
+      "isoDate": "2023-09-07",
+      "timeStr": "19:43",
+      "author": "Carol Basso",
+      "text": "Nada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_53",
+      "dateStr": "19/10/2023",
+      "isoDate": "2023-10-19",
+      "timeStr": "10:58",
+      "author": "Carol Basso",
+      "text": "Oi vô tdo bem?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_54",
+      "dateStr": "19/10/2023",
+      "isoDate": "2023-10-19",
+      "timeStr": "10:59",
+      "author": "Carol Basso",
+      "text": "O aniversário do Sr é hj ou sábado?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_55",
+      "dateStr": "19/10/2023",
+      "isoDate": "2023-10-19",
+      "timeStr": "16:03",
+      "author": "Etibio Faria",
+      "text": "Eu parei de fazer aniversário não existe isso na minha vida",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_56",
+      "dateStr": "19/10/2023",
+      "isoDate": "2023-10-19",
+      "timeStr": "17:27",
+      "author": "Carol Basso",
+      "text": "Eee lá",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_57",
+      "dateStr": "19/10/2023",
+      "isoDate": "2023-10-19",
+      "timeStr": "17:27",
+      "author": "Carol Basso",
+      "text": "O Sr ta bem ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_58",
+      "dateStr": "20/10/2023",
+      "isoDate": "2023-10-20",
+      "timeStr": "12:17",
+      "author": "Etibio Faria",
+      "text": "Sim beleza tudo tranquilo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_59",
+      "dateStr": "30/12/2023",
+      "isoDate": "2023-12-30",
+      "timeStr": "16:39",
+      "author": "Carol Basso",
+      "text": "Oi vo como o sr está ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_60",
+      "dateStr": "30/12/2023",
+      "isoDate": "2023-12-30",
+      "timeStr": "16:39",
+      "author": "Carol Basso",
+      "text": "Venha passar o ano novo com a gente na edicula",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_61",
+      "dateStr": "31/12/2023",
+      "isoDate": "2023-12-31",
+      "timeStr": "14:31",
+      "author": "Etibio Faria",
+      "text": "S Deus quiser eu vou",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_62",
+      "dateStr": "13/01/2024",
+      "isoDate": "2024-01-13",
+      "timeStr": "15:49",
+      "author": "Carol Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_63",
+      "dateStr": "07/02/2024",
+      "isoDate": "2024-02-07",
+      "timeStr": "20:03",
+      "author": "Carol Basso",
+      "text": "Enviando antecipadamente para todo se programarem 😘😘\n\nAaa lembrando papais compraram os refrigerantes \n- quem quiser levar bebida alcoólica está liberado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_67",
+      "dateStr": "07/02/2024",
+      "isoDate": "2024-02-07",
+      "timeStr": "20:03",
+      "author": "Carol Basso",
+      "text": "Mensagem apagada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_68",
+      "dateStr": "07/02/2024",
+      "isoDate": "2024-02-07",
+      "timeStr": "20:05",
+      "author": "Carol Basso",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_69",
+      "dateStr": "10/03/2024",
+      "isoDate": "2024-03-10",
+      "timeStr": "11:37",
+      "author": "Carol Basso",
+      "text": "Oi vô",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_70",
+      "dateStr": "10/03/2024",
+      "isoDate": "2024-03-10",
+      "timeStr": "11:38",
+      "author": "Carol Basso",
+      "text": "Tudo bem com o senhor?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_71",
+      "dateStr": "13/03/2024",
+      "isoDate": "2024-03-13",
+      "timeStr": "18:17",
+      "author": "Etibio Faria",
+      "text": "Tudo bem e com vcs também   o problema é que eu cada dia tô mais velho não sei porque  só vi agora sua mensagem brigado fica com Deus",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_72",
+      "dateStr": "13/03/2024",
+      "isoDate": "2024-03-13",
+      "timeStr": "18:21",
+      "author": "Carol Basso",
+      "text": "Aqui estamos bem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_73",
+      "dateStr": "13/03/2024",
+      "isoDate": "2024-03-13",
+      "timeStr": "18:22",
+      "author": "Carol Basso",
+      "text": "Em obra a casa graças a Deus acabando",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_74",
+      "dateStr": "13/03/2024",
+      "isoDate": "2024-03-13",
+      "timeStr": "18:35",
+      "author": "Etibio Faria",
+      "text": "Logo vocês começam outra",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_75",
+      "dateStr": "29/03/2024",
+      "isoDate": "2024-03-29",
+      "timeStr": "12:59",
+      "author": "Carol Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_76",
+      "dateStr": "29/03/2024",
+      "isoDate": "2024-03-29",
+      "timeStr": "13:38",
+      "author": "Carol Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_77",
+      "dateStr": "09/04/2024",
+      "isoDate": "2024-04-09",
+      "timeStr": "15:59",
+      "author": "Carol Basso",
+      "text": "Pessoal passando para lembrar a data da confirmação do aniversário da Sophie é até dia 19 😘😘e o pagamento dia 22 🥰",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_78",
+      "dateStr": "17/04/2024",
+      "isoDate": "2024-04-17",
+      "timeStr": "21:47",
+      "author": "Etibio Faria",
+      "text": "Carol lembrei agora amanhã vou aí levar a grana",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_79",
+      "dateStr": "18/04/2024",
+      "isoDate": "2024-04-18",
+      "timeStr": "07:21",
+      "author": "Carol Basso",
+      "text": "Oi Vô bom dia fica tranquila tem tempo ainda pra pagar mas se quiser fazer uma visita estamos aqui a noite",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_80",
+      "dateStr": "18/04/2024",
+      "isoDate": "2024-04-18",
+      "timeStr": "07:21",
+      "author": "Carol Basso",
+      "text": "😘",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_81",
+      "dateStr": "20/04/2024",
+      "isoDate": "2024-04-20",
+      "timeStr": "11:18",
+      "author": "Etibio Faria",
+      "text": "Carol tá na sua agora",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_82",
+      "dateStr": "20/04/2024",
+      "isoDate": "2024-04-20",
+      "timeStr": "11:52",
+      "author": "Carol Basso",
+      "text": "PTT-20240420-WA0000.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20240420-WA0000.opus"
+    },
+    {
+      "id": "m_83",
+      "dateStr": "26/04/2024",
+      "isoDate": "2024-04-26",
+      "timeStr": "09:50",
+      "author": "Etibio Faria",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_84",
+      "dateStr": "27/04/2024",
+      "isoDate": "2024-04-27",
+      "timeStr": "17:16",
+      "author": "Etibio Faria",
+      "text": "A festa é na escola do Sandro e a hora",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_85",
+      "dateStr": "27/04/2024",
+      "isoDate": "2024-04-27",
+      "timeStr": "17:21",
+      "author": "Carol Basso",
+      "text": "Agora vo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_86",
+      "dateStr": "27/04/2024",
+      "isoDate": "2024-04-27",
+      "timeStr": "17:21",
+      "author": "Carol Basso",
+      "text": "Na chacara do sandro",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_87",
+      "dateStr": "27/04/2024",
+      "isoDate": "2024-04-27",
+      "timeStr": "17:21",
+      "author": "Etibio Faria",
+      "text": "Beleza então vou",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_88",
+      "dateStr": "06/07/2024",
+      "isoDate": "2024-07-06",
+      "timeStr": "11:42",
+      "author": "Carol Basso",
+      "text": "PTT-20240706-WA0000.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20240706-WA0000.opus"
+    },
+    {
+      "id": "m_89",
+      "dateStr": "06/07/2024",
+      "isoDate": "2024-07-06",
+      "timeStr": "18:54",
+      "author": "Etibio Faria",
+      "text": "Vou d camisa xadrez",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_90",
+      "dateStr": "07/07/2024",
+      "isoDate": "2024-07-07",
+      "timeStr": "16:37",
+      "author": "Carol Basso",
+      "text": "Vô boa tarde",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_91",
+      "dateStr": "07/07/2024",
+      "isoDate": "2024-07-07",
+      "timeStr": "16:37",
+      "author": "Carol Basso",
+      "text": "Se eu não estiver enganada o senhor tem uma panela grande de ferro",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_92",
+      "dateStr": "07/07/2024",
+      "isoDate": "2024-07-07",
+      "timeStr": "16:37",
+      "author": "Carol Basso",
+      "text": "?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_93",
+      "dateStr": "07/07/2024",
+      "isoDate": "2024-07-07",
+      "timeStr": "16:43",
+      "author": "Etibio Faria",
+      "text": "Tá enganada nunca tive tem de alumínio se quiser beleza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_94",
+      "dateStr": "07/07/2024",
+      "isoDate": "2024-07-07",
+      "timeStr": "16:45",
+      "author": "Carol Basso",
+      "text": "Mas pode colocar no fogão a lenha ??",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_95",
+      "dateStr": "07/07/2024",
+      "isoDate": "2024-07-07",
+      "timeStr": "16:46",
+      "author": "Etibio Faria",
+      "text": "Pode",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_96",
+      "dateStr": "07/07/2024",
+      "isoDate": "2024-07-07",
+      "timeStr": "16:47",
+      "author": "Carol Basso",
+      "text": "Quero emprestada pra colocar ô quentão kkk",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_97",
+      "dateStr": "07/07/2024",
+      "isoDate": "2024-07-07",
+      "timeStr": "16:47",
+      "author": "Etibio Faria",
+      "text": "Levo aí pra vc",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_98",
+      "dateStr": "07/07/2024",
+      "isoDate": "2024-07-07",
+      "timeStr": "16:48",
+      "author": "Carol Basso",
+      "text": "Obg vô quer vor aqui agora bater papo ? Feh vai assar um contra file só está nos dois",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_99",
+      "dateStr": "07/07/2024",
+      "isoDate": "2024-07-07",
+      "timeStr": "16:53",
+      "author": "Etibio Faria",
+      "text": "Cheguei agora e amanhã o Dudu vira aqui levo a panela e ele tá certo  até 12hhh",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_100",
+      "dateStr": "07/07/2024",
+      "isoDate": "2024-07-07",
+      "timeStr": "16:53",
+      "author": "Carol Basso",
+      "text": "Aaaaa ta bom",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_101",
+      "dateStr": "07/07/2024",
+      "isoDate": "2024-07-07",
+      "timeStr": "16:53",
+      "author": "Carol Basso",
+      "text": "PTT-20240707-WA0002.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20240707-WA0002.opus"
+    },
+    {
+      "id": "m_102",
+      "dateStr": "07/07/2024",
+      "isoDate": "2024-07-07",
+      "timeStr": "16:55",
+      "author": "Etibio Faria",
+      "text": "Ele tem que voltar antes das cinco horas",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_103",
+      "dateStr": "07/07/2024",
+      "isoDate": "2024-07-07",
+      "timeStr": "16:55",
+      "author": "Carol Basso",
+      "text": "Vishhh",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_104",
+      "dateStr": "08/07/2024",
+      "isoDate": "2024-07-08",
+      "timeStr": "10:49",
+      "author": "Etibio Faria",
+      "text": "Que horas você tá em casa?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_105",
+      "dateStr": "08/07/2024",
+      "isoDate": "2024-07-08",
+      "timeStr": "10:49",
+      "author": "Carol Basso",
+      "text": "PTT-20240708-WA0000.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20240708-WA0000.opus"
+    },
+    {
+      "id": "m_106",
+      "dateStr": "08/07/2024",
+      "isoDate": "2024-07-08",
+      "timeStr": "15:33",
+      "author": "Carol Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_107",
+      "dateStr": "08/07/2024",
+      "isoDate": "2024-07-08",
+      "timeStr": "15:33",
+      "author": "Carol Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_108",
+      "dateStr": "27/07/2024",
+      "isoDate": "2024-07-27",
+      "timeStr": "19:30",
+      "author": "Carol Basso",
+      "text": "Oi vô",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_109",
+      "dateStr": "27/07/2024",
+      "isoDate": "2024-07-27",
+      "timeStr": "19:30",
+      "author": "Carol Basso",
+      "text": "Ta fazendo o que",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_110",
+      "dateStr": "31/07/2024",
+      "isoDate": "2024-07-31",
+      "timeStr": "09:05",
+      "author": "Etibio Faria",
+      "text": "Ixe já passou o sábado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_111",
+      "dateStr": "31/07/2024",
+      "isoDate": "2024-07-31",
+      "timeStr": "09:06",
+      "author": "Carol Basso",
+      "text": "Kkkkk",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_112",
+      "dateStr": "31/07/2024",
+      "isoDate": "2024-07-31",
+      "timeStr": "09:06",
+      "author": "Carol Basso",
+      "text": "Bom dia o Senhor ta bem ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_113",
+      "dateStr": "31/07/2024",
+      "isoDate": "2024-07-31",
+      "timeStr": "19:46",
+      "author": "Etibio Faria",
+      "text": "Oi Carol tudo bem sim eu estou trabalhando bastante é que sou atrapalhado o telefone não está tocando não sou amigo dele então é isso brigado fica com Deus",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_114",
+      "dateStr": "03/08/2024",
+      "isoDate": "2024-08-03",
+      "timeStr": "15:30",
+      "author": "Etibio Faria",
+      "text": "Oi Carol s tá aí tô na frente da sua casa",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_115",
+      "dateStr": "03/08/2024",
+      "isoDate": "2024-08-03",
+      "timeStr": "15:30",
+      "author": "Carol Basso",
+      "text": "Oi vo estou sim estou saindo aí",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_116",
+      "dateStr": "10/08/2024",
+      "isoDate": "2024-08-10",
+      "timeStr": "21:11",
+      "author": "Etibio Faria",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_117",
+      "dateStr": "11/08/2024",
+      "isoDate": "2024-08-11",
+      "timeStr": "09:09",
+      "author": "Etibio Faria",
+      "text": "IMG-20240811-WA0000.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20240811-WA0000.jpg"
+    },
+    {
+      "id": "m_118",
+      "dateStr": "11/08/2024",
+      "isoDate": "2024-08-11",
+      "timeStr": "09:09",
+      "author": "Carol Basso",
+      "text": "Kkkkkkkk",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_119",
+      "dateStr": "11/08/2024",
+      "isoDate": "2024-08-11",
+      "timeStr": "09:40",
+      "author": "Etibio Faria",
+      "text": "IMG-20240811-WA0003.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20240811-WA0003.jpg"
+    },
+    {
+      "id": "m_120",
+      "dateStr": "11/08/2024",
+      "isoDate": "2024-08-11",
+      "timeStr": "09:58",
+      "author": "Carol Basso",
+      "text": "STK-20240811-WA0006.webp (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "STK-20240811-WA0006.webp"
+    },
+    {
+      "id": "m_121",
+      "dateStr": "07/09/2024",
+      "isoDate": "2024-09-07",
+      "timeStr": "16:45",
+      "author": "Carol Basso",
+      "text": "Oi vô onde o sr ta",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_122",
+      "dateStr": "07/09/2024",
+      "isoDate": "2024-09-07",
+      "timeStr": "18:37",
+      "author": "Etibio Faria",
+      "text": "Tô no portão",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_123",
+      "dateStr": "15/09/2024",
+      "isoDate": "2024-09-15",
+      "timeStr": "14:15",
+      "author": "Carol Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_124",
+      "dateStr": "15/09/2024",
+      "isoDate": "2024-09-15",
+      "timeStr": "14:16",
+      "author": "Carol Basso",
+      "text": "Oi vô vem em casa",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_125",
+      "dateStr": "05/10/2024",
+      "isoDate": "2024-10-05",
+      "timeStr": "15:07",
+      "author": "Carol Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_126",
+      "dateStr": "05/10/2024",
+      "isoDate": "2024-10-05",
+      "timeStr": "15:08",
+      "author": "Carol Basso",
+      "text": "Vô vem em casa",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_127",
+      "dateStr": "05/10/2024",
+      "isoDate": "2024-10-05",
+      "timeStr": "20:19",
+      "author": "Etibio Faria",
+      "text": "Oi Carol vó não cheguei agora tudo de bom pra você e obrigado saí sem telefone  até",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_128",
+      "dateStr": "01/11/2024",
+      "isoDate": "2024-11-01",
+      "timeStr": "14:37",
+      "author": "Carol Basso",
+      "text": "Oi vo tdo bem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_129",
+      "dateStr": "01/11/2024",
+      "isoDate": "2024-11-01",
+      "timeStr": "14:37",
+      "author": "Carol Basso",
+      "text": "Vou fazer uma festinha Halloween em casa hj 19h",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_130",
+      "dateStr": "01/11/2024",
+      "isoDate": "2024-11-01",
+      "timeStr": "14:38",
+      "author": "Carol Basso",
+      "text": "Churrasco",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_131",
+      "dateStr": "01/11/2024",
+      "isoDate": "2024-11-01",
+      "timeStr": "14:38",
+      "author": "Carol Basso",
+      "text": "Aparece la",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_132",
+      "dateStr": "09/11/2024",
+      "isoDate": "2024-11-09",
+      "timeStr": "17:16",
+      "author": "Carol Basso",
+      "text": "PTT-20241109-WA0000.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20241109-WA0000.opus"
+    },
+    {
+      "id": "m_133",
+      "dateStr": "09/11/2024",
+      "isoDate": "2024-11-09",
+      "timeStr": "19:23",
+      "author": "Carol Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_134",
+      "dateStr": "11/11/2024",
+      "isoDate": "2024-11-11",
+      "timeStr": "16:22",
+      "author": "Etibio Faria",
+      "text": "Oi Carol tudo bem eu saio sem o celular aí eu não sei de nada sabe como é um veio   trapaiado no outro eu vou",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_135",
+      "dateStr": "27/11/2024",
+      "isoDate": "2024-11-27",
+      "timeStr": "22:14",
+      "author": "Etibio Faria",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_136",
+      "dateStr": "05/12/2024",
+      "isoDate": "2024-12-05",
+      "timeStr": "20:32",
+      "author": "Carol Basso",
+      "text": "Oi vô o Sr está bem ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_137",
+      "dateStr": "05/12/2024",
+      "isoDate": "2024-12-05",
+      "timeStr": "20:32",
+      "author": "Carol Basso",
+      "text": "Vespera e natal nos passarems na edicula",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_138",
+      "dateStr": "05/12/2024",
+      "isoDate": "2024-12-05",
+      "timeStr": "20:32",
+      "author": "Carol Basso",
+      "text": "O sr está convi",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_139",
+      "dateStr": "05/12/2024",
+      "isoDate": "2024-12-05",
+      "timeStr": "20:32",
+      "author": "Carol Basso",
+      "text": "Convidado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_140",
+      "dateStr": "05/12/2024",
+      "isoDate": "2024-12-05",
+      "timeStr": "20:48",
+      "author": "Etibio Faria",
+      "text": "Eu tô com convid",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_141",
+      "dateStr": "05/12/2024",
+      "isoDate": "2024-12-05",
+      "timeStr": "20:48",
+      "author": "Carol Basso",
+      "text": "Sério??",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_142",
+      "dateStr": "05/12/2024",
+      "isoDate": "2024-12-05",
+      "timeStr": "20:48",
+      "author": "Etibio Faria",
+      "text": "Mentira",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_143",
+      "dateStr": "05/12/2024",
+      "isoDate": "2024-12-05",
+      "timeStr": "20:49",
+      "author": "Carol Basso",
+      "text": "STK-20240811-WA0006.webp (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "STK-20240811-WA0006.webp"
+    },
+    {
+      "id": "m_144",
+      "dateStr": "05/12/2024",
+      "isoDate": "2024-12-05",
+      "timeStr": "20:49",
+      "author": "Carol Basso",
+      "text": "Eu ja estava preocupada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_145",
+      "dateStr": "05/12/2024",
+      "isoDate": "2024-12-05",
+      "timeStr": "20:49",
+      "author": "Etibio Faria",
+      "text": "Sorriso lindo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_146",
+      "dateStr": "07/12/2024",
+      "isoDate": "2024-12-07",
+      "timeStr": "14:39",
+      "author": "Carol Basso",
+      "text": "Vô vou assar uma carne aqui 16h",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_147",
+      "dateStr": "07/12/2024",
+      "isoDate": "2024-12-07",
+      "timeStr": "14:39",
+      "author": "Carol Basso",
+      "text": "Se quiser vir pra ca",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_148",
+      "dateStr": "22/12/2024",
+      "isoDate": "2024-12-22",
+      "timeStr": "15:39",
+      "author": "Carol Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_149",
+      "dateStr": "24/12/2024",
+      "isoDate": "2024-12-24",
+      "timeStr": "21:11",
+      "author": "Carol Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_150",
+      "dateStr": "24/12/2024",
+      "isoDate": "2024-12-24",
+      "timeStr": "21:12",
+      "author": "Carol Basso",
+      "text": "PTT-20241224-WA0000.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20241224-WA0000.opus"
+    },
+    {
+      "id": "m_151",
+      "dateStr": "24/12/2024",
+      "isoDate": "2024-12-24",
+      "timeStr": "21:13",
+      "author": "Etibio Faria",
+      "text": "Tô chegando",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_152",
+      "dateStr": "26/01/2025",
+      "isoDate": "2025-01-26",
+      "timeStr": "13:09",
+      "author": "Carol Basso",
+      "text": "Tarde",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_153",
+      "dateStr": "26/01/2025",
+      "isoDate": "2025-01-26",
+      "timeStr": "13:09",
+      "author": "Carol Basso",
+      "text": "Esta fazendo o que",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_154",
+      "dateStr": "26/01/2025",
+      "isoDate": "2025-01-26",
+      "timeStr": "13:15",
+      "author": "Carol Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_155",
+      "dateStr": "26/01/2025",
+      "isoDate": "2025-01-26",
+      "timeStr": "13:15",
+      "author": "Carol Basso",
+      "text": "Estou fazendo um almoço",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_156",
+      "dateStr": "26/01/2025",
+      "isoDate": "2025-01-26",
+      "timeStr": "13:15",
+      "author": "Carol Basso",
+      "text": "Sobe aqui",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_157",
+      "dateStr": "02/02/2025",
+      "isoDate": "2025-02-02",
+      "timeStr": "14:19",
+      "author": "Carol Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_158",
+      "dateStr": "09/02/2025",
+      "isoDate": "2025-02-09",
+      "timeStr": "13:10",
+      "author": "Carol Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_159",
+      "dateStr": "09/02/2025",
+      "isoDate": "2025-02-09",
+      "timeStr": "13:11",
+      "author": "Carol Basso",
+      "text": "PTT-20250209-WA0000.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20250209-WA0000.opus"
+    },
+    {
+      "id": "m_160",
+      "dateStr": "09/02/2025",
+      "isoDate": "2025-02-09",
+      "timeStr": "13:13",
+      "author": "Etibio Faria",
+      "text": "Agora tô em Itu talvez mais tarde",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_161",
+      "dateStr": "23/02/2025",
+      "isoDate": "2025-02-23",
+      "timeStr": "15:36",
+      "author": "Etibio Faria",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_162",
+      "dateStr": "12/03/2025",
+      "isoDate": "2025-03-12",
+      "timeStr": "12:39",
+      "author": "Etibio Faria",
+      "text": "Oi Carol tudo bem o Felipe vai passar aqui 6h pra me levar a Sorocaba amanhã tá certo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_163",
+      "dateStr": "12/03/2025",
+      "isoDate": "2025-03-12",
+      "timeStr": "12:40",
+      "author": "Carol Basso",
+      "text": "PTT-20250312-WA0000.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20250312-WA0000.opus"
+    },
+    {
+      "id": "m_164",
+      "dateStr": "12/03/2025",
+      "isoDate": "2025-03-12",
+      "timeStr": "12:40",
+      "author": "Etibio Faria",
+      "text": "Beleza brigado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_165",
+      "dateStr": "12/03/2025",
+      "isoDate": "2025-03-12",
+      "timeStr": "12:53",
+      "author": "Carol Basso",
+      "text": "Imagina vô",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_166",
+      "dateStr": "12/03/2025",
+      "isoDate": "2025-03-12",
+      "timeStr": "12:53",
+      "author": "Carol Basso",
+      "text": "Como o sr está",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_167",
+      "dateStr": "12/03/2025",
+      "isoDate": "2025-03-12",
+      "timeStr": "12:56",
+      "author": "Etibio Faria",
+      "text": "Dá pró gasto seguindo a rota das estrelas",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_168",
+      "dateStr": "13/03/2025",
+      "isoDate": "2025-03-13",
+      "timeStr": "05:56",
+      "author": "Etibio Faria",
+      "text": "Carol bom dia o Felipe já está a caminho",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_169",
+      "dateStr": "13/03/2025",
+      "isoDate": "2025-03-13",
+      "timeStr": "06:08",
+      "author": "Etibio Faria",
+      "text": "Chegou",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_170",
+      "dateStr": "13/03/2025",
+      "isoDate": "2025-03-13",
+      "timeStr": "06:20",
+      "author": "Carol Basso",
+      "text": "Bom dia vô",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_171",
+      "dateStr": "13/03/2025",
+      "isoDate": "2025-03-13",
+      "timeStr": "06:21",
+      "author": "Etibio Faria",
+      "text": "Bom dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_172",
+      "dateStr": "13/03/2025",
+      "isoDate": "2025-03-13",
+      "timeStr": "06:21",
+      "author": "Etibio Faria",
+      "text": "Q",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_173",
+      "dateStr": "13/03/2025",
+      "isoDate": "2025-03-13",
+      "timeStr": "12:44",
+      "author": "Carol Basso",
+      "text": "PTT-20250313-WA0001.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20250313-WA0001.opus"
+    },
+    {
+      "id": "m_174",
+      "dateStr": "14/03/2025",
+      "isoDate": "2025-03-14",
+      "timeStr": "15:29",
+      "author": "Carol Basso",
+      "text": "Oi Vô como o Sr está?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_175",
+      "dateStr": "14/03/2025",
+      "isoDate": "2025-03-14",
+      "timeStr": "15:32",
+      "author": "Etibio Faria",
+      "text": "Oi Carol tudo bem tranquilo tô bem mesmo obrigado um abraço",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_176",
+      "dateStr": "30/03/2025",
+      "isoDate": "2025-03-30",
+      "timeStr": "11:41",
+      "author": "Carol Basso",
+      "text": "Oi vô o Senhor esta bem ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_177",
+      "dateStr": "31/03/2025",
+      "isoDate": "2025-03-31",
+      "timeStr": "19:17",
+      "author": "Etibio Faria",
+      "text": "Oi Carol tô bem sim só queria ter 30 anos",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_178",
+      "dateStr": "02/04/2025",
+      "isoDate": "2025-04-02",
+      "timeStr": "09:52",
+      "author": "Carol Basso",
+      "text": "IMG-20250402-WA0000.jpg (arquivo anexado)\nEsse ano faremos nosso aniversário juntas 🥰 \n🛑 confirme sua presença até 21/04",
+      "isSystem": false,
+      "attachment": "IMG-20250402-WA0000.jpg"
+    },
+    {
+      "id": "m_181",
+      "dateStr": "02/04/2025",
+      "isoDate": "2025-04-02",
+      "timeStr": "09:58",
+      "author": "Etibio Faria",
+      "text": "Estalarei sim",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_182",
+      "dateStr": "20/04/2025",
+      "isoDate": "2025-04-20",
+      "timeStr": "09:47",
+      "author": "Carol Basso",
+      "text": "Oi vô",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_183",
+      "dateStr": "20/04/2025",
+      "isoDate": "2025-04-20",
+      "timeStr": "09:47",
+      "author": "Carol Basso",
+      "text": "Bom dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_184",
+      "dateStr": "20/04/2025",
+      "isoDate": "2025-04-20",
+      "timeStr": "09:48",
+      "author": "Carol Basso",
+      "text": "Vou assar uma carninha aqui",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_185",
+      "dateStr": "20/04/2025",
+      "isoDate": "2025-04-20",
+      "timeStr": "09:48",
+      "author": "Carol Basso",
+      "text": "12h",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_186",
+      "dateStr": "20/04/2025",
+      "isoDate": "2025-04-20",
+      "timeStr": "10:00",
+      "author": "Carol Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_187",
+      "dateStr": "20/04/2025",
+      "isoDate": "2025-04-20",
+      "timeStr": "16:22",
+      "author": "Carol Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_188",
+      "dateStr": "02/05/2025",
+      "isoDate": "2025-05-02",
+      "timeStr": "08:59",
+      "author": "Carol Basso",
+      "text": "Muito obrigada por ter vindo na festa 🥳 eu e soso amamos",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_189",
+      "dateStr": "02/05/2025",
+      "isoDate": "2025-05-02",
+      "timeStr": "09:05",
+      "author": "Carol Basso",
+      "text": "Amamos os presentes 🥰",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_190",
+      "dateStr": "11/05/2025",
+      "isoDate": "2025-05-11",
+      "timeStr": "12:51",
+      "author": "Carol Basso",
+      "text": "Oi vô",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_191",
+      "dateStr": "11/05/2025",
+      "isoDate": "2025-05-11",
+      "timeStr": "12:51",
+      "author": "Carol Basso",
+      "text": "Tudo bem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_192",
+      "dateStr": "11/05/2025",
+      "isoDate": "2025-05-11",
+      "timeStr": "12:51",
+      "author": "Carol Basso",
+      "text": "Vou assar uma carne aqui",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_193",
+      "dateStr": "11/05/2025",
+      "isoDate": "2025-05-11",
+      "timeStr": "12:51",
+      "author": "Carol Basso",
+      "text": "Passa aqui",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_194",
+      "dateStr": "11/05/2025",
+      "isoDate": "2025-05-11",
+      "timeStr": "12:54",
+      "author": "Etibio Faria",
+      "text": "S chegar a tempo eu passarei",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_195",
+      "dateStr": "11/05/2025",
+      "isoDate": "2025-05-11",
+      "timeStr": "15:21",
+      "author": "Etibio Faria",
+      "text": "Tô chegando",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_196",
+      "dateStr": "16/05/2025",
+      "isoDate": "2025-05-16",
+      "timeStr": "10:48",
+      "author": "Etibio Faria",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_197",
+      "dateStr": "16/05/2025",
+      "isoDate": "2025-05-16",
+      "timeStr": "10:50",
+      "author": "Carol Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_198",
+      "dateStr": "16/05/2025",
+      "isoDate": "2025-05-16",
+      "timeStr": "10:51",
+      "author": "Carol Basso",
+      "text": "11 99535-1973",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_199",
+      "dateStr": "16/05/2025",
+      "isoDate": "2025-05-16",
+      "timeStr": "10:51",
+      "author": "Etibio Faria",
+      "text": "Legal brigado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_200",
+      "dateStr": "16/05/2025",
+      "isoDate": "2025-05-16",
+      "timeStr": "10:53",
+      "author": "Carol Basso",
+      "text": "Imagina",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_201",
+      "dateStr": "26/05/2025",
+      "isoDate": "2025-05-26",
+      "timeStr": "08:02",
+      "author": "Etibio Faria",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_202",
+      "dateStr": "26/05/2025",
+      "isoDate": "2025-05-26",
+      "timeStr": "08:03",
+      "author": "Carol Basso",
+      "text": "Vô",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_203",
+      "dateStr": "26/05/2025",
+      "isoDate": "2025-05-26",
+      "timeStr": "08:03",
+      "author": "Carol Basso",
+      "text": "?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_204",
+      "dateStr": "26/05/2025",
+      "isoDate": "2025-05-26",
+      "timeStr": "08:03",
+      "author": "Carol Basso",
+      "text": "Esta tudo bem ? Na chamada nao ouvi nada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_205",
+      "dateStr": "26/05/2025",
+      "isoDate": "2025-05-26",
+      "timeStr": "08:10",
+      "author": "Etibio Faria",
+      "text": "Bom dia tá va escrever a seu pai",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_206",
+      "dateStr": "07/07/2025",
+      "isoDate": "2025-07-07",
+      "timeStr": "09:05",
+      "author": "Carol Basso",
+      "text": "🎉vamos fazer uma festa junina (na edicula da tia Jul) dia 12 as 17h e estamos vendo de contratar a dupla que tocou no meu aniversário ficaria na media de 25 reais pra cada um!  só preciso saber se vai pra ver o valor exato e fechar com eles. O pagamento pode ser feito até dia 09 pode confirmar ser vai ? Levar um prato e o que vai beber!!",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_207",
+      "dateStr": "07/07/2025",
+      "isoDate": "2025-07-07",
+      "timeStr": "13:27",
+      "author": "Etibio Faria",
+      "text": "25 mais um prato vazio mais Tubaína fechado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_208",
+      "dateStr": "07/07/2025",
+      "isoDate": "2025-07-07",
+      "timeStr": "13:27",
+      "author": "Carol Basso",
+      "text": "Kkkkkkkkkkk pode levar só a tubaina",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_209",
+      "dateStr": "07/07/2025",
+      "isoDate": "2025-07-07",
+      "timeStr": "13:28",
+      "author": "Carol Basso",
+      "text": "Não precisa levar prato o Sr",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_210",
+      "dateStr": "22/10/2025",
+      "isoDate": "2025-10-22",
+      "timeStr": "12:33",
+      "author": "Carol Basso",
+      "text": "Oi Vô parabéns seu aniversário foi ontem neh Deus abençoe o senhor com saude paz 🙏🏻🙏🏻🙏🏻",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_211",
+      "dateStr": "22/10/2025",
+      "isoDate": "2025-10-22",
+      "timeStr": "14:09",
+      "author": "Etibio Faria",
+      "text": "Obrigado minha linda até o final do mês eu aceito\n",
+      "isSystem": false,
+      "attachment": null
+    }
+  ],
+  "mediaFiles": [
+    "PTT-20220714-WA0000.opus",
+    "PTT-20240420-WA0000.opus",
+    "PTT-20240706-WA0000.opus",
+    "PTT-20240707-WA0002.opus",
+    "PTT-20240708-WA0000.opus",
+    "IMG-20240811-WA0000.jpg",
+    "IMG-20240811-WA0003.jpg",
+    "PTT-20241109-WA0000.opus",
+    "STK-20240811-WA0006.webp",
+    "PTT-20241224-WA0000.opus",
+    "PTT-20250209-WA0000.opus",
+    "PTT-20250312-WA0000.opus",
+    "PTT-20250313-WA0001.opus",
+    "IMG-20250402-WA0000.jpg"
+  ],
+  "mediaDataUrls": {
+    "PTT-20220714-WA0000.opus": "./conversas/carol-basso/PTT-20220714-WA0000.opus",
+    "PTT-20240420-WA0000.opus": "./conversas/carol-basso/PTT-20240420-WA0000.opus",
+    "PTT-20240706-WA0000.opus": "./conversas/carol-basso/PTT-20240706-WA0000.opus",
+    "PTT-20240707-WA0002.opus": "./conversas/carol-basso/PTT-20240707-WA0002.opus",
+    "PTT-20240708-WA0000.opus": "./conversas/carol-basso/PTT-20240708-WA0000.opus",
+    "IMG-20240811-WA0000.jpg": "./conversas/carol-basso/IMG-20240811-WA0000.jpg",
+    "IMG-20240811-WA0003.jpg": "./conversas/carol-basso/IMG-20240811-WA0003.jpg",
+    "PTT-20241109-WA0000.opus": "./conversas/carol-basso/PTT-20241109-WA0000.opus",
+    "STK-20240811-WA0006.webp": "./conversas/carol-basso/STK-20240811-WA0006.webp",
+    "PTT-20241224-WA0000.opus": "./conversas/carol-basso/PTT-20241224-WA0000.opus",
+    "PTT-20250209-WA0000.opus": "./conversas/carol-basso/PTT-20250209-WA0000.opus",
+    "PTT-20250312-WA0000.opus": "./conversas/carol-basso/PTT-20250312-WA0000.opus",
+    "PTT-20250313-WA0001.opus": "./conversas/carol-basso/PTT-20250313-WA0001.opus",
+    "IMG-20250402-WA0000.jpg": "./conversas/carol-basso/IMG-20250402-WA0000.jpg"
+  }
+}

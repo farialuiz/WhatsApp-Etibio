@@ -1,0 +1,409 @@
+{
+  "id": "chat_1794591087422_qir7",
+  "title": "Adilson auto eletrica - 11 98794-4399",
+  "folderSlug": "adilson-auto-eletrica",
+  "phoneNote": "11 98794-4399",
+  "pinned": false,
+  "pinnedAt": 0,
+  "avatarDataUrl": "data:image/jpeg;base64,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",
+  "createdAt": 1794591087422,
+  "participants": [
+    "Adilson auto eletrica",
+    "Etibio Faria"
+  ],
+  "myUser": "Etibio Faria",
+  "messages": [
+    {
+      "id": "m_0",
+      "dateStr": "16/04/2022",
+      "isoDate": "2022-04-16",
+      "timeStr": "20:33",
+      "author": null,
+      "text": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. *Saiba mais*",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_1",
+      "dateStr": "16/04/2023",
+      "isoDate": "2023-04-16",
+      "timeStr": "11:37",
+      "author": null,
+      "text": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. *Saiba mais*",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_2",
+      "dateStr": "16/04/2023",
+      "isoDate": "2023-04-16",
+      "timeStr": "11:37",
+      "author": "Adilson auto eletrica",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_3",
+      "dateStr": "16/04/2023",
+      "isoDate": "2023-04-16",
+      "timeStr": "11:37",
+      "author": "Etibio Faria",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_4",
+      "dateStr": "16/04/2023",
+      "isoDate": "2023-04-16",
+      "timeStr": "11:37",
+      "author": "Etibio Faria",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_5",
+      "dateStr": "16/04/2023",
+      "isoDate": "2023-04-16",
+      "timeStr": "11:37",
+      "author": "Adilson auto eletrica",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_6",
+      "dateStr": "26/08/2023",
+      "isoDate": "2023-08-26",
+      "timeStr": "17:46",
+      "author": "Etibio Faria",
+      "text": "<Video note omitted>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_7",
+      "dateStr": "26/08/2023",
+      "isoDate": "2023-08-26",
+      "timeStr": "17:47",
+      "author": "Etibio Faria",
+      "text": "Venha aqui",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_8",
+      "dateStr": "26/08/2023",
+      "isoDate": "2023-08-26",
+      "timeStr": "17:48",
+      "author": "Etibio Faria",
+      "text": "De pois eu levo você",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_9",
+      "dateStr": "28/08/2023",
+      "isoDate": "2023-08-28",
+      "timeStr": "09:33",
+      "author": "Etibio Faria",
+      "text": "Adilson, bom dia. Consigo retirar o carro aí hoje?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_10",
+      "dateStr": "28/08/2023",
+      "isoDate": "2023-08-28",
+      "timeStr": "12:59",
+      "author": "Adilson auto eletrica",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_11",
+      "dateStr": "20/10/2023",
+      "isoDate": "2023-10-20",
+      "timeStr": "16:15",
+      "author": "Etibio Faria",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_12",
+      "dateStr": "21/10/2023",
+      "isoDate": "2023-10-21",
+      "timeStr": "10:38",
+      "author": "Adilson auto eletrica",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_13",
+      "dateStr": "21/10/2023",
+      "isoDate": "2023-10-21",
+      "timeStr": "12:03",
+      "author": "Etibio Faria",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_14",
+      "dateStr": "21/10/2023",
+      "isoDate": "2023-10-21",
+      "timeStr": "16:29",
+      "author": "Etibio Faria",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_15",
+      "dateStr": "21/10/2023",
+      "isoDate": "2023-10-21",
+      "timeStr": "16:34",
+      "author": "Adilson auto eletrica",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_16",
+      "dateStr": "21/10/2023",
+      "isoDate": "2023-10-21",
+      "timeStr": "16:35",
+      "author": "Etibio Faria",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_17",
+      "dateStr": "22/10/2023",
+      "isoDate": "2023-10-22",
+      "timeStr": "18:47",
+      "author": "Adilson auto eletrica",
+      "text": "Blz",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_18",
+      "dateStr": "25/11/2023",
+      "isoDate": "2023-11-25",
+      "timeStr": "11:48",
+      "author": "Etibio Faria",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_19",
+      "dateStr": "01/12/2023",
+      "isoDate": "2023-12-01",
+      "timeStr": "07:59",
+      "author": "Etibio Faria",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_20",
+      "dateStr": "01/12/2023",
+      "isoDate": "2023-12-01",
+      "timeStr": "08:02",
+      "author": "Etibio Faria",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_21",
+      "dateStr": "01/12/2023",
+      "isoDate": "2023-12-01",
+      "timeStr": "08:06",
+      "author": "Etibio Faria",
+      "text": "Como fãs pra parar o alarme do Sandero se\nTira a bateria",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_23",
+      "dateStr": "01/12/2023",
+      "isoDate": "2023-12-01",
+      "timeStr": "16:17",
+      "author": "Adilson auto eletrica",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_24",
+      "dateStr": "08/12/2023",
+      "isoDate": "2023-12-08",
+      "timeStr": "10:24",
+      "author": "Etibio Faria",
+      "text": "Beleza não tem pressa o  carro emprestado pra Marco   meu enteado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_25",
+      "dateStr": "08/12/2023",
+      "isoDate": "2023-12-08",
+      "timeStr": "10:50",
+      "author": "Adilson auto eletrica",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_26",
+      "dateStr": "09/12/2023",
+      "isoDate": "2023-12-09",
+      "timeStr": "09:43",
+      "author": "Etibio Faria",
+      "text": "Tudo bem sim sem problema",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_27",
+      "dateStr": "16/12/2023",
+      "isoDate": "2023-12-16",
+      "timeStr": "10:25",
+      "author": "Etibio Faria",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_28",
+      "dateStr": "16/12/2023",
+      "isoDate": "2023-12-16",
+      "timeStr": "14:06",
+      "author": "Adilson auto eletrica",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_29",
+      "dateStr": "16/12/2023",
+      "isoDate": "2023-12-16",
+      "timeStr": "14:06",
+      "author": "Adilson auto eletrica",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_30",
+      "dateStr": "16/12/2023",
+      "isoDate": "2023-12-16",
+      "timeStr": "14:31",
+      "author": "Etibio Faria",
+      "text": "Vou ver se consigo ir aí",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_31",
+      "dateStr": "29/01/2024",
+      "isoDate": "2024-01-29",
+      "timeStr": "20:06",
+      "author": "Adilson auto eletrica",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_32",
+      "dateStr": "22/01/2025",
+      "isoDate": "2025-01-22",
+      "timeStr": "19:36",
+      "author": "Adilson auto eletrica",
+      "text": "https://produto.mercadolivre.com.br/MLB-3532571917-central-multimidia-renault-mp5-bt-espelha-moldura-cmera-re-_JM?attributes=RXNjb2xoYSBPIENhcnJv:TG9nYW4gMjAxOQ==",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_33",
+      "dateStr": "22/01/2025",
+      "isoDate": "2025-01-22",
+      "timeStr": "19:49",
+      "author": "Etibio Faria",
+      "text": "Se é isso manda bala",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_34",
+      "dateStr": "22/01/2025",
+      "isoDate": "2025-01-22",
+      "timeStr": "19:51",
+      "author": "Etibio Faria",
+      "text": "Sabe o valor",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_35",
+      "dateStr": "22/01/2025",
+      "isoDate": "2025-01-22",
+      "timeStr": "19:51",
+      "author": "Adilson auto eletrica",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_36",
+      "dateStr": "22/01/2025",
+      "isoDate": "2025-01-22",
+      "timeStr": "19:51",
+      "author": "Adilson auto eletrica",
+      "text": "Qual ano dele",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_37",
+      "dateStr": "22/01/2025",
+      "isoDate": "2025-01-22",
+      "timeStr": "19:52",
+      "author": "Etibio Faria",
+      "text": "201415",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_38",
+      "dateStr": "22/01/2025",
+      "isoDate": "2025-01-22",
+      "timeStr": "19:52",
+      "author": "Adilson auto eletrica",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_39",
+      "dateStr": "22/01/2025",
+      "isoDate": "2025-01-22",
+      "timeStr": "19:53",
+      "author": "Etibio Faria",
+      "text": "Beleza\n",
+      "isSystem": false,
+      "attachment": null
+    }
+  ],
+  "mediaFiles": [],
+  "mediaDataUrls": {}
+}

@@ -1,0 +1,2593 @@
+{
+  "id": "chat_1794591087468_79cf",
+  "title": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+  "folderSlug": "andreia-feguetti-osvaldo-s-aguirre",
+  "phoneNote": "",
+  "pinned": false,
+  "pinnedAt": 0,
+  "avatarDataUrl": "data:image/jpeg;base64,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",
+  "createdAt": 1794591087478,
+  "participants": [
+    "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+    "Etibio Faria"
+  ],
+  "myUser": "Etibio Faria",
+  "messages": [
+    {
+      "id": "m_0",
+      "dateStr": "16/02/2022",
+      "isoDate": "2022-02-16",
+      "timeStr": "17:09",
+      "author": null,
+      "text": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. *Saiba mais*",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_1",
+      "dateStr": "16/02/2022",
+      "isoDate": "2022-02-16",
+      "timeStr": "17:09",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Boa tarde",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_2",
+      "dateStr": "24/08/2022",
+      "isoDate": "2022-08-24",
+      "timeStr": "11:51",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Boa tarde tudo bem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_3",
+      "dateStr": "30/11/2022",
+      "isoDate": "2022-11-30",
+      "timeStr": "10:16",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Ligação de voz perdida",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_4",
+      "dateStr": "08/12/2022",
+      "isoDate": "2022-12-08",
+      "timeStr": "15:41",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Ligação de voz perdida",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_5",
+      "dateStr": "18/01/2023",
+      "isoDate": "2023-01-18",
+      "timeStr": "14:14",
+      "author": "Etibio Faria",
+      "text": "Oi Andreia tudo bem posso ir aí agora",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_6",
+      "dateStr": "18/01/2023",
+      "isoDate": "2023-01-18",
+      "timeStr": "14:15",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Boa tarde seu Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_7",
+      "dateStr": "18/01/2023",
+      "isoDate": "2023-01-18",
+      "timeStr": "14:16",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Eu cheguei ontem\nDo hospital\nSai com\nDreno só vou sair tirar\nSegunda de manhã",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_12",
+      "dateStr": "18/01/2023",
+      "isoDate": "2023-01-18",
+      "timeStr": "14:16",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Aí eu te\nLigo tá bom",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_14",
+      "dateStr": "18/01/2023",
+      "isoDate": "2023-01-18",
+      "timeStr": "14:16",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_15",
+      "dateStr": "18/01/2023",
+      "isoDate": "2023-01-18",
+      "timeStr": "14:17",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Para o Senhor passar aqui",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_16",
+      "dateStr": "18/01/2023",
+      "isoDate": "2023-01-18",
+      "timeStr": "14:31",
+      "author": "Etibio Faria",
+      "text": "Beleza então Andreia tudo bem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_17",
+      "dateStr": "23/01/2023",
+      "isoDate": "2023-01-23",
+      "timeStr": "14:20",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Boa tarde tudo bem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_18",
+      "dateStr": "23/01/2023",
+      "isoDate": "2023-01-23",
+      "timeStr": "14:20",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Pode vir",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_19",
+      "dateStr": "23/01/2023",
+      "isoDate": "2023-01-23",
+      "timeStr": "14:20",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Quando quiser",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_20",
+      "dateStr": "08/03/2023",
+      "isoDate": "2023-03-08",
+      "timeStr": "16:41",
+      "author": "Etibio Faria",
+      "text": "Tô aqui na frente",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_21",
+      "dateStr": "20/04/2023",
+      "isoDate": "2023-04-20",
+      "timeStr": "09:31",
+      "author": "Etibio Faria",
+      "text": "Oi Andreia você me ligou agora",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_22",
+      "dateStr": "20/04/2023",
+      "isoDate": "2023-04-20",
+      "timeStr": "09:47",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Oie seu Etibio não liguei  não \nO Senhor está bem \nEstou ajudando o valor do aluguel até o final do mês eu te ligo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_25",
+      "dateStr": "20/04/2023",
+      "isoDate": "2023-04-20",
+      "timeStr": "09:48",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Peço perdão pela demora",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_26",
+      "dateStr": "20/04/2023",
+      "isoDate": "2023-04-20",
+      "timeStr": "09:48",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Deus abençoe",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_27",
+      "dateStr": "20/04/2023",
+      "isoDate": "2023-04-20",
+      "timeStr": "10:28",
+      "author": "Etibio Faria",
+      "text": "Fique tranquila tá",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_28",
+      "dateStr": "20/04/2023",
+      "isoDate": "2023-04-20",
+      "timeStr": "10:28",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Obrigada 🥹",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_29",
+      "dateStr": "05/05/2023",
+      "isoDate": "2023-05-05",
+      "timeStr": "12:54",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Ligação de voz perdida",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_30",
+      "dateStr": "05/05/2023",
+      "isoDate": "2023-05-05",
+      "timeStr": "12:55",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Ligação de voz perdida",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_31",
+      "dateStr": "06/05/2023",
+      "isoDate": "2023-05-06",
+      "timeStr": "13:27",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Vendes ovos 🥚 direto da granja \nOvos grande bandeira com 30 sai 23\nA dúzia sai 10 reais 💵 \nQualquer coisa só chamar \nDeus abençoe!",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_36",
+      "dateStr": "09/05/2023",
+      "isoDate": "2023-05-09",
+      "timeStr": "10:13",
+      "author": "Etibio Faria",
+      "text": "Vou comprar aí",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_37",
+      "dateStr": "11/05/2023",
+      "isoDate": "2023-05-11",
+      "timeStr": "11:53",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "os ovos estao aqui",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_38",
+      "dateStr": "11/05/2023",
+      "isoDate": "2023-05-11",
+      "timeStr": "11:53",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "bia tarde",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_39",
+      "dateStr": "11/05/2023",
+      "isoDate": "2023-05-11",
+      "timeStr": "11:53",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "e so buscar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_40",
+      "dateStr": "31/05/2023",
+      "isoDate": "2023-05-31",
+      "timeStr": "14:07",
+      "author": "Etibio Faria",
+      "text": "Andreia a mulher mudou ela deixou a chave com você",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_41",
+      "dateStr": "31/05/2023",
+      "isoDate": "2023-05-31",
+      "timeStr": "14:21",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Oie seu Etibio Boa tarde",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_42",
+      "dateStr": "31/05/2023",
+      "isoDate": "2023-05-31",
+      "timeStr": "14:21",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Não deixou não",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_43",
+      "dateStr": "31/05/2023",
+      "isoDate": "2023-05-31",
+      "timeStr": "14:21",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Ela\nDisse que tinha falando com Senhor só Vi no dia que estava mudando",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_45",
+      "dateStr": "31/05/2023",
+      "isoDate": "2023-05-31",
+      "timeStr": "14:21",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Tem umas 2 a 3 semana aproximadamente",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_46",
+      "dateStr": "31/05/2023",
+      "isoDate": "2023-05-31",
+      "timeStr": "14:23",
+      "author": "Etibio Faria",
+      "text": "Beleza brigado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_47",
+      "dateStr": "31/05/2023",
+      "isoDate": "2023-05-31",
+      "timeStr": "14:23",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Imagina",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_48",
+      "dateStr": "31/05/2023",
+      "isoDate": "2023-05-31",
+      "timeStr": "14:24",
+      "author": "Etibio Faria",
+      "text": "Ok",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_49",
+      "dateStr": "15/06/2023",
+      "isoDate": "2023-06-15",
+      "timeStr": "17:49",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Boa noite, tudo bem?\nO até o final do mês eu ligo para buscar o aluguel! \nObrigada 🙏",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_52",
+      "dateStr": "15/06/2023",
+      "isoDate": "2023-06-15",
+      "timeStr": "17:50",
+      "author": "Etibio Faria",
+      "text": "Tá bom então",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_53",
+      "dateStr": "10/07/2023",
+      "isoDate": "2023-07-10",
+      "timeStr": "18:19",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Boa noite não tô conseguindo ligar seu aluguel está aqui a uma semana já",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_54",
+      "dateStr": "10/07/2023",
+      "isoDate": "2023-07-10",
+      "timeStr": "18:19",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Pode vir buscar ou hoje ou amanhã após as 18:15",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_55",
+      "dateStr": "10/07/2023",
+      "isoDate": "2023-07-10",
+      "timeStr": "18:25",
+      "author": "Etibio Faria",
+      "text": "Tó indo pra aí",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_56",
+      "dateStr": "17/08/2023",
+      "isoDate": "2023-08-17",
+      "timeStr": "17:13",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Boa tarde",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_57",
+      "dateStr": "17/08/2023",
+      "isoDate": "2023-08-17",
+      "timeStr": "17:13",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Dia 23  eu mando mensagem para",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_58",
+      "dateStr": "17/08/2023",
+      "isoDate": "2023-08-17",
+      "timeStr": "17:14",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "O Sr  buscar o aluguel ta bem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_59",
+      "dateStr": "17/08/2023",
+      "isoDate": "2023-08-17",
+      "timeStr": "17:14",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "A água papel ta na caixinha isso",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_60",
+      "dateStr": "17/08/2023",
+      "isoDate": "2023-08-17",
+      "timeStr": "17:14",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Eu estou com uma chave la da casa que o filho da mulher que morava em baixo vou levar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_61",
+      "dateStr": "17/08/2023",
+      "isoDate": "2023-08-17",
+      "timeStr": "17:14",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Aí eu já entrego a chave <Mensagem editada>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_62",
+      "dateStr": "17/08/2023",
+      "isoDate": "2023-08-17",
+      "timeStr": "17:18",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Aí ja entrego  a chave <Mensagem editada>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_63",
+      "dateStr": "17/08/2023",
+      "isoDate": "2023-08-17",
+      "timeStr": "17:19",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Para o Senhor",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_64",
+      "dateStr": "23/08/2023",
+      "isoDate": "2023-08-23",
+      "timeStr": "12:03",
+      "author": "Etibio Faria",
+      "text": "Pix do meu filho:",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_65",
+      "dateStr": "23/08/2023",
+      "isoDate": "2023-08-23",
+      "timeStr": "12:04",
+      "author": "Etibio Faria",
+      "text": "11 991953333",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_66",
+      "dateStr": "23/08/2023",
+      "isoDate": "2023-08-23",
+      "timeStr": "12:04",
+      "author": "Etibio Faria",
+      "text": "Luiz Eduardo Pires Faria",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_67",
+      "dateStr": "23/08/2023",
+      "isoDate": "2023-08-23",
+      "timeStr": "12:10",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Poder fazer",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_68",
+      "dateStr": "23/08/2023",
+      "isoDate": "2023-08-23",
+      "timeStr": "12:10",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Boa tarde",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_69",
+      "dateStr": "23/08/2023",
+      "isoDate": "2023-08-23",
+      "timeStr": "12:12",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Ligação de voz perdida",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_70",
+      "dateStr": "23/08/2023",
+      "isoDate": "2023-08-23",
+      "timeStr": "12:13",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "To fazendo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_71",
+      "dateStr": "23/08/2023",
+      "isoDate": "2023-08-23",
+      "timeStr": "12:17",
+      "author": "Etibio Faria",
+      "text": "Obrigado valeu",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_72",
+      "dateStr": "23/08/2023",
+      "isoDate": "2023-08-23",
+      "timeStr": "12:17",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_73",
+      "dateStr": "23/08/2023",
+      "isoDate": "2023-08-23",
+      "timeStr": "12:18",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Deus abençoe seu Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_74",
+      "dateStr": "23/08/2023",
+      "isoDate": "2023-08-23",
+      "timeStr": "12:18",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Sigo novamente com Dores vou aguardar fazer tomografia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_75",
+      "dateStr": "23/08/2023",
+      "isoDate": "2023-08-23",
+      "timeStr": "12:19",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "So clicar em cima que o comprovante abre",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_76",
+      "dateStr": "23/08/2023",
+      "isoDate": "2023-08-23",
+      "timeStr": "12:19",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Ta bem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_77",
+      "dateStr": "23/08/2023",
+      "isoDate": "2023-08-23",
+      "timeStr": "12:19",
+      "author": "Etibio Faria",
+      "text": "K pena",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_78",
+      "dateStr": "23/08/2023",
+      "isoDate": "2023-08-23",
+      "timeStr": "12:19",
+      "author": "Etibio Faria",
+      "text": "Melhoras",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_79",
+      "dateStr": "23/08/2023",
+      "isoDate": "2023-08-23",
+      "timeStr": "12:21",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Verdade",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_80",
+      "dateStr": "23/08/2023",
+      "isoDate": "2023-08-23",
+      "timeStr": "12:21",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Obrigada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_81",
+      "dateStr": "23/08/2023",
+      "isoDate": "2023-08-23",
+      "timeStr": "12:21",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "😢😓",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_82",
+      "dateStr": "02/09/2023",
+      "isoDate": "2023-09-02",
+      "timeStr": "16:08",
+      "author": "Etibio Faria",
+      "text": "Oi, Andreia. Já tinha falado com você sobre isso mas vou deixar guardado aqui, conversei com meu filho e agora você pode pagar o aluguel pelo Pix dele, só me manda o print do comprovante aqui no meu zap.\n\nPix: 11 99195-3333\nLuiz Eduardo Pires Faria",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_86",
+      "dateStr": "02/09/2023",
+      "isoDate": "2023-09-02",
+      "timeStr": "16:12",
+      "author": "Etibio Faria",
+      "text": "<Mídia oculta>\nDeixei salvo o número no meu zap também qualquer coisa.",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_88",
+      "dateStr": "02/09/2023",
+      "isoDate": "2023-09-02",
+      "timeStr": "18:28",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Boa noite está bem seu Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_89",
+      "dateStr": "02/09/2023",
+      "isoDate": "2023-09-02",
+      "timeStr": "18:28",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Obrigada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_90",
+      "dateStr": "02/09/2023",
+      "isoDate": "2023-09-02",
+      "timeStr": "18:29",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Pode deixar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_91",
+      "dateStr": "12/09/2023",
+      "isoDate": "2023-09-12",
+      "timeStr": "16:30",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "1694527618689.pdf (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "1694527618689.pdf"
+    },
+    {
+      "id": "m_92",
+      "dateStr": "12/09/2023",
+      "isoDate": "2023-09-12",
+      "timeStr": "16:30",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Boa tarde",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_93",
+      "dateStr": "12/09/2023",
+      "isoDate": "2023-09-12",
+      "timeStr": "16:30",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Seu Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_94",
+      "dateStr": "12/09/2023",
+      "isoDate": "2023-09-12",
+      "timeStr": "16:31",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Segue o comprovante do aluguel",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_95",
+      "dateStr": "15/09/2023",
+      "isoDate": "2023-09-15",
+      "timeStr": "20:05",
+      "author": "Etibio Faria",
+      "text": "Obrigado valeu Andreia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_96",
+      "dateStr": "15/09/2023",
+      "isoDate": "2023-09-15",
+      "timeStr": "21:06",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Eu que agradeço",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_97",
+      "dateStr": "20/09/2023",
+      "isoDate": "2023-09-20",
+      "timeStr": "19:57",
+      "author": "Etibio Faria",
+      "text": "D nada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_98",
+      "dateStr": "21/09/2023",
+      "isoDate": "2023-09-21",
+      "timeStr": "18:59",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "O Senhor ligou",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_99",
+      "dateStr": "21/09/2023",
+      "isoDate": "2023-09-21",
+      "timeStr": "19:00",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Boa noite",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_100",
+      "dateStr": "25/09/2023",
+      "isoDate": "2023-09-25",
+      "timeStr": "07:24",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Bom dia seu Etibio tudo bem?\nComo tem passado ?\nPosso passar ai meio.dia no meu almoco.para falar com o Senhor ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_103",
+      "dateStr": "25/09/2023",
+      "isoDate": "2023-09-25",
+      "timeStr": "12:09",
+      "author": "Etibio Faria",
+      "text": "Sim beleza então vou esperar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_104",
+      "dateStr": "26/09/2023",
+      "isoDate": "2023-09-26",
+      "timeStr": "17:17",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Boa tarde seu Etibio vai me informando ta bem, se seu filho não for vir. Gente fica aqui mesmo assim nao temos que fazer mudança. \nTa bem.?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_106",
+      "dateStr": "26/09/2023",
+      "isoDate": "2023-09-26",
+      "timeStr": "21:14",
+      "author": "Etibio Faria",
+      "text": "Tá certo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_107",
+      "dateStr": "31/10/2023",
+      "isoDate": "2023-10-31",
+      "timeStr": "19:59",
+      "author": "Etibio Faria",
+      "text": "Oi Andreia a casa tá pronta",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_108",
+      "dateStr": "31/10/2023",
+      "isoDate": "2023-10-31",
+      "timeStr": "20:00",
+      "author": "Etibio Faria",
+      "text": "Vi que tem 3 conta de energia sem pagar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_109",
+      "dateStr": "31/10/2023",
+      "isoDate": "2023-10-31",
+      "timeStr": "20:01",
+      "author": "Etibio Faria",
+      "text": "Aí que vc tá morando",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_110",
+      "dateStr": "31/10/2023",
+      "isoDate": "2023-10-31",
+      "timeStr": "20:36",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Vou pagar amanhã",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_111",
+      "dateStr": "31/10/2023",
+      "isoDate": "2023-10-31",
+      "timeStr": "20:37",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Boa noite tudo bem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_112",
+      "dateStr": "31/10/2023",
+      "isoDate": "2023-10-31",
+      "timeStr": "20:38",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Tem duas amanha ja pago uma.",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_113",
+      "dateStr": "31/10/2023",
+      "isoDate": "2023-10-31",
+      "timeStr": "20:38",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "O  Saae tá pedindo para o Senhor ir la referente a água da casa fechada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_114",
+      "dateStr": "31/10/2023",
+      "isoDate": "2023-10-31",
+      "timeStr": "20:38",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Bateram aqui hoje a tarde",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_115",
+      "dateStr": "31/10/2023",
+      "isoDate": "2023-10-31",
+      "timeStr": "20:39",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Mensagem apagada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_116",
+      "dateStr": "31/10/2023",
+      "isoDate": "2023-10-31",
+      "timeStr": "20:39",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Ligação de voz perdida",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_117",
+      "dateStr": "31/10/2023",
+      "isoDate": "2023-10-31",
+      "timeStr": "20:40",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Liguei sem querer",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_118",
+      "dateStr": "31/10/2023",
+      "isoDate": "2023-10-31",
+      "timeStr": "20:40",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Perdão",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_119",
+      "dateStr": "31/10/2023",
+      "isoDate": "2023-10-31",
+      "timeStr": "22:15",
+      "author": "Etibio Faria",
+      "text": "Tudo bem Andreia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_120",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "06:44",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "O Senhor vai precisar que a gente desocupe essa?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_121",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "06:44",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Bom dia!",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_122",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "09:23",
+      "author": "Etibio Faria",
+      "text": "Bom dia Andreia  meu filho tá querendo ir pra casa aí que vê ela de novo troquei o piso da cozinha",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_123",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "09:24",
+      "author": "Etibio Faria",
+      "text": "Fiz escada de tijolos fica bem melhor",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_124",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "09:25",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Quando ele.pretende vir ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_125",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "09:25",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Para gente se organizar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_126",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "09:25",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Vou avisar meu esposo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_127",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "09:25",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Entendi",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_128",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "09:27",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Fica mesmo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_129",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "09:31",
+      "author": "Etibio Faria",
+      "text": "Vó nó SAE acertar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_130",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "09:32",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Esta bem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_131",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "09:32",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Vou regularizar as contas de luz",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_132",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "09:32",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "So me.fala  quando seu filho vem Pra gente se organizar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_133",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "09:36",
+      "author": "Etibio Faria",
+      "text": "Ele tá preparado pra mudar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_134",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "09:42",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Perfeito",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_135",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "09:42",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Vou falar com o Peter",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_136",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "09:42",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Eu gostei da casa que o Senhor mostrou para mim a gente vai \nMas se ele não quiser ele arruma outra",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_138",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "09:42",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Para gente desocupar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_139",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "10:46",
+      "author": "Etibio Faria",
+      "text": "Beleza entendi",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_140",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "11:38",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Podemos ir ai ver",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_141",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "11:38",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Denovo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_142",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "19:49",
+      "author": "Etibio Faria",
+      "text": "Venha sim",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_143",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "19:49",
+      "author": "Etibio Faria",
+      "text": "Tô esperando",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_144",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "21:30",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Hoje fui na igreja desculpa oramos.pelo senhor",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_145",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "21:30",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Amanhã se puder ir me avisa",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_146",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "21:42",
+      "author": "Etibio Faria",
+      "text": "Venha sim vou esperar beleza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_147",
+      "dateStr": "01/11/2023",
+      "isoDate": "2023-11-01",
+      "timeStr": "21:42",
+      "author": "Etibio Faria",
+      "text": "Obrigado valeu pela oração",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_148",
+      "dateStr": "02/11/2023",
+      "isoDate": "2023-11-02",
+      "timeStr": "12:02",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Boa tarde",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_149",
+      "dateStr": "02/11/2023",
+      "isoDate": "2023-11-02",
+      "timeStr": "12:02",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Fui ao chamei não saiu ninguém.",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_150",
+      "dateStr": "02/11/2023",
+      "isoDate": "2023-11-02",
+      "timeStr": "13:24",
+      "author": "Etibio Faria",
+      "text": "Não saí daqui  a casa tá tudo aberto é chegar e entrar não vou sair daqui",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_151",
+      "dateStr": "02/11/2023",
+      "isoDate": "2023-11-02",
+      "timeStr": "13:33",
+      "author": "Etibio Faria",
+      "text": "Amanhã depois do almoço não estou aqui vou fazer exame em Sorocaba",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_152",
+      "dateStr": "02/11/2023",
+      "isoDate": "2023-11-02",
+      "timeStr": "19:02",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Sae.vcf (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "Sae.vcf"
+    },
+    {
+      "id": "m_153",
+      "dateStr": "02/11/2023",
+      "isoDate": "2023-11-02",
+      "timeStr": "19:03",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "PTT-20231102-WA0001.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20231102-WA0001.opus"
+    },
+    {
+      "id": "m_154",
+      "dateStr": "02/11/2023",
+      "isoDate": "2023-11-02",
+      "timeStr": "19:03",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Mensagem apagada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_155",
+      "dateStr": "02/11/2023",
+      "isoDate": "2023-11-02",
+      "timeStr": "19:05",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Cpfl Wats.vcf (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "Wats.vcf"
+    },
+    {
+      "id": "m_156",
+      "dateStr": "02/11/2023",
+      "isoDate": "2023-11-02",
+      "timeStr": "19:08",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "PTT-20231102-WA0002.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20231102-WA0002.opus"
+    },
+    {
+      "id": "m_157",
+      "dateStr": "03/11/2023",
+      "isoDate": "2023-11-03",
+      "timeStr": "09:25",
+      "author": "Etibio Faria",
+      "text": "Tá bom obrigada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_158",
+      "dateStr": "08/11/2023",
+      "isoDate": "2023-11-08",
+      "timeStr": "12:24",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "AUD-20231108-WA0000.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "AUD-20231108-WA0000.opus"
+    },
+    {
+      "id": "m_159",
+      "dateStr": "08/11/2023",
+      "isoDate": "2023-11-08",
+      "timeStr": "12:24",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Quando posso pegar a chave seu Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_160",
+      "dateStr": "08/11/2023",
+      "isoDate": "2023-11-08",
+      "timeStr": "12:24",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Boa tarde",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_161",
+      "dateStr": "08/11/2023",
+      "isoDate": "2023-11-08",
+      "timeStr": "13:36",
+      "author": "Etibio Faria",
+      "text": "Boa tarde assim que possível te aviso",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_162",
+      "dateStr": "08/11/2023",
+      "isoDate": "2023-11-08",
+      "timeStr": "13:39",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Não tem probelmas <Mensagem editada>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_163",
+      "dateStr": "08/11/2023",
+      "isoDate": "2023-11-08",
+      "timeStr": "13:40",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "So Quer o saber se da para mudar sábado se não tenho que avisar o caminhão",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_164",
+      "dateStr": "08/11/2023",
+      "isoDate": "2023-11-08",
+      "timeStr": "13:41",
+      "author": "Etibio Faria",
+      "text": "O forro vai ser colocado sexta feira",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_165",
+      "dateStr": "08/11/2023",
+      "isoDate": "2023-11-08",
+      "timeStr": "13:43",
+      "author": "Etibio Faria",
+      "text": "Se você mudar sábado pode o forro é rápido",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_166",
+      "dateStr": "08/11/2023",
+      "isoDate": "2023-11-08",
+      "timeStr": "13:58",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Beleza vou mudar as 8 da manha",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_167",
+      "dateStr": "08/11/2023",
+      "isoDate": "2023-11-08",
+      "timeStr": "13:58",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Posso.ir ai lavar sexta a noite",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_168",
+      "dateStr": "08/11/2023",
+      "isoDate": "2023-11-08",
+      "timeStr": "21:36",
+      "author": "Etibio Faria",
+      "text": "Pode sim avisa o caminhão",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_169",
+      "dateStr": "09/11/2023",
+      "isoDate": "2023-11-09",
+      "timeStr": "20:06",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Seu Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_170",
+      "dateStr": "09/11/2023",
+      "isoDate": "2023-11-09",
+      "timeStr": "20:07",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Qual",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_171",
+      "dateStr": "09/11/2023",
+      "isoDate": "2023-11-09",
+      "timeStr": "20:07",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "O endereço",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_172",
+      "dateStr": "09/11/2023",
+      "isoDate": "2023-11-09",
+      "timeStr": "20:07",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Da onde vamos pudar para eu pedir a troca da internet",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_173",
+      "dateStr": "09/11/2023",
+      "isoDate": "2023-11-09",
+      "timeStr": "20:36",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "De onde vamos mudar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_174",
+      "dateStr": "09/11/2023",
+      "isoDate": "2023-11-09",
+      "timeStr": "22:12",
+      "author": "Etibio Faria",
+      "text": "Rua Osvaldo De Souza Aguirre 136",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_175",
+      "dateStr": "09/11/2023",
+      "isoDate": "2023-11-09",
+      "timeStr": "22:14",
+      "author": "Etibio Faria",
+      "text": "Jardim Maria José Salto SP",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_176",
+      "dateStr": "09/11/2023",
+      "isoDate": "2023-11-09",
+      "timeStr": "22:16",
+      "author": "Etibio Faria",
+      "text": "Pode sim",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_177",
+      "dateStr": "09/11/2023",
+      "isoDate": "2023-11-09",
+      "timeStr": "22:17",
+      "author": "Etibio Faria",
+      "text": "Mude sábado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_178",
+      "dateStr": "09/11/2023",
+      "isoDate": "2023-11-09",
+      "timeStr": "22:20",
+      "author": "Etibio Faria",
+      "text": "Pode mudar a i nternete",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_179",
+      "dateStr": "10/11/2023",
+      "isoDate": "2023-11-10",
+      "timeStr": "06:57",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "13321060 cep",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_180",
+      "dateStr": "10/11/2023",
+      "isoDate": "2023-11-10",
+      "timeStr": "07:21",
+      "author": "Etibio Faria",
+      "text": "É isso mesmo o cep",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_181",
+      "dateStr": "17/11/2023",
+      "isoDate": "2023-11-17",
+      "timeStr": "10:59",
+      "author": "Etibio Faria",
+      "text": "Andreia tem 165 reais de água da casa k vc morava a ser pago",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_182",
+      "dateStr": "17/11/2023",
+      "isoDate": "2023-11-17",
+      "timeStr": "10:59",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Ja vou pagar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_183",
+      "dateStr": "17/11/2023",
+      "isoDate": "2023-11-17",
+      "timeStr": "10:59",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Hoje",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_184",
+      "dateStr": "17/11/2023",
+      "isoDate": "2023-11-17",
+      "timeStr": "10:59",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "E o Peter vai pagar as luz dia e0",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_185",
+      "dateStr": "17/11/2023",
+      "isoDate": "2023-11-17",
+      "timeStr": "11:00",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Dia 30",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_186",
+      "dateStr": "17/11/2023",
+      "isoDate": "2023-11-17",
+      "timeStr": "11:00",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Vou puxar aqui no wats do sae <Mensagem editada>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_187",
+      "dateStr": "17/11/2023",
+      "isoDate": "2023-11-17",
+      "timeStr": "14:19",
+      "author": "Etibio Faria",
+      "text": "Falou beleza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_188",
+      "dateStr": "20/11/2023",
+      "isoDate": "2023-11-20",
+      "timeStr": "12:22",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Boa tarde seu Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_189",
+      "dateStr": "20/11/2023",
+      "isoDate": "2023-11-20",
+      "timeStr": "12:22",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Se tem uma foto de conta de luz desta casa",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_190",
+      "dateStr": "20/11/2023",
+      "isoDate": "2023-11-20",
+      "timeStr": "12:22",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Para eu passar no meu nome.",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_191",
+      "dateStr": "20/11/2023",
+      "isoDate": "2023-11-20",
+      "timeStr": "14:45",
+      "author": "Etibio Faria",
+      "text": "IMG-20231120-WA0001.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20231120-WA0001.jpg"
+    },
+    {
+      "id": "m_192",
+      "dateStr": "25/11/2023",
+      "isoDate": "2023-11-25",
+      "timeStr": "15:38",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Boa tarde seu Etibio \nO banheiro essa caixa que da descarga está descendo um pouquinho de água direto sem parar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_194",
+      "dateStr": "25/11/2023",
+      "isoDate": "2023-11-25",
+      "timeStr": "15:38",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "O senhor sabe o que tem que fazer",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_195",
+      "dateStr": "25/11/2023",
+      "isoDate": "2023-11-25",
+      "timeStr": "15:38",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Aqui fica no quarto",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_196",
+      "dateStr": "25/11/2023",
+      "isoDate": "2023-11-25",
+      "timeStr": "16:28",
+      "author": "Etibio Faria",
+      "text": "Olha a cordinha e a tampa sobre a caixa se tá certinho",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_197",
+      "dateStr": "12/12/2023",
+      "isoDate": "2023-12-12",
+      "timeStr": "11:34",
+      "author": "Etibio Faria",
+      "text": "Oi Andreia tudo bem  tem uma conta de 195 reais do mês passado não posso transferir pra mim outra conta devido esse débito  vc vê pra mim",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_198",
+      "dateStr": "12/12/2023",
+      "isoDate": "2023-12-12",
+      "timeStr": "11:34",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Oi seu Etibio vejo sim",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_199",
+      "dateStr": "12/12/2023",
+      "isoDate": "2023-12-12",
+      "timeStr": "11:34",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Seria de luz",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_200",
+      "dateStr": "12/12/2023",
+      "isoDate": "2023-12-12",
+      "timeStr": "11:35",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Eu não passei para meu nome",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_201",
+      "dateStr": "12/12/2023",
+      "isoDate": "2023-12-12",
+      "timeStr": "11:35",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Esta no seu ja, não está?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_202",
+      "dateStr": "12/12/2023",
+      "isoDate": "2023-12-12",
+      "timeStr": "11:36",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Na hora do almoço já vejo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_203",
+      "dateStr": "12/12/2023",
+      "isoDate": "2023-12-12",
+      "timeStr": "11:36",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Pelo wats tá bem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_204",
+      "dateStr": "12/12/2023",
+      "isoDate": "2023-12-12",
+      "timeStr": "11:36",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Obrigada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_205",
+      "dateStr": "12/12/2023",
+      "isoDate": "2023-12-12",
+      "timeStr": "11:36",
+      "author": "Etibio Faria",
+      "text": "É dá casa outra",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_206",
+      "dateStr": "12/12/2023",
+      "isoDate": "2023-12-12",
+      "timeStr": "11:37",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Tá bom",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_207",
+      "dateStr": "12/12/2023",
+      "isoDate": "2023-12-12",
+      "timeStr": "11:37",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Acho que ela vence em 26/12",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_208",
+      "dateStr": "12/12/2023",
+      "isoDate": "2023-12-12",
+      "timeStr": "11:37",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Não é isso?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_209",
+      "dateStr": "14/12/2023",
+      "isoDate": "2023-12-14",
+      "timeStr": "11:21",
+      "author": "Etibio Faria",
+      "text": "Andreia tirei segunda via da casa da rua paubrasil tem mês 9  163 reais do mês 10 tem 194reais  mês 11 tem 133 reais vê direitinho pra mim fazer a transferência que eu tenho que fazer",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_210",
+      "dateStr": "14/12/2023",
+      "isoDate": "2023-12-14",
+      "timeStr": "11:36",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Bom dia seu Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_211",
+      "dateStr": "14/12/2023",
+      "isoDate": "2023-12-14",
+      "timeStr": "11:37",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Ja entrei em contato novamente com a cpfl",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_212",
+      "dateStr": "14/12/2023",
+      "isoDate": "2023-12-14",
+      "timeStr": "11:37",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Houve um problema sistêmico a baixa ocorrerá em 5 dias ja enviei o comprovante de pagamento tb para eles via email",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_213",
+      "dateStr": "14/12/2023",
+      "isoDate": "2023-12-14",
+      "timeStr": "11:38",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_214",
+      "dateStr": "14/12/2023",
+      "isoDate": "2023-12-14",
+      "timeStr": "11:38",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_215",
+      "dateStr": "14/12/2023",
+      "isoDate": "2023-12-14",
+      "timeStr": "11:39",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Uma foi paga dia 06 e a a outra dia 2",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_216",
+      "dateStr": "14/12/2023",
+      "isoDate": "2023-12-14",
+      "timeStr": "11:39",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Se o senhor conseguir levar esses comprovantes lá",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_217",
+      "dateStr": "14/12/2023",
+      "isoDate": "2023-12-14",
+      "timeStr": "11:39",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Eles dão baixa na hora",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_218",
+      "dateStr": "14/12/2023",
+      "isoDate": "2023-12-14",
+      "timeStr": "11:39",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Eu não consigo por conta do horário de trabalho",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_219",
+      "dateStr": "14/12/2023",
+      "isoDate": "2023-12-14",
+      "timeStr": "11:39",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Vou imprimir e deixar ai na sua caixinha",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_220",
+      "dateStr": "14/12/2023",
+      "isoDate": "2023-12-14",
+      "timeStr": "12:58",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Tá na sua caixinha de correio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_221",
+      "dateStr": "14/12/2023",
+      "isoDate": "2023-12-14",
+      "timeStr": "12:59",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Os comprovantes de pagamento",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_222",
+      "dateStr": "09/02/2024",
+      "isoDate": "2024-02-09",
+      "timeStr": "12:10",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "PTT-20240209-WA0001.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20240209-WA0001.opus"
+    },
+    {
+      "id": "m_223",
+      "dateStr": "10/02/2024",
+      "isoDate": "2024-02-10",
+      "timeStr": "18:24",
+      "author": "Etibio Faria",
+      "text": "Só depois do vencimento",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_224",
+      "dateStr": "10/02/2024",
+      "isoDate": "2024-02-10",
+      "timeStr": "18:57",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "A ta bom",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_225",
+      "dateStr": "11/02/2024",
+      "isoDate": "2024-02-11",
+      "timeStr": "17:48",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Quando o sr parcelar  me avisa",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_226",
+      "dateStr": "11/02/2024",
+      "isoDate": "2024-02-11",
+      "timeStr": "21:23",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Poor gentileza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_227",
+      "dateStr": "12/02/2024",
+      "isoDate": "2024-02-12",
+      "timeStr": "08:24",
+      "author": "Etibio Faria",
+      "text": "Vou hoje",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_228",
+      "dateStr": "16/05/2024",
+      "isoDate": "2024-05-16",
+      "timeStr": "06:45",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "<Mídia oculta>\nSolda do portão",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_230",
+      "dateStr": "16/05/2024",
+      "isoDate": "2024-05-16",
+      "timeStr": "06:45",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Bom dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_231",
+      "dateStr": "16/05/2024",
+      "isoDate": "2024-05-16",
+      "timeStr": "06:46",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Fui abrir o portão hoje de manha",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_232",
+      "dateStr": "16/05/2024",
+      "isoDate": "2024-05-16",
+      "timeStr": "06:46",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Escapou essa parte",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_233",
+      "dateStr": "16/05/2024",
+      "isoDate": "2024-05-16",
+      "timeStr": "06:46",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Será que tem que soldar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_234",
+      "dateStr": "16/05/2024",
+      "isoDate": "2024-05-16",
+      "timeStr": "06:46",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "O senhor sabe quem faz?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_235",
+      "dateStr": "16/05/2024",
+      "isoDate": "2024-05-16",
+      "timeStr": "12:17",
+      "author": "Etibio Faria",
+      "text": "Andreia só pode ser sábado  eu vou si der passar um arame pra segurar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_236",
+      "dateStr": "16/05/2024",
+      "isoDate": "2024-05-16",
+      "timeStr": "13:11",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "ta",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_237",
+      "dateStr": "16/05/2024",
+      "isoDate": "2024-05-16",
+      "timeStr": "13:11",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "bom obrigada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_238",
+      "dateStr": "04/07/2024",
+      "isoDate": "2024-07-04",
+      "timeStr": "15:37",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Olá ETIBIO, tudo bem?\n\nInformamos que sua instalação nº 2089226496 referente ao endereço: R PAU BRASIL, 192  AL, VL FLORA, 13321-111, SALTO, está *programada para o corte de energia* conforme REN 1000/21 da ANEEL.\n\nIdentificamos em nosso sistema 5 conta(s) em aberto, no valor total de R$ 232,59.\n\n*Pague sua(s) conta(s) em aberto* em um de nossos canais digitais e *vamos juntos evitar o corte!*\n\nAh, e lembre-se: evite golpes ao realizar o pagamento. Sempre verifique se está navegando no nosso site oficial e os destinatários das faturas ou PIX.\n\nSe o pagamento já foi efetuado, favor desconsiderar esta mensagem.",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_249",
+      "dateStr": "30/11/2024",
+      "isoDate": "2024-11-30",
+      "timeStr": "11:36",
+      "author": "Etibio Faria",
+      "text": "Oi Andreia bom dia tudo bem com vocês  passei uma massa para não infiltração se vc não jogar água na garagem eu lhe agradeço brigado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_250",
+      "dateStr": "30/11/2024",
+      "isoDate": "2024-11-30",
+      "timeStr": "12:44",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Bom dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_251",
+      "dateStr": "30/11/2024",
+      "isoDate": "2024-11-30",
+      "timeStr": "12:44",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Obrigada por avisar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_252",
+      "dateStr": "30/11/2024",
+      "isoDate": "2024-11-30",
+      "timeStr": "12:44",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Pode deixar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_253",
+      "dateStr": "22/03/2025",
+      "isoDate": "2025-03-22",
+      "timeStr": "22:52",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_254",
+      "dateStr": "22/03/2025",
+      "isoDate": "2025-03-22",
+      "timeStr": "22:52",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Boa noite seu Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_255",
+      "dateStr": "22/03/2025",
+      "isoDate": "2025-03-22",
+      "timeStr": "22:52",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Tem um homem acho que bebedo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_256",
+      "dateStr": "22/03/2025",
+      "isoDate": "2025-03-22",
+      "timeStr": "22:52",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Ele tá bem embaixo do seu carro",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_257",
+      "dateStr": "22/03/2025",
+      "isoDate": "2025-03-22",
+      "timeStr": "22:52",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Cuidado ao sair",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_258",
+      "dateStr": "22/03/2025",
+      "isoDate": "2025-03-22",
+      "timeStr": "22:52",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Bem do lado da guia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_259",
+      "dateStr": "22/03/2025",
+      "isoDate": "2025-03-22",
+      "timeStr": "22:52",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_260",
+      "dateStr": "03/10/2025",
+      "isoDate": "2025-10-03",
+      "timeStr": "17:14",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_261",
+      "dateStr": "04/10/2025",
+      "isoDate": "2025-10-04",
+      "timeStr": "18:15",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_262",
+      "dateStr": "04/10/2025",
+      "isoDate": "2025-10-04",
+      "timeStr": "18:44",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_263",
+      "dateStr": "04/10/2025",
+      "isoDate": "2025-10-04",
+      "timeStr": "18:44",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Mensagem apagada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_264",
+      "dateStr": "04/10/2025",
+      "isoDate": "2025-10-04",
+      "timeStr": "19:23",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Seu Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_265",
+      "dateStr": "04/10/2025",
+      "isoDate": "2025-10-04",
+      "timeStr": "19:24",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "O eletricista o senhor ali da frente não lembro o nome",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_266",
+      "dateStr": "04/10/2025",
+      "isoDate": "2025-10-04",
+      "timeStr": "19:24",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Pediu para vc entrar em contato com ele",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_267",
+      "dateStr": "04/10/2025",
+      "isoDate": "2025-10-04",
+      "timeStr": "19:24",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Procurar ele para falar com ele",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_268",
+      "dateStr": "04/10/2025",
+      "isoDate": "2025-10-04",
+      "timeStr": "19:24",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Por favor",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_269",
+      "dateStr": "04/10/2025",
+      "isoDate": "2025-10-04",
+      "timeStr": "19:30",
+      "author": "Etibio Faria",
+      "text": "É William o fone é 9 97625459",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_270",
+      "dateStr": "04/10/2025",
+      "isoDate": "2025-10-04",
+      "timeStr": "20:54",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "PTT-20251004-WA0000.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20251004-WA0000.opus"
+    },
+    {
+      "id": "m_271",
+      "dateStr": "04/10/2025",
+      "isoDate": "2025-10-04",
+      "timeStr": "21:00",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_272",
+      "dateStr": "05/10/2025",
+      "isoDate": "2025-10-05",
+      "timeStr": "08:30",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Bom dia tudo bem ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_273",
+      "dateStr": "05/10/2025",
+      "isoDate": "2025-10-05",
+      "timeStr": "08:30",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Ele falou com o Senhor só material ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_274",
+      "dateStr": "05/10/2025",
+      "isoDate": "2025-10-05",
+      "timeStr": "08:30",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "O que ficou certo ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_275",
+      "dateStr": "07/10/2025",
+      "isoDate": "2025-10-07",
+      "timeStr": "09:00",
+      "author": "Etibio Faria",
+      "text": "Bom dia Andreia o homem que trabalha já quem vai segurar o cachorro",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_276",
+      "dateStr": "07/10/2025",
+      "isoDate": "2025-10-07",
+      "timeStr": "09:41",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Bom dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_277",
+      "dateStr": "07/10/2025",
+      "isoDate": "2025-10-07",
+      "timeStr": "09:41",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Ela já está descendo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_278",
+      "dateStr": "29/10/2025",
+      "isoDate": "2025-10-29",
+      "timeStr": "13:45",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "PTT-20251029-WA0000.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20251029-WA0000.opus"
+    },
+    {
+      "id": "m_279",
+      "dateStr": "30/10/2025",
+      "isoDate": "2025-10-30",
+      "timeStr": "09:43",
+      "author": "Etibio Faria",
+      "text": "Andreia preciso sanar o vazamento do seu telhado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_280",
+      "dateStr": "30/10/2025",
+      "isoDate": "2025-10-30",
+      "timeStr": "10:01",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Bom dia vim na farmácia tá só as crianças \nVou pegar eles depois e ir na minha mãe um pouco \nPode ser umas 14 horas",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_283",
+      "dateStr": "30/10/2025",
+      "isoDate": "2025-10-30",
+      "timeStr": "10:06",
+      "author": "Etibio Faria",
+      "text": "Se a chuva deixar beleza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_284",
+      "dateStr": "30/10/2025",
+      "isoDate": "2025-10-30",
+      "timeStr": "10:06",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Rsrsr",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_285",
+      "dateStr": "30/10/2025",
+      "isoDate": "2025-10-30",
+      "timeStr": "10:06",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Vai chover mais não",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_286",
+      "dateStr": "30/10/2025",
+      "isoDate": "2025-10-30",
+      "timeStr": "10:07",
+      "author": "Etibio Faria",
+      "text": "Deixa pro ano que vem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_287",
+      "dateStr": "30/10/2025",
+      "isoDate": "2025-10-30",
+      "timeStr": "10:08",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "🤣🤣🤣🤣🤣",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_288",
+      "dateStr": "30/10/2025",
+      "isoDate": "2025-10-30",
+      "timeStr": "12:43",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Indo para casa",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_289",
+      "dateStr": "30/10/2025",
+      "isoDate": "2025-10-30",
+      "timeStr": "12:45",
+      "author": "Etibio Faria",
+      "text": "Dá pra mim mexer no telhado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_290",
+      "dateStr": "30/10/2025",
+      "isoDate": "2025-10-30",
+      "timeStr": "12:45",
+      "author": "Andreia Feguetti (OSVALDO S. AGUIRRE)",
+      "text": "Sim\n",
+      "isSystem": false,
+      "attachment": null
+    }
+  ],
+  "mediaFiles": [
+    "1694527618689.pdf",
+    "Sae.vcf",
+    "PTT-20231102-WA0001.opus",
+    "Cpfl Wats.vcf",
+    "PTT-20231102-WA0002.opus",
+    "AUD-20231108-WA0000.opus",
+    "IMG-20231120-WA0001.jpg",
+    "PTT-20240209-WA0001.opus",
+    "PTT-20251004-WA0000.opus",
+    "PTT-20251029-WA0000.opus",
+    "Wats.vcf"
+  ],
+  "mediaDataUrls": {
+    "1694527618689.pdf": "./conversas/andreia-feguetti-osvaldo-s-aguirre/1694527618689.pdf",
+    "Sae.vcf": "./conversas/andreia-feguetti-osvaldo-s-aguirre/Sae.vcf",
+    "PTT-20231102-WA0001.opus": "./conversas/andreia-feguetti-osvaldo-s-aguirre/PTT-20231102-WA0001.opus",
+    "Cpfl Wats.vcf": "./conversas/andreia-feguetti-osvaldo-s-aguirre/Cpfl%20Wats.vcf",
+    "PTT-20231102-WA0002.opus": "./conversas/andreia-feguetti-osvaldo-s-aguirre/PTT-20231102-WA0002.opus",
+    "AUD-20231108-WA0000.opus": "./conversas/andreia-feguetti-osvaldo-s-aguirre/AUD-20231108-WA0000.opus",
+    "IMG-20231120-WA0001.jpg": "./conversas/andreia-feguetti-osvaldo-s-aguirre/IMG-20231120-WA0001.jpg",
+    "PTT-20240209-WA0001.opus": "./conversas/andreia-feguetti-osvaldo-s-aguirre/PTT-20240209-WA0001.opus",
+    "PTT-20251004-WA0000.opus": "./conversas/andreia-feguetti-osvaldo-s-aguirre/PTT-20251004-WA0000.opus",
+    "PTT-20251029-WA0000.opus": "./conversas/andreia-feguetti-osvaldo-s-aguirre/PTT-20251029-WA0000.opus",
+    "Wats.vcf": "./conversas/andreia-feguetti-osvaldo-s-aguirre/Wats.vcf"
+  }
+}
