@@ -1,0 +1,717 @@
+{
+  "id": "chat_1794591088140_ccfv",
+  "title": "Marco Basso",
+  "folderSlug": "marco-basso",
+  "phoneNote": "",
+  "pinned": false,
+  "pinnedAt": 0,
+  "avatarDataUrl": "data:image/jpeg;base64,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",
+  "createdAt": 1794591088142,
+  "participants": [
+    "Marco Basso",
+    "Etibio Faria"
+  ],
+  "myUser": "Etibio Faria",
+  "messages": [
+    {
+      "id": "m_0",
+      "dateStr": "19/06/2024",
+      "isoDate": "2024-06-19",
+      "timeStr": "12:15",
+      "author": null,
+      "text": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. *Saiba mais*",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_1",
+      "dateStr": "19/06/2024",
+      "isoDate": "2024-06-19",
+      "timeStr": "12:15",
+      "author": null,
+      "text": "Marco Basso está na sua lista de contatos",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_2",
+      "dateStr": "19/06/2024",
+      "isoDate": "2024-06-19",
+      "timeStr": "12:15",
+      "author": "Marco Basso",
+      "text": "Troquei meu número",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_3",
+      "dateStr": "22/06/2024",
+      "isoDate": "2024-06-22",
+      "timeStr": "11:20",
+      "author": "Marco Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_4",
+      "dateStr": "10/08/2024",
+      "isoDate": "2024-08-10",
+      "timeStr": "17:33",
+      "author": "Marco Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_5",
+      "dateStr": "10/08/2024",
+      "isoDate": "2024-08-10",
+      "timeStr": "20:23",
+      "author": "Etibio Faria",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_6",
+      "dateStr": "10/08/2024",
+      "isoDate": "2024-08-10",
+      "timeStr": "20:37",
+      "author": "Marco Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_7",
+      "dateStr": "28/09/2024",
+      "isoDate": "2024-09-28",
+      "timeStr": "18:26",
+      "author": "Marco Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_8",
+      "dateStr": "31/12/2024",
+      "isoDate": "2024-12-31",
+      "timeStr": "16:56",
+      "author": "Marco Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_9",
+      "dateStr": "02/03/2025",
+      "isoDate": "2025-03-02",
+      "timeStr": "11:16",
+      "author": "Marco Basso",
+      "text": "Bom dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_10",
+      "dateStr": "02/03/2025",
+      "isoDate": "2025-03-02",
+      "timeStr": "11:18",
+      "author": "Marco Basso",
+      "text": "Vamos assar carne na edícula do Sandro",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_11",
+      "dateStr": "02/03/2025",
+      "isoDate": "2025-03-02",
+      "timeStr": "11:18",
+      "author": "Etibio Faria",
+      "text": "Bão dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_12",
+      "dateStr": "02/03/2025",
+      "isoDate": "2025-03-02",
+      "timeStr": "11:18",
+      "author": "Marco Basso",
+      "text": "Vem pra cá",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_13",
+      "dateStr": "02/03/2025",
+      "isoDate": "2025-03-02",
+      "timeStr": "11:19",
+      "author": "Etibio Faria",
+      "text": "Tô no aniversário do meu primo na cidade nova perto de Sorocaba",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_14",
+      "dateStr": "02/03/2025",
+      "isoDate": "2025-03-02",
+      "timeStr": "11:20",
+      "author": "Marco Basso",
+      "text": "👍🏻",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_15",
+      "dateStr": "02/03/2025",
+      "isoDate": "2025-03-02",
+      "timeStr": "11:20",
+      "author": "Marco Basso",
+      "text": "Se quiser passar aqui depois estamos aqui",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_16",
+      "dateStr": "02/03/2025",
+      "isoDate": "2025-03-02",
+      "timeStr": "11:20",
+      "author": "Etibio Faria",
+      "text": "Falou",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_17",
+      "dateStr": "12/03/2025",
+      "isoDate": "2025-03-12",
+      "timeStr": "18:21",
+      "author": "Marco Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_18",
+      "dateStr": "16/03/2025",
+      "isoDate": "2025-03-16",
+      "timeStr": "09:47",
+      "author": "Marco Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_19",
+      "dateStr": "25/03/2025",
+      "isoDate": "2025-03-25",
+      "timeStr": "12:53",
+      "author": "Marco Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_20",
+      "dateStr": "01/04/2025",
+      "isoDate": "2025-04-01",
+      "timeStr": "17:13",
+      "author": "Marco Basso",
+      "text": "Boa tarde tudo bem aí",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_21",
+      "dateStr": "01/04/2025",
+      "isoDate": "2025-04-01",
+      "timeStr": "17:13",
+      "author": "Marco Basso",
+      "text": "Quando vc vai passar no médico",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_22",
+      "dateStr": "02/04/2025",
+      "isoDate": "2025-04-02",
+      "timeStr": "07:55",
+      "author": "Marco Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_23",
+      "dateStr": "04/04/2025",
+      "isoDate": "2025-04-04",
+      "timeStr": "05:44",
+      "author": "Marco Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_24",
+      "dateStr": "04/04/2025",
+      "isoDate": "2025-04-04",
+      "timeStr": "13:20",
+      "author": "Etibio Faria",
+      "text": "É isso mesmo tem que ficar esperto os tiusao k c cuide",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_25",
+      "dateStr": "06/04/2025",
+      "isoDate": "2025-04-06",
+      "timeStr": "20:42",
+      "author": "Marco Basso",
+      "text": "Boa noite",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_26",
+      "dateStr": "06/04/2025",
+      "isoDate": "2025-04-06",
+      "timeStr": "20:42",
+      "author": "Marco Basso",
+      "text": "Que horas a gente vai amanhã",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_27",
+      "dateStr": "06/04/2025",
+      "isoDate": "2025-04-06",
+      "timeStr": "20:47",
+      "author": "Etibio Faria",
+      "text": "Não é amanhã é quarta dia 9 às 9h horas lá em Sorocaba",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_28",
+      "dateStr": "06/04/2025",
+      "isoDate": "2025-04-06",
+      "timeStr": "21:18",
+      "author": "Marco Basso",
+      "text": "👍🏻",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_29",
+      "dateStr": "06/04/2025",
+      "isoDate": "2025-04-06",
+      "timeStr": "21:21",
+      "author": "Etibio Faria",
+      "text": "Entendido chef",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_30",
+      "dateStr": "08/04/2025",
+      "isoDate": "2025-04-08",
+      "timeStr": "10:08",
+      "author": "Etibio Faria",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_31",
+      "dateStr": "09/04/2025",
+      "isoDate": "2025-04-09",
+      "timeStr": "06:42",
+      "author": "Etibio Faria",
+      "text": "Vou passar aí na sua casa",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_32",
+      "dateStr": "09/04/2025",
+      "isoDate": "2025-04-09",
+      "timeStr": "06:50",
+      "author": "Marco Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_33",
+      "dateStr": "10/04/2025",
+      "isoDate": "2025-04-10",
+      "timeStr": "10:00",
+      "author": "Marco Basso",
+      "text": "IMG-20250410-WA0000.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20250410-WA0000.jpg"
+    },
+    {
+      "id": "m_34",
+      "dateStr": "10/04/2025",
+      "isoDate": "2025-04-10",
+      "timeStr": "10:03",
+      "author": "Etibio Faria",
+      "text": "Aí tem 4 pessoas lindas",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_35",
+      "dateStr": "10/04/2025",
+      "isoDate": "2025-04-10",
+      "timeStr": "10:58",
+      "author": "Marco Basso",
+      "text": "5",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_36",
+      "dateStr": "10/04/2025",
+      "isoDate": "2025-04-10",
+      "timeStr": "11:00",
+      "author": "Etibio Faria",
+      "text": "Se tá confuso é 4",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_37",
+      "dateStr": "20/04/2025",
+      "isoDate": "2025-04-20",
+      "timeStr": "09:41",
+      "author": "Etibio Faria",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_38",
+      "dateStr": "19/05/2025",
+      "isoDate": "2025-05-19",
+      "timeStr": "21:01",
+      "author": "Marco Basso",
+      "text": "Boa noite o Felipe vai te levar depois de amanhã",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_39",
+      "dateStr": "19/05/2025",
+      "isoDate": "2025-05-19",
+      "timeStr": "21:01",
+      "author": "Marco Basso",
+      "text": "As 6 horas ele tá aí",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_40",
+      "dateStr": "20/05/2025",
+      "isoDate": "2025-05-20",
+      "timeStr": "18:45",
+      "author": "Marco Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_41",
+      "dateStr": "26/05/2025",
+      "isoDate": "2025-05-26",
+      "timeStr": "00:29",
+      "author": "Etibio Faria",
+      "text": "Oi marco Antônio demorou mais chegou no 52 feliz aniversário que Deus abençoe sempre vc eu ti amo filho",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_42",
+      "dateStr": "26/05/2025",
+      "isoDate": "2025-05-26",
+      "timeStr": "05:57",
+      "author": "Marco Basso",
+      "text": "Obrigado 🙏🏻🙏🏻",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_43",
+      "dateStr": "07/09/2025",
+      "isoDate": "2025-09-07",
+      "timeStr": "08:30",
+      "author": "Marco Basso",
+      "text": "Bom dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_44",
+      "dateStr": "07/09/2025",
+      "isoDate": "2025-09-07",
+      "timeStr": "08:30",
+      "author": "Marco Basso",
+      "text": "Vamos fazer um almoço na edícula do Sandro",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_45",
+      "dateStr": "07/09/2025",
+      "isoDate": "2025-09-07",
+      "timeStr": "08:30",
+      "author": "Marco Basso",
+      "text": "Pode chegar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_46",
+      "dateStr": "07/09/2025",
+      "isoDate": "2025-09-07",
+      "timeStr": "10:27",
+      "author": "Etibio Faria",
+      "text": "A ta certo legal",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_47",
+      "dateStr": "21/10/2025",
+      "isoDate": "2025-10-21",
+      "timeStr": "20:06",
+      "author": "Marco Basso",
+      "text": "Boa noite",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_48",
+      "dateStr": "21/10/2025",
+      "isoDate": "2025-10-21",
+      "timeStr": "20:07",
+      "author": "Marco Basso",
+      "text": "STK-20251021-WA0004.webp (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "STK-20251021-WA0004.webp"
+    },
+    {
+      "id": "m_49",
+      "dateStr": "21/10/2025",
+      "isoDate": "2025-10-21",
+      "timeStr": "20:07",
+      "author": "Marco Basso",
+      "text": "STK-20251021-WA0005.webp (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "STK-20251021-WA0005.webp"
+    },
+    {
+      "id": "m_50",
+      "dateStr": "21/10/2025",
+      "isoDate": "2025-10-21",
+      "timeStr": "20:07",
+      "author": "Marco Basso",
+      "text": "Feliz aniversário tudo de bom, muita saúde e paz 🎂",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_51",
+      "dateStr": "21/10/2025",
+      "isoDate": "2025-10-21",
+      "timeStr": "20:07",
+      "author": "Marco Basso",
+      "text": "Domingo almoço aqui em casa as 12 horas",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_52",
+      "dateStr": "21/10/2025",
+      "isoDate": "2025-10-21",
+      "timeStr": "20:10",
+      "author": "Etibio Faria",
+      "text": "Tô dentro    brigado pelas felicitações tudo de bom para você meu filho domingo estalaremos",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_53",
+      "dateStr": "24/10/2025",
+      "isoDate": "2025-10-24",
+      "timeStr": "18:38",
+      "author": "Etibio Faria",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_54",
+      "dateStr": "20/11/2025",
+      "isoDate": "2025-11-20",
+      "timeStr": "10:23",
+      "author": "Marco Basso",
+      "text": "Bom dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_55",
+      "dateStr": "20/11/2025",
+      "isoDate": "2025-11-20",
+      "timeStr": "10:23",
+      "author": "Marco Basso",
+      "text": "Tudo bem por aí",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_56",
+      "dateStr": "20/11/2025",
+      "isoDate": "2025-11-20",
+      "timeStr": "10:24",
+      "author": "Marco Basso",
+      "text": "Estamos aqui na edícula do Sandro",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_57",
+      "dateStr": "20/11/2025",
+      "isoDate": "2025-11-20",
+      "timeStr": "10:24",
+      "author": "Marco Basso",
+      "text": "Vem pra cá",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_58",
+      "dateStr": "20/11/2025",
+      "isoDate": "2025-11-20",
+      "timeStr": "10:24",
+      "author": "Marco Basso",
+      "text": "Não precisa trazer nada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_59",
+      "dateStr": "20/11/2025",
+      "isoDate": "2025-11-20",
+      "timeStr": "20:42",
+      "author": "Etibio Faria",
+      "text": "Oi tudo bem só vi agora mais obrigado por me convidar me desculpa por ter o fone longe é coisa de veio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_60",
+      "dateStr": "14/12/2025",
+      "isoDate": "2025-12-14",
+      "timeStr": "21:24",
+      "author": "Marco Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_61",
+      "dateStr": "14/12/2025",
+      "isoDate": "2025-12-14",
+      "timeStr": "21:32",
+      "author": "Marco Basso",
+      "text": "Oi tá tudo bem aí",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_62",
+      "dateStr": "14/12/2025",
+      "isoDate": "2025-12-14",
+      "timeStr": "21:32",
+      "author": "Marco Basso",
+      "text": "Não responde o telefone",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_63",
+      "dateStr": "14/12/2025",
+      "isoDate": "2025-12-14",
+      "timeStr": "21:32",
+      "author": "Marco Basso",
+      "text": "O Dudu tá tentando falar com vc",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_64",
+      "dateStr": "15/12/2025",
+      "isoDate": "2025-12-15",
+      "timeStr": "06:25",
+      "author": "Marco Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_65",
+      "dateStr": "15/12/2025",
+      "isoDate": "2025-12-15",
+      "timeStr": "06:26",
+      "author": "Marco Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_66",
+      "dateStr": "15/12/2025",
+      "isoDate": "2025-12-15",
+      "timeStr": "06:30",
+      "author": "Marco Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_67",
+      "dateStr": "15/12/2025",
+      "isoDate": "2025-12-15",
+      "timeStr": "14:08",
+      "author": "Marco Basso",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_68",
+      "dateStr": "15/12/2025",
+      "isoDate": "2025-12-15",
+      "timeStr": "14:09",
+      "author": "Marco Basso",
+      "text": "\n",
+      "isSystem": false,
+      "attachment": null
+    }
+  ],
+  "mediaFiles": [
+    "IMG-20250410-WA0000.jpg",
+    "STK-20251021-WA0004.webp",
+    "STK-20251021-WA0005.webp"
+  ],
+  "mediaDataUrls": {
+    "IMG-20250410-WA0000.jpg": "./conversas/marco-basso/IMG-20250410-WA0000.jpg",
+    "STK-20251021-WA0004.webp": "./conversas/marco-basso/STK-20251021-WA0004.webp",
+    "STK-20251021-WA0005.webp": "./conversas/marco-basso/STK-20251021-WA0005.webp"
+  }
+}

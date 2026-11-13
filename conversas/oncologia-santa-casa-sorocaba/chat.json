@@ -1,0 +1,107 @@
+{
+  "id": "chat_1794591088147_5f15",
+  "title": "Oncologia Santa Casa Sorocaba",
+  "folderSlug": "oncologia-santa-casa-sorocaba",
+  "phoneNote": "",
+  "pinned": false,
+  "pinnedAt": 0,
+  "avatarDataUrl": "data:image/jpeg;base64,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",
+  "createdAt": 1794591088148,
+  "participants": [
+    "Oncologia Santa Casa Sorocaba",
+    "Etibio Faria"
+  ],
+  "myUser": "Etibio Faria",
+  "messages": [
+    {
+      "id": "m_0",
+      "dateStr": "26/02/2025",
+      "isoDate": "2025-02-26",
+      "timeStr": "08:45",
+      "author": null,
+      "text": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. *Saiba mais*",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_1",
+      "dateStr": "26/02/2025",
+      "isoDate": "2025-02-26",
+      "timeStr": "08:45",
+      "author": null,
+      "text": "Oncologia Santa Casa Sorocaba está na sua lista de contatos",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_2",
+      "dateStr": "26/02/2025",
+      "isoDate": "2025-02-26",
+      "timeStr": "08:43",
+      "author": "Oncologia Santa Casa Sorocaba",
+      "text": "Bom dia\nAqui é do setor de agendamentos da Oncologia, estou entrando em contato para passar a data de agendamento do Exame de Cintilografia Óssea do sr/sra:\n*Etibio Pires de Faria*\n\n\nDia: 19/03/2025\nHorário: 13:30\nLocal: Medicina Nuclear \n\nEndereço: Rua Sir. Alexander Fleming, 260 - Jardim Emilia\n\nSegue a foto do pedido médico e demais informações importantes \n \n\n*POR GENTILEZA CONFIRMAR CIENCIA DO AGENDAMENTO*\n\n*NÃO É NECESSÁRIO RETIRAR A GUIA, SOMENTE APRESENTAR A FOTO DO EXAME NO DIA AGENDADO*",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_19",
+      "dateStr": "26/02/2025",
+      "isoDate": "2025-02-26",
+      "timeStr": "08:43",
+      "author": "Oncologia Santa Casa Sorocaba",
+      "text": "*Preparo*\n\n1- Não é necessário jejum\n2- Não é necessário suspensão de medicamentos \n\n*Informações Gerais*\n\n1 - Cintilografia Óssea convencional: O radiofármaco é injetado na veia do paciente\n\n- As imagens tardias do corpo inteiro são realizadas entre *03 e 06 horas após a injeção venosa*\n- As imagens duram aproximadamente 20 minutos\n\n2 -Vista roupa soltas e confortáveis que não possua metal, zíper ou botões \n\n3 - Deixe jóias e bijuterias em casa\n\n*O RESULTADO É LIBERADO EM 05 DIAS ÚTEIS*",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_36",
+      "dateStr": "26/02/2025",
+      "isoDate": "2025-02-26",
+      "timeStr": "08:43",
+      "author": "Oncologia Santa Casa Sorocaba",
+      "text": "Etibio Pires de Faria.pdf (arquivo anexado)\nEtibio Pires de Faria.pdf",
+      "isSystem": false,
+      "attachment": "Faria.pdf"
+    },
+    {
+      "id": "m_38",
+      "dateStr": "26/02/2025",
+      "isoDate": "2025-02-26",
+      "timeStr": "09:18",
+      "author": "Etibio Faria",
+      "text": "Beleza vou estar atento obrigado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_39",
+      "dateStr": "26/02/2025",
+      "isoDate": "2025-02-26",
+      "timeStr": "09:29",
+      "author": "Etibio Faria",
+      "text": "PTT-20250226-WA0000.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20250226-WA0000.opus"
+    },
+    {
+      "id": "m_40",
+      "dateStr": "26/02/2025",
+      "isoDate": "2025-02-26",
+      "timeStr": "10:09",
+      "author": "Oncologia Santa Casa Sorocaba",
+      "text": "Agradecemos a confirmação! O HCM deseja um ótimo dia 🙏🏼\n",
+      "isSystem": false,
+      "attachment": null
+    }
+  ],
+  "mediaFiles": [
+    "Etibio Pires de Faria.pdf",
+    "PTT-20250226-WA0000.opus",
+    "Faria.pdf"
+  ],
+  "mediaDataUrls": {
+    "Etibio Pires de Faria.pdf": "./conversas/oncologia-santa-casa-sorocaba/Etibio%20Pires%20de%20Faria.pdf",
+    "PTT-20250226-WA0000.opus": "./conversas/oncologia-santa-casa-sorocaba/PTT-20250226-WA0000.opus",
+    "Faria.pdf": "./conversas/oncologia-santa-casa-sorocaba/Faria.pdf"
+  }
+}

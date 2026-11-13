@@ -1,0 +1,719 @@
+{
+  "id": "chat_1794591088055_yd4t",
+  "title": "Macedo - 11 99872-4667",
+  "folderSlug": "macedo",
+  "phoneNote": "11 99872-4667",
+  "pinned": false,
+  "pinnedAt": 0,
+  "avatarDataUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAEAAQADASIAAhEBAxEB/8QAHAAAAQUBAQEAAAAAAAAAAAAABQIDBAYHCAEA/8QAPxAAAgEDAwIEBAMFBgYCAwAAAQIDAAQRBRIhBjETQVFhByJxgRQykRUjQlKhCBYzYpKxJCVyc4KiQ+FjwdH/xAAbAQABBQEBAAAAAAAAAAAAAAADAAECBAUGB//EACYRAAICAgIDAAICAwEAAAAAAAABAhEDBBIhBRMxBiIUUSNBYTL/2gAMAwEAAhEDEQA/AOUY87PF+1TenCrXxyfI17Ja+HbeGe+a90TT7lrkvEpIANavh5JZUA2YNQLHDAXdYF/iYVv3w26b06w6akNxMoldGx848xWAWTukgc/mWj8XUWqtAI1mKgehIr0CWt7Umjm+fGTPupbA6PrE0CEFWZmHOe5oPtwfrUm7u7jUrjxLgjIHemiOa19bD64lHNO5ni04vakAV7mrKBPs9r6vhTirmpIhdHkabjzTbQqsmakCMtwO9N3EbKKjNOuicJ90MTTBZQKmJIHIPtQW83K+alWM25RzUIZWuixPEpIMxmiFowAoTE3FTbeTGKI4JqzLyRUWaf8ACS5t/wBsKjbhkGtiu9GtpJ1mG7lR51zr0nqc9hqSSLt8q2e16su2gTcFxgeVeSfmelyyWjq/x7LUew7Po0E0ewBuDnvTlro8EeA26gsnVc0UoJCnjyWn4uqt4yR/61wD1uqOo4xl2HH0myC5O/8AWpNittaw4XdtzVd/vPE3D5H2r1+o7CKMPKx25qrPRTGUUXNpopowEz96li0V7YEZznNCNAng1WASWu7b71Y8pFb+GM7q0tbD60PSIEMJ8aS4kHyLGc/YVnNxP0hq+vk3MkwuFbAAOOxrReor/wDZfTFxMRklWHbPcVy705HLqHWz3jidYhIT5gfmpb1yx0hrZ0xE3g26xW/+CFGM96ch+eAtjnNQLXVrIWkQRuygHP0qU1/bOojgYbjzXGzxZE/grbPJ4zLF83kaSvyvs9qdMgEexvzd6RCBk7mBb60NwmOMOjrJnimJypbDZp+csH9qizDLdjUeMhHB2tQmO8A4wQBWi/DPSbSO1Z7zazMpCgYJ5HFU3VbaOe5F0M8cYqz/AAyBXWhLesyxBSAM8V6toZnCaYtmCcQR1NYNpmtvA64DfMPoahqjKuxfrV4+KsEE9wt9EOyhaokcvz1614nOsmNWcbtw4SJAXLbT2xnikFlHAzXqtls+1eBcjNbSdmW13Z9uFebhXxWkGnJKiQgzT8a0P8YivvxRFNYzhYXjVs8EZqLeF9+CRUMXzKeDSXnZzmkmxRx0JvwNvvUezcK+w8HvUnY0zgVB1a3nh1BYoVyxA4xWdtbEcDtl3DjeToP2ZEp2hgDjPJqTbNuk2qCeaa0HQLu7Chztc+pxxV50jpq3tYwZclu/esLb/J8WNNJl+HgJZuyJ09ptxc3cbgYUEd+K3PSelJNR0hJbWSIEYBy4FZ1aqsYCYCgegrVPhhYtf2JhjmYHk4315v5nzUtm2zodfxUdWAPl6J1Vn3RSW5I45cU2/Sutw/mNuR7EVb7jQdUs52dJRj3eg+pPrkEZMZjY5+tcot6L+hotIrd10/q+DtVSfao9l0fqV7dKL47YcgkBsGrFBrXUdvFuMMJ580zRTT9Vnu0E9+qpJnGFGBRsOxHJKkSSUl0Wzpey0rRNOS3gL7/Pcc0YeG2ERuHkUDv+aqitzZyAZkIP1ob1RflbF0gmbO04+b2q+ukNxaCfVWradqFsdNhmTOecsKr9joOk2VmE2qZnfOVwe9ZZBp2uXGpNKZGxuOPmPrV80qDUbaNDLliCPU1TzbUY9MXNIP63089rai4tS23g8mgenzzJfbo2PyjkGrW3UJNp+HnjONuPy+1BdLhtnv2kkDBWzVV5cLCRakrCTakk1jJPkh0Q/wBBVU6F1/Udd1GRY+ER2XkY7GivVNtLbRMLEEqwx696X8MNLawt3lnjCszMe2O9RaxSJdFutRBNcC1kOJdue/FTpNKSCLxmIKduDVculSPV/HD4+XH5qKS6j/y3aHz83rTfx8bF0cN6srFEltY2Ybxkbc+dX2y0uG56dju4wUnVhkdjxRWfpp+ltSEd7au8JHkm7k19PMkesxiK3mFswGQENdlix8WV5ytFY6jae7szujYRqMZK+lUVVIdvqa6M6907TF+Gv4m1jKymQZyMGudwGJcn+Y16N4Fvgcv5KPdninin1OBTSLng05xXV4+zEl8FgZr7wsivFOKWJCKk3QyjL6R3tzTL27USVt3bFLKJj5qfjasnGTA34Zs81JEO0DipMmB+VSftT9rY3d3/AIcZ/Sq89iOPqyyouR5pUIM65q09H6HBqXxEjiuAPC8Ed/WhdnomoxHfsH6Ud6VttQbqQNgLKE4I4rkvO7SnBqLNbRwSjK2GviVpq9O9VRrZlRCYVPB9RTVnqMUiAuTuxT/XWia/eQ/tC4jLhQBlQTwKpNjfkPsXKspwQ3FeS7McryNtnc6UoqJfLaV3bLdvatP+D+pxW+oiEsRkHvWO6NeyFACVNWzQriaFxcxNiXsOaDmxueOkNsY3KPR0bfxx3By0qbSPJuahRaTaOnzODz/NWLrrXV8+pCK2ZNm3zopcal1tAQsZhIxzXL5NTNGRlevqjUrq1sFh8JdhOfaq1rulT+Lm3Q7MeQrP11brRtdhhIjMbFd3HvXQujwxQ6XCtyqmRlBORnyrR8fqZYz5DYYuLMWvYru1BLBx+tQY5muTtYnj1rctQ0XTNRykiADHlxWV9eaZZaFeYsycEjOT61tNuK7DybZO6W0tb6ESBF4OO1WR7COBwjICMelBOk9St7SwC+Igyc8kUfi1a0mbmWPPb8wrm96GSUriBljbIk9jaySbmQ4x5Cm/2ZaumVBBB+lFXkhcbY5YufVhS0W2CYeVPswrNccsWQ4yj0iDFZweEAw3YPnzXl5tC7IVCj2GKmhYANqSrj3avGSEJtyGPqDml7MsRfuVy60Sa4bxA3/tT8GlSRQ+GTn70WwQfPFLE8SHkH9Kl/KzIX7leurqw1qxC3Vupfd38MUP1mz0Kz0lp4rfMi+qUVFv+GzMigRAc5HNUfqvq2z3SWNukm4gjJTjNetKPVkG7K11NqB1Xoed1GFWVlxjHasAkcLLIv8AnP8AvW6WaXc2h3Fg1tKQS8mQhx5nvWG6zCYb6VcYIc8feu3/AB2fJUYfko9CSRivFNMbjilqeK7NLiYHG1Q8DXuaaBHrXoI9ag5qRKEXdDvibO1P28cs7DANJsbRpmB2kirRplmqKPl/pXN+Y85HVjxTNvS8d7H8GdG0+PxgZlyMVddGitIQAEH6ULtLPcwKiisFu6Y4rzza/Isrn0zpsPho18Ckux0wiL+lR4oprWRbqFB4gPPHlSt8igYxUyxu2hYmRVIIx2qqvI5M/wD6ZZfj1D4aR0R1Po2qW50nVIlyyEZ2DvjFc/8Ax20KDp/rUrYKwtnUMD5ZNXlYkV1uYiyPvHY44zVg6t6Utus+mhIvN1Hg5J5wo/8AqhZMHPsZSeN0Y3oBkaJWq7aK7KseT/EBVfsNOks7k2rKVKEjkY7VZLG3YSxRjuXH+9UbrplxyuBt3SnThvtJS5gVPE9TRP8AuvqIzlYjRnoS3e26ciB4PB/pRlZD4mKpZopsz6KLH05qENwJzFESO3FFzLqksYDqMjjgVaZJlxt29/amhlJCFRduM9qhGTiQXRVpdQu7SFndTwD2FYf8TuoLq7viFSQ84/Ka6QuFtp4mSaPvnsKrcvSPTl45e4Q5J86Ipt/R7Oa/xmvLbgI2Ae3Jry3vtfjcFpG7+pro246B6VGNrn/WK+f4ddOSIPDY/wCoUmoP6KzBZOotXiUZkfPsTSV6y1uPjcce+a2rVPhfp/5rUEt7tQO4+FkrElET7mhywY5O6HqzPLTrO/ZvndgfvRKL4h6laERIyMvfkZNHb34W3gB/wx9GqAPhXqCgzJtIHq1Qepj/AKFxJFj8THx/xC8+yU5c/EIy/wCCP1WoKdB6kZBG0a4zVy6c+FlpJGGuzg+z1H+Hj/oXEJdUT+Dpbuo8iOKxrWbkSacE2DeLjOcc4zWza9CLjTDF55rMdb0lIcg9s12Slaop/A0OuNP0bo94nig8QxlclBnkVytq92L3Wri6AG1nY/1q/wDxLjuY1MQZhHgHvWZHCIQDk5rtvx2HFWY3ke0fBsZJpt3ydnl3p11Btc+eaZ2hhz3rsMkm10Y+OPY0ZmD7FqVp0TXl2sEeScjNMxRKkhLelW/4WaUJ9baVxlQhrM8jn9GJtFzWwqcyy6TpAtbRU2AsRnmiNtp5QfMtPT3KwXe04wOKIQzLdSKI/avG/Lb0s+V2zuvH6qjFMc07TiygAUZh08lQNtTNMgCIoI5o5FAnh5xWUo8nZqt0VibRzszioa2jxNtxmrhN+Xbih7xoW5FWIyr4DcrAFzvVAAKt/wAPpnBCNna2QRQma2RvKjXTpitmXy5q5iytLsoZoqwX8VNEhs9QF9CoAZQDj3oV0PZrea5GhV2C4bgZ7VcPiZE13oQaPBYMDUb4NXVnYTtc3rRhgGHJFVs//CCn+hqNxra2likcEUmVUD8h9KputfEC/spDshfj/wDGf/5VutOpNMu3MavBj3xTV7baVe5LNbH6FarwxuRVUiiR/FfVTx4P6xf/AFS2+LGoRph4xn/t0/1LZWNorNEsR+gFUHUtQtlch4+fZaNDCm6YJzLvB8XHY4lTH/hTd78SLSdTkyKSPIYrLrnUbQMcIw/8aite27Ed6sLVixuZfG6yZ3JWWXvxkmiOndYXSsCsp+5rO1vLPA4YU8lzbt+VyPvTvSixczX7X4gXFsA8zoV/WiNv8T9PlTZI2D9KxMgSDCzD7tUVo4VbLTc+z0N6iXSHWQ2i96skuZN1jLHz23GoNx1jrdtLsZrc8eQFZMk7I2IZz92qckt28e7xUP1anWoP7TQp+vNUA5WD/SKYXr/VgeGQfQVnztdk/nQ/ek+LcJ3K1P8AhoXtNzvyS55G3bWedWyMUBXH+IM/rV41gMQzKfL1rPdRkDXBgc55zWrDFJySAOSoqHxitVbpkXsO3OQvvXP8MjpKyTd8mtp+LmqGOH8Bu+TAOKxq5AM5YCvRvBYKh2YW7NN0Ol2RPm7UiVjKm+Hy9aQ8mVwaYeZo+E7GuglGukVIRiyQLhWjwfzitN+DbiQv23bG/wBjWTyKuzec5rQfhDdtbzuW4TY3+xrA86qws0fH4259FsvgTO4kOTuOMfWivTsTxyB27VXbrUYmd2t8s+49+ad0jUdZmmClYwn0rxrawueRtHc4MnGNGr2LK21vLtRqNSCFyP1rORql9DbgMyYXk4r0dexGHwrcsZs7eRQ0qVBXLov+q3FrZWxlmkX6AjNU+XqvTXutiiX0/LVe1ia8ugJLl3wx4wTimEs7iJRsVTnntRYJIrSbXwuv7XtPDDliB714NZiUqyMSMjtVOu7W5miAbcPpxRnprTGCDeSefM1ZUo0V5cpfS16xrf4vT/DwduPSs41aeSKVo4ZZFJOeGIq+XkSRwFcdhWf6qTJcswHY4oUZOcqZHLFQh0eWeo3ECbRcTbv+s1Jj6i1eFv3Vw5HuxoSwYS5I4xSgavKKj0ZayMOP1Tq8i7ZHU/Woj6tdytlwh+1Dwa+Mm3yqTxRuyCdolyXAcfMBn2FR2KFsjNNGY+leGUnyp/WhWS2YyjCkU14YRsyO2PY1GVyp718xLnvTcGKwgstjt2+JLn6mo/4VpJN0TyEfU03bWbSvtU8/WjVla3luMoEP15qLi19FYNe0nA+XeD96+jGoxptXc30yaMzzajIuwxxgf9NeWuo3unJsMcTDOfyg03aHA/4jUUPMUn+k03Leak35Y2/0mrpp3UlvMQlzBGPogous+kSruEY/0ilzZKiw9S6y1tZ7ge5xVHv5pZb7xhnBWrtqGmQXkfhXGdoO7g1W9ZS2t7oRxg7QPOtKOWpAnHoyX4r2tw7C7YHZwuazx41C5Nar8ZdTjTp/8OoAfeD2rGjes/BIruvDbySSZjbWGTZLaIFciozxcbvKlR3OFxmvGnXzNdP78U19KkcUkIKq8YHOQauvQ/z27RRcNg1S1kXNFtA1aTTbhWiI5ODn0NYnnMMM+J8WbGjNY32XGxglsZiDhmLE+tW/SLe4lQO6qF9higEEkM5Se3y2QCc881b9Fvg9vtIAwPSvGt2DxTaR12t/kVkHWYjaQGYE/N8vJ9ai9O9OpNCZ0V/F3Fue3rSepryaVliUfuwwJ496t/Tes2A01flImxjtVFTouvGMQi3mt/w92pDqeMD0qbY2kSDcXQr5DIpE6QXSl1DBifIVCudPW0AlEkmM/wA1S9hB4wxcxwygBUz9BSreaO1woU9/SkaZqEH4cKnLe9LnBkHiKBkc06myDgj3XpTHamT1FZ6bgGdgfU1YupNYuGT8MxQAfrVSOfG3PxWrq4bVmRuZq6JVzIrLgd6jingsTDPzZpDRN/B/WrLXZQXw8Br4n2pDLKn5h+lOQzRYwQc/Sk2JLoQT7UnOfKnpWAGVxTSM7H/Dc/RabmLiNyR+9OQQ+9KeFu/hyf6TSogo4KSfpT+5C4j0Un4dtwNTI9WmiGVwftQq6R1TeqP+lJhY45Vv0pclLsVUE59duZRtCqPtTMd9J/8AJg1Cdg3BUj6ClwLGqY5+9NQiY0iy8jg/pS4dSNpwWJqESPLNMum7vS4D2bnZ6tp1wSRJ5Ed6qfU9zHHc4Ug5IqtdVWkvT7xrbT+IxdRhX3Hk+1T3t5769hVmAyink4q6oJMipWZd8cp8XixA8FFOP0rLNx9a1X+0DYS2msK7D5fDXn7Cskd8Vo4M7h8ITgpD4lI86S0rFu9RWlIpt5iDVqW3lS6YH0pBSN+O9KMjA5B7UJW7Ip5LoHuajLenJU2PLBx7Ro/QnUMVtb+FdHzPetG0K8inTfFyprnmS7VgvhsQQfXFad8L+oIvDFrM/PPeuW8lq+x8kbfj8/FUy/ahLbBfmUkk44FT9D0a9ldWhibYeeQaEX+BIrxENghvUVcNB66u7aJYBFD8oxnwxWGsZse2/hZdK6bv2hAbw1GP4jiq51fbT2tybIsrHGcqc0Y/vVe6iChKoCPIYqDHbb5jJKWY+p5qLVEk7AukWpt1LSkj71KGohHZQeADTHUMvhSCOMjy7Gg+qTGzsjKx5Ipoy7FKPRn/AFz1HPH1ikUZPhkDP61bSi3ccckXfYCf0rP7yFdQ1/x2GQPOtI+HVubvWhbsQU8I+ftXY6OH/FZxu/l/y0JtUA5PB7c09HayTP8AKyD6mi3UWiGC8PhMAuPWg/7PuFbKv/7VUyxaYSDtE5tHufDyHiP/AJClWXT010uPEhD5/mAqOkV0Bgsx+9R7pLu3k8VWkBHuaqSkwqLBH8ONckxLHLbFf+4KLafoU2lDbexxNjvgA1VdL6w1S0IQuSB65olcdbyuuJY2JP8AkqN2PZdtM/upOwS6jdfXjFFLjpvoyeLfay4b/M4rJJtTe6yZMoD/AC8VEdxn91czhv8AuGm42Ky/dSaPYWFqZEeJkzjAYE1S7ySzDcL+gqC8WouPnlkeP/qJrwQSJy39aPjVKiLPZTER+7X9RUSVWLZPFSvxCpwwz9BUe4nDPlQcfSiogN7SK9r4PmvRg+Ypxiz9P9PXaXf7QvWLkDGHOR+horDZSXWuKRxGoB49qsuoukreHGAPtigWoazY6BFNPcthRG2D74qxKXZOKM2/tM3Ft+FWONlMoCj38q59MhPerL191S3UGrTT72KBioB9jVVaQHtV3A+iElZIj2nvTVyCG+XGKQhJ7Up9wFTlKmPxpEZ+/NfKV8yaTKTnmkjbnvQZzsjQ4SJPkhJB96mWOpT6e67GO4HyqATtcY/pRXSdC1LVZ1jsreRs+ZQ4qpOHInGXE07ojq5L6BbW5ceJWj6LBBJiQMDn3rDLrpS96biW6lcLPx8oby+lWTo7qybetvI/NZO7rdWjX0dpLpm+WVtapGJC+CPekaprcNvakRkFu1UM6ndvEDG5wR615E00w3yMSM+tYc83BUbK/d2E7KV9RvTJITioPXdysVv4eeMCidmI4LcyKcHFUXrDUvxUxjDZwateNwvNNMrb+ZY4NAqzlALKo9Tmr78JVmF084PADDNZyZVhgBH5mOP1rU+gU/ZfSrXLkb2Y4+9ehxxcYo4TJLnJlp0SFNd6laynY7dhOQfOpHUfSF3p5MlkNy+5zQXo+5mtHOqyKclyvb3rWenr9NQtwflY+jVVywTCYsnExmS6uLJ9s8LBx/k4pxrp747ZwgTHkMVr2t9PWWpIfFiCt6gYqga/0TdQwtLaEbAc/m5rNza/Rchmsq76dGZN6Yx9asGkQ6O8IS7Tn2FVhWeKUxSbgy1ISYMeGI+9UpYWgvOyzX2iaNNGRZlgxHmaql70/d20/iB0KA/zVKiu51PyuMfWn/xKSD9+zE+xqHBodMVpmqafbL4VyjEgelDdZvtOnY+BvBqRdQ2kqY5ofNpcON0RJP1osVSGZBTxSflxt96Rc3HhnY+3HtTrw3cZ24GKizW2+XdIGz7dqmhhSXEJTCBs+4pkPh8uTj2p7w1jXjGKbJgc4bNOhGr3d6wb93jeeKwz+0RrcsMf7MDkOdrHB8q3C5gCM7D+FSa5i+Nk9xqfVDbVJVVx29KlKXZoZsKiihKqCPIJweT9aQxUetOCNo4cMCDmmHNXcEujOl9FpLjtS2uQq4NR1NfSYIHrmpZHYrsVM2TTIweQCaVMdzACjfRulvqnUFvZqm4F1JGPegiLL8MOgrzqW5S4lgcWwPPBB4ro7RrDRejtEZrezJdUIJeLPOPpV86K6dsen9Dt4IoYwWRSTtHmKrvxy1eHSunXt0WMM3sPOpxoFNnNvWmsHWeoZbrBEWCuAMD9KrKQyQXyyxdsjtRBpH8R9y5DuSMD1NHOnun5ZW8adCBjIzVbdrgWNK3MtfTFyZtPVXHzYora7g3gsR60O6dtmE5gA4waIS28lreFWPOM1xGbFKeSkdfjkoQtjOu3xtLUqrcVn95cb5yzEk0Z6xvHM/gqfLNVh2OwljzXbeC1FjjbOY8rsubpEhW8aSME9nB/rWu9M2N/r8ENvpy7YVwW38du9Z98PumLvWrpZQpaMN5e1dG9IJaaNaJAImVwOTtroMmVfDFhCvoPubF7CBLNo/l4zhfOjOhRLp7LJlhnyzT2q6rZSgByofI74qbaRRX6rhh28jVNytjTj/Qftp/xcQ4GMeVQtQ8O1OZATC3Hryad05JLZvCA49a91eFXtPCY/wAWc07SaHjaM5+IPTDLCdSskyh9KzsmcjaMDBwa6R020in0l7e4G5SDisf6z6afS757mJcxk/71VywQaDZVlhIA+bn6183iJ37U54Ug5p6PDjDA5+lUpRRZixlFV1BJNT7KFGwAGz71CKFJOCMVPhv9ibABn6VCiTCKaSkq5kK49jTd1pFoIzGgP3qLBdTB9xbj60QW8WQZJGaehgBc6HGgJTOfc0NOlAOfE7e1W2aVGFDp9hNSoRaNQb8PZSzN/IR/SsI1OG1vb6aeQAksR/Wt06qVl6dkK/mJIrDbi2RC4YPneT/WhZHTNbZmpLoovW2lR2UHix+Zqlua0T4hL/yzdz+YCs6IO7ntVzXlaMlrvs8Br3GWyaW6qFyO9IcdiKP/ALH6QoEI/I8q1T+zpY/iurFuHTICnHFZVJguAM5NdNf2WtBjj0ldTuEIYORmoyIM6Fs0kns0MgxtAA8qz74xdD6h1JZmS1YYGOC3pWg3Oq2gVdrYwAKjXWpxG2+RwSTjBNC5UDcWzBugfhNeXOshNU8PwF54bnIq2/ErQLTQ4kislGAFHHNXl7aTf4lodrketQ7nQl1SJ0vyTKFJBzxQc69kaQfXfCVsy7SVijUSnhqXLFNqOqu0K5VYj5egp9NHu315tPiGYxk5FaP0r05aabZSPIMuUYHJz3FZmLQanbNbNvR4UjmLqFpf2zIrjsCO1QNL0q81a/SCJCQzAHA9613qDpPT59SlnKvkse31o78Pem7KwuRP4LE+WRmuixSUI0jAlc5Wy2/CbpK36dsI4ymXZdxzz3FW+/sI5WLFVUY8uK9sGBhDHggcUzf3EkkRHYdhinTf+yE/+FR1HpeDU9T3CVxjyD47UfsdONiVjgcnAHc5qJJbT2Fsb0k7ycd/KpOi35m5bmTNTtEUv7D1tftvEMi8+uKk6namS2CxnJJB700vg7Az48Q+lFbWMJEAefOm5UKhmCJodOEePmzQTXtNW8sJEmUEgE1aGII8qhX0avFJn+U/7UOackSj0YVPBHaySD0Y96F3VwQ3AGPpR/qlLa3vZUbeO5qqF/FViO2apTi0WIsXhpTlD81Oqkij5hzTVgSjb/Opk0qunOM1BIm2MAvn8w/WvWmdG25qOImMmQ3H1qbBaiQjJ/rTjWfJI7DvXjbjRGHT8YORj605JFZxj5yc/WnFYY6ruEXSGhYZOewrL5oIpNymCXJb+Q1NuOsLtr1WutrR8ZwM1femupei7qJVvopA3Y4TFU8rbLsp2Yb8T9BYdKG4jRtwkHGPKsXZvkI8wcV3n1d090dr3Sdy+mzYkEbMFkcDsK4W1m1FtqNzEvIWZwMfU1Z1m0V5IigZNfPwM0lH5r0NvIT3q8rsE2SIIN80R9XUf1rsz4M2yW3w+WJABIST/SuROmrVrrX7a1Ckgup/rXXelyv08LSz2MEaND245AppDDjJqkiv8p/MccGl2FjqsroHVtu4evrWmaRBbzWiOY15AParDYWentbY2Luz6CgyEVSS1gs9NR3bEnHc1EudtzCY4mHiY8j5VL+IGmSSkJbsQBg96FdP2U63ISY849agSQP0i2isbxzIuZjnnGaIpi4LDdgEHzxRK50+JbzkHcR3qJqel+EpeAkDHrRIojN2C30O2ZN2QTu9aNafZ2VtbhTtDfaqddXF7asfzEZ96gXGsX73IVTgUeIH4aXuiSPCMO/rSXaJzsHbvWcXfUc2nSI0j53YGBz3q06dqkc1qrbhuPNTshQYv2iktm/EFVjA9cVUrDVbW0uHud3yDIoX15rF5cSjTLMNk4YkA/70AmsruKBYGDncQTjNIVGk6Hro1G78fJ8McVb7bVYljCs3NUPo7SGFisYVlJOeeKsy6HPuBLf+1MxBs6ij/lNR5rl2B9KRa6Y0Y+Y/1qasKKMEVNfBrMp+I8MRlMqgiqTbquwoO+a0z4rwxW1rlQSSR2FZ9aWu9g61Sy/Q0BiKzZSSe1IltnByD/WilzBKB8oobLJKr7SD+lCQQ8ihkJwKcCXMTjA4p+1YqNzYqbFewbvDcc/SnEfWrO0WGJzTE1nJK3BP60SRrVhwTTU86xfkBP2pCMoRXz8wzT6kgcEj6U4UYdxSCB50CVMmpCnuLjwZES4mAKEYDn0rF9dga31OQtnkk8/Wtl2jBx51mvxIt1gvcjjOKPgaRJysqLw4y1NxqfIcg1I8QMNtJV0Rz64q86oGX74IWbah1rBvQEKAe3oa7G6p023u9Nt5olXciIM/QCuc/wCyjo343WGu3XgIwB/Wuk7i2m/ZLqnOGNDkML6Zu5YrIRTSRgA+tHrPUbaLhZlLem4VRNGtBeM6TtIoyexIpUeiLBf+JBLK2PVyaDIQc6m1i7NyAqFk45C5penXUU6KznY36VItboIu2ZEI245GTQ24sUu5t0L7TnjDYpkJ/A1uV7gYIIxUS+nHjeGuSKgS22qWBLAqy7frQ3TdfCXRhu1O/P8ALRooHdlhGn29xCdyDJ9RQHUemVLM64HHrVgiuFnwYzgGmtUZlQBWBJ470REJdGRa5o94dRPykxoM/pTekapcnUVhlyqgbR5VrEtrCbIxSIPEPOceVU6bQEl1VTEAApDHy7GlYqLNomnW0cQubmMFyOCRU630u2nm8UICB7VHudQsrieOyViNqjPl2oot3Y2cAVXJP1pWKhxbiOIiJExj0FeXWrx2xwwfOPSvrae2k/eCnpFsLhv3oOaRFke11xJWz833FFIbyKdeWAqCun2JOI91IudI2KXiY8c/moi+EUDeubRLu0ycFciqMbBYoD+Hxuz51ctZF7+ymMuNoNURbtyzLE2Tk1Sy/Q0CXArpGTMFJofdC2LkhTu+lS0MoTfJ3qNP+HGTzuoSCkCUWn8RYGmmtHl/eQsPuabvVSR8ruzUdJngk2uSDTiJ8NrdQndKQR7GpiywquSrE/SoUWqSONjAY+lPxXq5xtH6UhFGmz4e84xUM/M3nRK+025tFCXEMo5/lNR5YwrBVUjjPIqhGaf0I4DaW5z3HbPesy+K7/8AMAg74FaHPfQ20hZmOcY71ROs4I9U1DeuewqxCcUFjhtFCjyJMH0pwxqse5vzk4o/J0+ocNz29a+j0MSMFX19au48sX0QljaN9/smj8NY/vCoYlv/AN10XaqBGVGCDk1yh8MtRfp7Ym7AreulusraWNRLIO1W5YrVopzyOLDeq213uZdPEat3+bioOiS3tjITqqhgSR8gzXt7r1m8gMUnJOO9HbJrVtP3TD5jzzWfmbiw+NqQz4VrcgspYDHmcVX76LU4LrfZkFAfOplxNM10VtyAuPOmP23FZvsuYpGf/KmRSiyU4/0Sv7yFFEd7GxOMHC1AmsYNUf8AGWnB7YPFSzcWWoLlVCsfUYpqKL8FJtUn19qNGTA8aESXL6VB+/Vjj+UZpehX8OrT8PjH8xx2p+61BLqH8PMIyD6AZqFadPwI5mgMik++KImRlTD19sD72kQnbgYNVe4W+j1AvCU2EYOTT2oaVfQoZImZlHPJJqszapfyTi0RSJQe5XjFLsZFw03p+GeQ3jO2cc/NUuDRElkxvY4/zUFS61q1s1iTYWODRbTJ9YRA8ioPtUP2shKTQSGnzQLsi/rUS5j1GDkqCPYURhvLnZuk2ZpdvqMkny/uu/nirMcfVjXaImnzzAZlVs/Sp/7SiUYkD/pUgOrY3mP7Yr64toZo8Er9jTStCVAfqS5F1oEscA55PasNtr66s72RgMgORyM+db3qtpBa6FM8eScH/asPSa3kMqyDB8U+XvVTImw0QhB1AJWEcowceQqTH+Gn+YPyfU0IurGMDfEwyR60OkjuImzuP2NCqghaBaQh9+QT9abvtMS6fxl4cDFBbS+mX5Q3PvUuLVZo7gJJg8eVMI9NjOhwAK+/D3A4VefpReyvopGAI5PtRJoJXXdEi/pUbYjYNS6a6c1FSb2DBA/gUVzj8a7Sx0nW3g0oELs/irqAQR5O0naRjmubP7Q+mTWmvG8dGMJUDIFc7DKzUWJGHztJKzNMTnPlUVURm3cnFHZoInh4BwTUT8GsXYHFHU2wyikRBGsi0m2t2jm3AcU+x2NtRSPqKejyCFxxViE5LsZwjPoIQWtxcKGiB4qYtzqll+UsAPrRfpNlQAFQR7irY9pYTRZkTy8hWvj8xDEuMivPx6l2UGz6tv4b6BZicGRR2PrXSdmRd6NBKN3KKTj6Vzn1BYWratbw2wwRKhOfqK6O0i4hi0u2s4HRn8NCeQfIUHZ3I5e4kVqLGSLKytp02sWDA571JubS38MoERiB3IFBNbvb2xvBFbRnaQMnb61Os1uJLMSOcMfWo4ptrsDkpOgBqVpILzdb5BB+1Tlv7XYILwN4mMfKKLW0K7yJADQXW9Pb8X49sMgCrMWV5dkR9HuHuhc2THZ3+c0bW+uIoFikQFh/KtQbPWfwsfh3kb4H8q0/BrdpI/8Aw6MSf5loykCcBOpa9cWsJPhZ4/kzVQHUNv8AtHxZoDjt8sfnVi6quNQayJtI4iT6rQnovTJ7yUvqcadyflFS5WR+Fk0vU7SS3F28UnpgrRH+8enPiIow/wDHFPFbGOMQxqBgelRX03S3be+4N7GiRQOXZImvdMeLBZhn3xTFtp9pc/NBMQc+b1EutIsJjw8g/wDKpml6LbRruWWT/VRlIGySdHudv7uUE+Xz1FSx1mGYbnTZn1o5ZweH+VmP1Ne6ixSLcO/ah5J0SiiNrR8PQJckH5Tn9K5yvLkNcygBv8U9h710HrQkHT8gLDxGyO/tWJnRtSWSU+EpUuTnHvVCeaizGJAb8RIQbZxux/EaeguNny3mD/01HuNO1FMnGDUVlu0OJV4+lDU+XZOqDDw2s4zbMQ3ucUyltcQv821vcc0OhYM+AWB/Spn4ua1Ii3Kw75704graT+FIGdT+lWmz16COAAqf0qkx6kSAGC/YVPtrmBx85xTUI6XEhc7UHA5qmfF2DSbvpCabUNodScHgdhxV3tzGwOweRrmb+1R1RPHK2gWzsp4c444rmYI2YSsxv9p776WG3VnxIQAFzxmiEjSx4aaF1BHmpFT/AOzjpMeq9eiKdQ6eGSQ3NdO9T/DDp3VICscTrMI88cDtR4yoUzlEotycIv8ASlwwBflxzmi3XVoej+oJLUgeEB9aCadq8F/KBCDknHIo/tpEscOyyaPHImCCMUYl1EwoQ3pT3TnTGo3sIkQptI9ae1fQJLRT4+MgeRrPyyUp2X4qolKv3nu9SFwOPIeVb18CulNU1BF1a6ZmjUFQCx8qxCW2lfUbeEYAaZR/UV298MtJj0bpS3two+ZFc/cVqYZR4mVszYzHoVpfx+HJF86+ePSqh17Zvo1oWiGFBrW4FjClkFUL4rReLp7KQMZq9D4UONmXaJ1Ct3cmFuD27VZEjCLv4IPNUbT9PWG+Z0yDz51bdJW4mjBJBA4o8WQaocu/AuBsMPPstMW+kwIdwUijCL4ZGVGfpXtyCwBxiipkHIr2sF7eAhVyB7ZqrRdWwafMY5sJ9sVf71YnUo4/h9Kwf4uWDrdsbdiv3xV3Vw8wMzQ36s0+ZdyTc/WmD1PBuwsn9awSwh1cTbYZefdqsdjp3UbLvDxf6qs5MPFkF2a+vUCOuQ9T7DqaKGLazE81h99ea/YDDtHxUe36n1PwiHKZz6VYw6/JAZujpHT+rbLZ8zGpNx1DY3Fv8pJ5rnC017VJQAGXk1pfQdjqmp24LMpBPrQs+rSJQkW/WLu4vbHNqy4z5mgx1O6sbTw50hbnyUGi3VWntofSzSqT4m71rHn6h1R92ShG89/rWHsYaLuNl4bV9Nu5PwzoyynnO3AoT1HCsUW9NhX2xVcuNUeY/vcK2M5UYqFLqV1MfDibI/zUCCpUSl9J0KLMhPb+lRJo+TtYlfc15DcyD93JgE+leSo6TBc9xmiIieQ/K3BP3p97koPmJ+1eCNtuWx9q+8JSeKkI/9k=",
+  "createdAt": 1794591088055,
+  "participants": [
+    "Macedo",
+    "Etibio Faria"
+  ],
+  "myUser": "Etibio Faria",
+  "messages": [
+    {
+      "id": "m_0",
+      "dateStr": "11/07/2022",
+      "isoDate": "2022-07-11",
+      "timeStr": "21:14",
+      "author": null,
+      "text": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. *Saiba mais*",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_1",
+      "dateStr": "10/07/2022",
+      "isoDate": "2022-07-10",
+      "timeStr": "22:11",
+      "author": "Macedo",
+      "text": "Boa noite até amanhã se Deus quiser",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_2",
+      "dateStr": "22/08/2022",
+      "isoDate": "2022-08-22",
+      "timeStr": "21:06",
+      "author": "Macedo",
+      "text": "Ligação de voz perdida",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_3",
+      "dateStr": "22/08/2022",
+      "isoDate": "2022-08-22",
+      "timeStr": "21:11",
+      "author": "Macedo",
+      "text": "Ligação de voz perdida",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_4",
+      "dateStr": "22/08/2022",
+      "isoDate": "2022-08-22",
+      "timeStr": "21:13",
+      "author": "Etibio Faria",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_5",
+      "dateStr": "22/08/2022",
+      "isoDate": "2022-08-22",
+      "timeStr": "21:13",
+      "author": "Etibio Faria",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_6",
+      "dateStr": "06/09/2022",
+      "isoDate": "2022-09-06",
+      "timeStr": "18:24",
+      "author": "Macedo",
+      "text": "Oi etibio eu entendi eu tava na cidade na hora que você ligou mais tá tudo certo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_7",
+      "dateStr": "02/06/2023",
+      "isoDate": "2023-06-02",
+      "timeStr": "12:41",
+      "author": "Etibio Faria",
+      "text": "Mas cedo tô em frente a casa",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_8",
+      "dateStr": "27/06/2023",
+      "isoDate": "2023-06-27",
+      "timeStr": "17:32",
+      "author": "Etibio Faria",
+      "text": "Claudio é na sexta feira agora que vamos a Sorocaba",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_9",
+      "dateStr": "27/06/2023",
+      "isoDate": "2023-06-27",
+      "timeStr": "17:46",
+      "author": "Macedo",
+      "text": "Ok",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_10",
+      "dateStr": "27/06/2023",
+      "isoDate": "2023-06-27",
+      "timeStr": "17:47",
+      "author": "Etibio Faria",
+      "text": "Beleza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_11",
+      "dateStr": "27/06/2023",
+      "isoDate": "2023-06-27",
+      "timeStr": "18:28",
+      "author": "Etibio Faria",
+      "text": "Deu zebra tenho consulta sexta as1da tarde como vc vai fazer",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_12",
+      "dateStr": "27/06/2023",
+      "isoDate": "2023-06-27",
+      "timeStr": "18:33",
+      "author": "Macedo",
+      "text": "Sem problema a gente vai",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_13",
+      "dateStr": "27/06/2023",
+      "isoDate": "2023-06-27",
+      "timeStr": "18:34",
+      "author": "Etibio Faria",
+      "text": "Beleza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_14",
+      "dateStr": "29/06/2023",
+      "isoDate": "2023-06-29",
+      "timeStr": "18:18",
+      "author": "Macedo",
+      "text": "Tíbio que horas que a gente vai pra mim esperar da alô aí",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_15",
+      "dateStr": "29/06/2023",
+      "isoDate": "2023-06-29",
+      "timeStr": "18:27",
+      "author": "Etibio Faria",
+      "text": "É 6h exame tem que ser 5h saída",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_16",
+      "dateStr": "29/06/2023",
+      "isoDate": "2023-06-29",
+      "timeStr": "19:09",
+      "author": "Macedo",
+      "text": "Na segunda né",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_17",
+      "dateStr": "29/06/2023",
+      "isoDate": "2023-06-29",
+      "timeStr": "19:10",
+      "author": "Etibio Faria",
+      "text": "É d 3 7 23 segunda feira",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_18",
+      "dateStr": "02/07/2023",
+      "isoDate": "2023-07-02",
+      "timeStr": "19:15",
+      "author": "Macedo",
+      "text": "Tíbio cinco horas né",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_19",
+      "dateStr": "02/07/2023",
+      "isoDate": "2023-07-02",
+      "timeStr": "19:23",
+      "author": "Etibio Faria",
+      "text": "8hs  tá bom",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_20",
+      "dateStr": "02/07/2023",
+      "isoDate": "2023-07-02",
+      "timeStr": "21:06",
+      "author": "Macedo",
+      "text": "Verdade tíbio 8hs",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_21",
+      "dateStr": "02/07/2023",
+      "isoDate": "2023-07-02",
+      "timeStr": "21:07",
+      "author": "Etibio Faria",
+      "text": "Verdade",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_22",
+      "dateStr": "02/07/2023",
+      "isoDate": "2023-07-02",
+      "timeStr": "21:10",
+      "author": "Macedo",
+      "text": "Beleza então 8hs ficarei na espera",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_23",
+      "dateStr": "02/07/2023",
+      "isoDate": "2023-07-02",
+      "timeStr": "21:10",
+      "author": "Etibio Faria",
+      "text": "Isso",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_24",
+      "dateStr": "02/07/2023",
+      "isoDate": "2023-07-02",
+      "timeStr": "21:10",
+      "author": "Macedo",
+      "text": "Ok",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_25",
+      "dateStr": "17/07/2023",
+      "isoDate": "2023-07-17",
+      "timeStr": "21:05",
+      "author": "Macedo",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_26",
+      "dateStr": "17/07/2023",
+      "isoDate": "2023-07-17",
+      "timeStr": "21:07",
+      "author": "Etibio Faria",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_27",
+      "dateStr": "17/07/2023",
+      "isoDate": "2023-07-17",
+      "timeStr": "21:09",
+      "author": "Etibio Faria",
+      "text": "Obrigado meu amigo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_28",
+      "dateStr": "17/07/2023",
+      "isoDate": "2023-07-17",
+      "timeStr": "21:10",
+      "author": "Macedo",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_29",
+      "dateStr": "17/07/2023",
+      "isoDate": "2023-07-17",
+      "timeStr": "21:11",
+      "author": "Etibio Faria",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_30",
+      "dateStr": "17/07/2023",
+      "isoDate": "2023-07-17",
+      "timeStr": "21:11",
+      "author": "Etibio Faria",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_31",
+      "dateStr": "17/07/2023",
+      "isoDate": "2023-07-17",
+      "timeStr": "21:14",
+      "author": "Etibio Faria",
+      "text": "Dia 24 é só dá um toque",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_32",
+      "dateStr": "17/07/2023",
+      "isoDate": "2023-07-17",
+      "timeStr": "21:14",
+      "author": "Macedo",
+      "text": "Valeu",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_33",
+      "dateStr": "20/07/2023",
+      "isoDate": "2023-07-20",
+      "timeStr": "13:38",
+      "author": "Etibio Faria",
+      "text": "Olá dia 24 que horas é o exame",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_34",
+      "dateStr": "20/07/2023",
+      "isoDate": "2023-07-20",
+      "timeStr": "17:05",
+      "author": "Etibio Faria",
+      "text": "Claudio eu não vou poder levar vc no hospital pq eu tenho consulta às 12h",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_35",
+      "dateStr": "20/07/2023",
+      "isoDate": "2023-07-20",
+      "timeStr": "17:08",
+      "author": "Etibio Faria",
+      "text": "Aqui em salto se for cedo eu passo levar e volta pra fazer o exame meu",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_36",
+      "dateStr": "20/07/2023",
+      "isoDate": "2023-07-20",
+      "timeStr": "17:38",
+      "author": "Macedo",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_37",
+      "dateStr": "20/07/2023",
+      "isoDate": "2023-07-20",
+      "timeStr": "17:40",
+      "author": "Etibio Faria",
+      "text": "Beleza então",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_38",
+      "dateStr": "20/07/2023",
+      "isoDate": "2023-07-20",
+      "timeStr": "20:25",
+      "author": "Macedo",
+      "text": "Tem que chegar lá 6,50 teria que sair daqui dez pras cinco é cedo pra caramba",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_39",
+      "dateStr": "20/07/2023",
+      "isoDate": "2023-07-20",
+      "timeStr": "20:27",
+      "author": "Macedo",
+      "text": "Será que dá pra vc ir o sei demorou muito",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_40",
+      "dateStr": "20/07/2023",
+      "isoDate": "2023-07-20",
+      "timeStr": "20:27",
+      "author": "Etibio Faria",
+      "text": "Só vc me chamar que eu vou",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_41",
+      "dateStr": "20/07/2023",
+      "isoDate": "2023-07-20",
+      "timeStr": "20:27",
+      "author": "Macedo",
+      "text": "Bl",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_42",
+      "dateStr": "20/07/2023",
+      "isoDate": "2023-07-20",
+      "timeStr": "20:28",
+      "author": "Etibio Faria",
+      "text": "Beleza então",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_43",
+      "dateStr": "23/07/2023",
+      "isoDate": "2023-07-23",
+      "timeStr": "20:41",
+      "author": "Macedo",
+      "text": "Oi etibio cinco e vou tá ligando",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_44",
+      "dateStr": "23/07/2023",
+      "isoDate": "2023-07-23",
+      "timeStr": "20:43",
+      "author": "Etibio Faria",
+      "text": "Beleza vou esperar certo então",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_45",
+      "dateStr": "24/07/2023",
+      "isoDate": "2023-07-24",
+      "timeStr": "05:31",
+      "author": "Etibio Faria",
+      "text": "Oi Claudio tudo bem com você",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_46",
+      "dateStr": "24/07/2023",
+      "isoDate": "2023-07-24",
+      "timeStr": "05:33",
+      "author": "Macedo",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_47",
+      "dateStr": "24/07/2023",
+      "isoDate": "2023-07-24",
+      "timeStr": "05:34",
+      "author": "Etibio Faria",
+      "text": "Beleza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_48",
+      "dateStr": "23/10/2023",
+      "isoDate": "2023-10-23",
+      "timeStr": "16:37",
+      "author": "Macedo",
+      "text": "Ligação de voz perdida",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_49",
+      "dateStr": "23/10/2023",
+      "isoDate": "2023-10-23",
+      "timeStr": "16:41",
+      "author": "Macedo",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_50",
+      "dateStr": "23/10/2023",
+      "isoDate": "2023-10-23",
+      "timeStr": "17:42",
+      "author": "Macedo",
+      "text": "Ligação de voz perdida",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_51",
+      "dateStr": "24/10/2023",
+      "isoDate": "2023-10-24",
+      "timeStr": "06:02",
+      "author": "Etibio Faria",
+      "text": "Vi agora a mensagem já tô em Sorocaba",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_52",
+      "dateStr": "24/10/2023",
+      "isoDate": "2023-10-24",
+      "timeStr": "09:10",
+      "author": "Macedo",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_53",
+      "dateStr": "24/10/2023",
+      "isoDate": "2023-10-24",
+      "timeStr": "19:00",
+      "author": "Etibio Faria",
+      "text": "Então não lembrei do dia tive que ir 6h tirar sangue desculpa meu amigo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_54",
+      "dateStr": "24/10/2023",
+      "isoDate": "2023-10-24",
+      "timeStr": "19:59",
+      "author": "Macedo",
+      "text": "Oi tíbio deu tudo certo tinha chegar lá nove e dez onze horas a gente já estava em casa deu tudo certo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_55",
+      "dateStr": "25/10/2023",
+      "isoDate": "2023-10-25",
+      "timeStr": "16:16",
+      "author": "Etibio Faria",
+      "text": "Beleza então",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_56",
+      "dateStr": "07/11/2023",
+      "isoDate": "2023-11-07",
+      "timeStr": "15:56",
+      "author": "Macedo",
+      "text": "<Mídia oculta>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_57",
+      "dateStr": "25/12/2023",
+      "isoDate": "2023-12-25",
+      "timeStr": "09:42",
+      "author": "Etibio Faria",
+      "text": "Forças pra nós nesse momento feliz natal",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_58",
+      "dateStr": "25/12/2023",
+      "isoDate": "2023-12-25",
+      "timeStr": "13:26",
+      "author": "Macedo",
+      "text": "O etibo obrigado valeu tamo aí feliz natal pra vc também",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_59",
+      "dateStr": "25/12/2023",
+      "isoDate": "2023-12-25",
+      "timeStr": "13:27",
+      "author": "Macedo",
+      "text": "Tudo de de bom",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_60",
+      "dateStr": "26/12/2023",
+      "isoDate": "2023-12-26",
+      "timeStr": "22:18",
+      "author": "Etibio Faria",
+      "text": "Fica com Deus",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_61",
+      "dateStr": "11/06/2024",
+      "isoDate": "2024-06-11",
+      "timeStr": "18:09",
+      "author": "Macedo",
+      "text": "Oi tíbio vc vai amanhã pra Sorocaba eu vou tenho que tá 620",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_62",
+      "dateStr": "29/06/2024",
+      "isoDate": "2024-06-29",
+      "timeStr": "14:33",
+      "author": "Etibio Faria",
+      "text": "Oi Macedo não vi aquela mensagem fui 3h pra Sorocaba desculpa  precisando liga pra mim mensagem às vezes eu não vejo tô sabendo que vc não está bem mais vou sim",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_63",
+      "dateStr": "29/06/2024",
+      "isoDate": "2024-06-29",
+      "timeStr": "14:43",
+      "author": "Macedo",
+      "text": "Oi tíbio meu cunhado foi comigo tá legal eu precisar eu ligo valeu",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_64",
+      "dateStr": "08/01/2025",
+      "isoDate": "2025-01-08",
+      "timeStr": "12:03",
+      "author": "Etibio Faria",
+      "text": "E aí veio tudo bem com você como está a sua força",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_65",
+      "dateStr": "08/01/2025",
+      "isoDate": "2025-01-08",
+      "timeStr": "12:44",
+      "author": "Macedo",
+      "text": "t",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_66",
+      "dateStr": "08/01/2025",
+      "isoDate": "2025-01-08",
+      "timeStr": "12:47",
+      "author": "Macedo",
+      "text": "Oi etibio tudo tamo aí trabalhando na peleja mais ano se Deus quiser",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_67",
+      "dateStr": "08/01/2025",
+      "isoDate": "2025-01-08",
+      "timeStr": "12:49",
+      "author": "Etibio Faria",
+      "text": "S tá com Deus tá com tudo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_68",
+      "dateStr": "08/01/2025",
+      "isoDate": "2025-01-08",
+      "timeStr": "13:02",
+      "author": "Macedo",
+      "text": "Ok",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_69",
+      "dateStr": "27/11/2025",
+      "isoDate": "2025-11-27",
+      "timeStr": "10:27",
+      "author": "Macedo",
+      "text": "\n",
+      "isSystem": false,
+      "attachment": null
+    }
+  ],
+  "mediaFiles": [],
+  "mediaDataUrls": {}
+}

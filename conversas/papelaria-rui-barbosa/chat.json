@@ -1,0 +1,125 @@
+{
+  "id": "chat_1794591088149_5dpz",
+  "title": "Papelaria Rui Barbosa",
+  "folderSlug": "papelaria-rui-barbosa",
+  "phoneNote": "",
+  "pinned": false,
+  "pinnedAt": 0,
+  "avatarDataUrl": "data:image/jpeg;base64,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",
+  "createdAt": 1794591088150,
+  "participants": [
+    "Etibio Faria",
+    "Papelaria Rui Barbosa"
+  ],
+  "myUser": "Etibio Faria",
+  "messages": [
+    {
+      "id": "m_0",
+      "dateStr": "03/10/2023",
+      "isoDate": "2023-10-03",
+      "timeStr": "13:43",
+      "author": null,
+      "text": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. *Saiba mais*",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_1",
+      "dateStr": "03/10/2023",
+      "isoDate": "2023-10-03",
+      "timeStr": "13:43",
+      "author": "Etibio Faria",
+      "text": "Oi",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_2",
+      "dateStr": "03/10/2023",
+      "isoDate": "2023-10-03",
+      "timeStr": "13:43",
+      "author": "Etibio Faria",
+      "text": "IMG-20231003-WA0000.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20231003-WA0000.jpg"
+    },
+    {
+      "id": "m_3",
+      "dateStr": "03/10/2023",
+      "isoDate": "2023-10-03",
+      "timeStr": "13:45",
+      "author": "Etibio Faria",
+      "text": "IMG-20231003-WA0001.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20231003-WA0001.jpg"
+    },
+    {
+      "id": "m_4",
+      "dateStr": "03/10/2023",
+      "isoDate": "2023-10-03",
+      "timeStr": "13:47",
+      "author": "Etibio Faria",
+      "text": "Oi",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_5",
+      "dateStr": "03/10/2023",
+      "isoDate": "2023-10-03",
+      "timeStr": "13:48",
+      "author": "Papelaria Rui Barbosa",
+      "text": "oi",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_6",
+      "dateStr": "03/10/2023",
+      "isoDate": "2023-10-03",
+      "timeStr": "13:48",
+      "author": "Papelaria Rui Barbosa",
+      "text": "oi",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_7",
+      "dateStr": "03/10/2023",
+      "isoDate": "2023-10-03",
+      "timeStr": "13:50",
+      "author": "Etibio Faria",
+      "text": "IMG-20231003-WA0000.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20231003-WA0000.jpg"
+    },
+    {
+      "id": "m_8",
+      "dateStr": "03/10/2023",
+      "isoDate": "2023-10-03",
+      "timeStr": "13:50",
+      "author": "Etibio Faria",
+      "text": "IMG-20231003-WA0001.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20231003-WA0001.jpg"
+    },
+    {
+      "id": "m_9",
+      "dateStr": "03/10/2023",
+      "isoDate": "2023-10-03",
+      "timeStr": "13:50",
+      "author": "Papelaria Rui Barbosa",
+      "text": "oi\n",
+      "isSystem": false,
+      "attachment": null
+    }
+  ],
+  "mediaFiles": [
+    "IMG-20231003-WA0000.jpg",
+    "IMG-20231003-WA0001.jpg"
+  ],
+  "mediaDataUrls": {
+    "IMG-20231003-WA0000.jpg": "./conversas/papelaria-rui-barbosa/IMG-20231003-WA0000.jpg",
+    "IMG-20231003-WA0001.jpg": "./conversas/papelaria-rui-barbosa/IMG-20231003-WA0001.jpg"
+  }
+}

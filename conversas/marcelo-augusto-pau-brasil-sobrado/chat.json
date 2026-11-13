@@ -1,0 +1,1229 @@
+{
+  "id": "chat_1794591088063_dl1u",
+  "title": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+  "folderSlug": "marcelo-augusto-pau-brasil-sobrado",
+  "phoneNote": "",
+  "pinned": false,
+  "pinnedAt": 0,
+  "avatarDataUrl": "data:image/jpeg;base64,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",
+  "createdAt": 1794591088139,
+  "participants": [
+    "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+    "Etibio Faria"
+  ],
+  "myUser": "Etibio Faria",
+  "messages": [
+    {
+      "id": "m_0",
+      "dateStr": "05/08/2024",
+      "isoDate": "2024-08-05",
+      "timeStr": "09:16",
+      "author": null,
+      "text": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. *Saiba mais*",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_1",
+      "dateStr": "05/08/2024",
+      "isoDate": "2024-08-05",
+      "timeStr": "09:16",
+      "author": null,
+      "text": "Marcelo Augusto (PAU BRASIL - SOBRADO) está na sua lista de contatos",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_2",
+      "dateStr": "05/08/2024",
+      "isoDate": "2024-08-05",
+      "timeStr": "09:16",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Bom dia seu Atibio, sou irmão do João Júnior que foi ver a casa do senhor",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_3",
+      "dateStr": "05/08/2024",
+      "isoDate": "2024-08-05",
+      "timeStr": "09:16",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Gostaria de ver com o senhor qdo posso estar indo pra ver a casa",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_4",
+      "dateStr": "05/08/2024",
+      "isoDate": "2024-08-05",
+      "timeStr": "16:58",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Boa tarde seu Atílio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_5",
+      "dateStr": "05/08/2024",
+      "isoDate": "2024-08-05",
+      "timeStr": "16:58",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Pode ser hj depois das 17h30?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_6",
+      "dateStr": "13/08/2024",
+      "isoDate": "2024-08-13",
+      "timeStr": "08:28",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_7",
+      "dateStr": "13/08/2024",
+      "isoDate": "2024-08-13",
+      "timeStr": "08:32",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Bom dia seu Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_8",
+      "dateStr": "13/08/2024",
+      "isoDate": "2024-08-13",
+      "timeStr": "18:07",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "IMG-20240816-WA0000.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20240816-WA0000.jpg"
+    },
+    {
+      "id": "m_9",
+      "dateStr": "16/08/2024",
+      "isoDate": "2024-08-16",
+      "timeStr": "07:42",
+      "author": "Etibio Faria",
+      "text": "Obrigado Marcelo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_10",
+      "dateStr": "13/09/2024",
+      "isoDate": "2024-09-13",
+      "timeStr": "16:55",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "<Mídia oculta>\nAluguel mês 09/2024",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_12",
+      "dateStr": "16/09/2024",
+      "isoDate": "2024-09-16",
+      "timeStr": "21:35",
+      "author": "Etibio Faria",
+      "text": "Obrigado Marcelo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_13",
+      "dateStr": "14/10/2024",
+      "isoDate": "2024-10-14",
+      "timeStr": "06:13",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "<Mídia oculta>\nBom dia seu Etibio… aluguel mês 10/24",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_15",
+      "dateStr": "14/10/2024",
+      "isoDate": "2024-10-14",
+      "timeStr": "08:55",
+      "author": "Etibio Faria",
+      "text": "Beleza Marcelo obrigado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_16",
+      "dateStr": "18/10/2024",
+      "isoDate": "2024-10-18",
+      "timeStr": "14:21",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "PTT-20241018-WA0001.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20241018-WA0001.opus"
+    },
+    {
+      "id": "m_17",
+      "dateStr": "14/11/2024",
+      "isoDate": "2024-11-14",
+      "timeStr": "14:49",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "IMG-20241114-WA0000.jpg (arquivo anexado)\nBoa tarde seu Etibio - Aluguel 10/24",
+      "isSystem": false,
+      "attachment": "IMG-20241114-WA0000.jpg"
+    },
+    {
+      "id": "m_19",
+      "dateStr": "14/11/2024",
+      "isoDate": "2024-11-14",
+      "timeStr": "14:52",
+      "author": "Etibio Faria",
+      "text": "Brigado Marcelo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_20",
+      "dateStr": "14/12/2024",
+      "isoDate": "2024-12-14",
+      "timeStr": "09:56",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "<Mídia oculta>\nBom dia seu Etibio 12/24",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_22",
+      "dateStr": "14/12/2024",
+      "isoDate": "2024-12-14",
+      "timeStr": "11:00",
+      "author": "Etibio Faria",
+      "text": "Marcelo muito obrigado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_23",
+      "dateStr": "14/01/2025",
+      "isoDate": "2025-01-14",
+      "timeStr": "09:00",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "<Mídia oculta>\n01/25",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_25",
+      "dateStr": "14/01/2025",
+      "isoDate": "2025-01-14",
+      "timeStr": "09:01",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Bom dia seu Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_26",
+      "dateStr": "14/01/2025",
+      "isoDate": "2025-01-14",
+      "timeStr": "09:57",
+      "author": "Etibio Faria",
+      "text": "Oi bom dia Marcelo tudo bem obrigado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_27",
+      "dateStr": "17/02/2025",
+      "isoDate": "2025-02-17",
+      "timeStr": "07:35",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Bom dia seu Etibio, tudo joia?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_28",
+      "dateStr": "17/02/2025",
+      "isoDate": "2025-02-17",
+      "timeStr": "07:36",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Hoje eu mando o dinheiro do aluguel",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_29",
+      "dateStr": "17/02/2025",
+      "isoDate": "2025-02-17",
+      "timeStr": "07:36",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Meu pai faleceu e acabei ficando perdido com as contas",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_30",
+      "dateStr": "17/02/2025",
+      "isoDate": "2025-02-17",
+      "timeStr": "07:36",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Mas hoje até o final do dia mando para o senhor",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_31",
+      "dateStr": "17/02/2025",
+      "isoDate": "2025-02-17",
+      "timeStr": "07:38",
+      "author": "Etibio Faria",
+      "text": "Fica frio meus pêsames",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_32",
+      "dateStr": "20/02/2025",
+      "isoDate": "2025-02-20",
+      "timeStr": "06:17",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "IMG-20250220-WA0000.jpg (arquivo anexado)\nBom dia seu Etibio… desculpa a demora 🙏🏽",
+      "isSystem": false,
+      "attachment": "IMG-20250220-WA0000.jpg"
+    },
+    {
+      "id": "m_34",
+      "dateStr": "21/02/2025",
+      "isoDate": "2025-02-21",
+      "timeStr": "16:22",
+      "author": "Etibio Faria",
+      "text": "K isso brigado Marcelo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_35",
+      "dateStr": "28/02/2025",
+      "isoDate": "2025-02-28",
+      "timeStr": "09:19",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Bom dia seu Etibio, tudo bem ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_36",
+      "dateStr": "28/02/2025",
+      "isoDate": "2025-02-28",
+      "timeStr": "09:20",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "A porta do quarto caiu por conta do vento forte",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_37",
+      "dateStr": "28/02/2025",
+      "isoDate": "2025-02-28",
+      "timeStr": "09:20",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "A porta que fica na sacada do lado de fora",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_38",
+      "dateStr": "28/02/2025",
+      "isoDate": "2025-02-28",
+      "timeStr": "09:20",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Teria como a gente vê isso ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_39",
+      "dateStr": "28/02/2025",
+      "isoDate": "2025-02-28",
+      "timeStr": "09:21",
+      "author": "Etibio Faria",
+      "text": "Bom dia Marcelo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_40",
+      "dateStr": "28/02/2025",
+      "isoDate": "2025-02-28",
+      "timeStr": "09:22",
+      "author": "Etibio Faria",
+      "text": "S tá aiouk horas",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_41",
+      "dateStr": "28/02/2025",
+      "isoDate": "2025-02-28",
+      "timeStr": "09:22",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Eu estou em casa agora",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_42",
+      "dateStr": "28/02/2025",
+      "isoDate": "2025-02-28",
+      "timeStr": "09:23",
+      "author": "Etibio Faria",
+      "text": "Dak a pouco eu vou aí",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_43",
+      "dateStr": "28/02/2025",
+      "isoDate": "2025-02-28",
+      "timeStr": "09:23",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Okay",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_44",
+      "dateStr": "28/02/2025",
+      "isoDate": "2025-02-28",
+      "timeStr": "10:20",
+      "author": "Etibio Faria",
+      "text": "Oi Marcelo tô aqui dá pra vc ir lá em casa ver o quarto agora",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_45",
+      "dateStr": "28/02/2025",
+      "isoDate": "2025-02-28",
+      "timeStr": "10:21",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Da sim, já vou si",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_46",
+      "dateStr": "28/02/2025",
+      "isoDate": "2025-02-28",
+      "timeStr": "10:22",
+      "author": "Etibio Faria",
+      "text": "Beleza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_47",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "09:47",
+      "author": "Etibio Faria",
+      "text": "Marcelo bom dia  tem como colocar a porta hoje ou amanhã uma pessoa que faz o serviço",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_48",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "09:49",
+      "author": "Etibio Faria",
+      "text": "Não o aquele que quer trocar o batente",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_49",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "09:50",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Bom dia seu Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_50",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "09:50",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Não estou em salto hj",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_51",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "09:50",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Se for mais tarde talvez eu consiga",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_52",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "09:51",
+      "author": "Etibio Faria",
+      "text": "Dá um toque",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_53",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "09:53",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "É o seu Geraldo que vai por ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_54",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "09:54",
+      "author": "Etibio Faria",
+      "text": "🥴 não é outro",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_55",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "09:54",
+      "author": "Etibio Faria",
+      "text": "Vou junto com ele",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_56",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "09:58",
+      "author": "Etibio Faria",
+      "text": "O batente é 600 reais tem mandar fazer",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_57",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "09:59",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Então não vai trocar.  ?? <Mensagem editada>",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_58",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "10:01",
+      "author": "Etibio Faria",
+      "text": "Só recolocar a porta k saiu",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_59",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "10:07",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Como vai por a porta se está oco o batente ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_60",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "10:08",
+      "author": "Etibio Faria",
+      "text": "Mudando as dobradiças",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_61",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "10:08",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Mas não vai ficar bom",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_62",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "10:08",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Vai cair de novo eu acho",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_63",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "10:09",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Mas demora muito tempo pra mandar fazer ?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_64",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "10:09",
+      "author": "Etibio Faria",
+      "text": "Então vou ter que gastar 2000r",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_65",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "10:10",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Mas vai ficar bom se trocar as dobradiças?",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_66",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "10:13",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "O batente está todo oco",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_67",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "10:13",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "E eu acho que acontecer a msm coisa",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_68",
+      "dateStr": "07/03/2025",
+      "isoDate": "2025-03-07",
+      "timeStr": "21:37",
+      "author": "Etibio Faria",
+      "text": "Já mandei fazer o novo batente e o vizinho da frente vai trocar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_69",
+      "dateStr": "08/03/2025",
+      "isoDate": "2025-03-08",
+      "timeStr": "07:42",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Ta joia 👍🏽",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_70",
+      "dateStr": "15/03/2025",
+      "isoDate": "2025-03-15",
+      "timeStr": "07:43",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "<Mídia oculta>\nAluguel 03/25",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_72",
+      "dateStr": "15/03/2025",
+      "isoDate": "2025-03-15",
+      "timeStr": "08:16",
+      "author": "Etibio Faria",
+      "text": "Bom dia Marcelo valeu obrigado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_73",
+      "dateStr": "15/03/2025",
+      "isoDate": "2025-03-15",
+      "timeStr": "08:40",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Bom dia 🙏🏽",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_74",
+      "dateStr": "15/04/2025",
+      "isoDate": "2025-04-15",
+      "timeStr": "18:33",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "<Mídia oculta>\ncomprovante",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_76",
+      "dateStr": "15/04/2025",
+      "isoDate": "2025-04-15",
+      "timeStr": "18:36",
+      "author": "Etibio Faria",
+      "text": "Oi Marcelo beleza e obrigado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_77",
+      "dateStr": "15/04/2025",
+      "isoDate": "2025-04-15",
+      "timeStr": "18:36",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "👍🏽🙏🏽",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_78",
+      "dateStr": "15/05/2025",
+      "isoDate": "2025-05-15",
+      "timeStr": "16:51",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "IMG-20250515-WA0000.jpg (arquivo anexado)\nBoa tarde. Aluguel 04/25 🙏🏽👍🏽",
+      "isSystem": false,
+      "attachment": "IMG-20250515-WA0000.jpg"
+    },
+    {
+      "id": "m_80",
+      "dateStr": "15/05/2025",
+      "isoDate": "2025-05-15",
+      "timeStr": "16:57",
+      "author": "Etibio Faria",
+      "text": "Oi Marcelo beleza obrigado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_81",
+      "dateStr": "11/06/2025",
+      "isoDate": "2025-06-11",
+      "timeStr": "08:32",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Bom dia seu Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_82",
+      "dateStr": "11/06/2025",
+      "isoDate": "2025-06-11",
+      "timeStr": "08:32",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "VID-20250611-WA0000.mp4 (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "VID-20250611-WA0000.mp4"
+    },
+    {
+      "id": "m_83",
+      "dateStr": "11/06/2025",
+      "isoDate": "2025-06-11",
+      "timeStr": "08:32",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "A porta da cozinha está muito empenada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_84",
+      "dateStr": "11/06/2025",
+      "isoDate": "2025-06-11",
+      "timeStr": "08:32",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Tá difícil de fechar e abrir",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_85",
+      "dateStr": "11/06/2025",
+      "isoDate": "2025-06-11",
+      "timeStr": "08:32",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Tem como o senhor vê por favor",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_86",
+      "dateStr": "11/06/2025",
+      "isoDate": "2025-06-11",
+      "timeStr": "08:34",
+      "author": "Etibio Faria",
+      "text": "Vou pedir pro Geraldo ver aí daqui a pouco",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_87",
+      "dateStr": "11/06/2025",
+      "isoDate": "2025-06-11",
+      "timeStr": "11:40",
+      "author": "Etibio Faria",
+      "text": "Marcelo manda a hora que vc tiver aí pra mim ver se posso fazer o Geraldo tá sempre ocupado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_88",
+      "dateStr": "11/06/2025",
+      "isoDate": "2025-06-11",
+      "timeStr": "16:25",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Eu estou em casa agora",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_89",
+      "dateStr": "11/06/2025",
+      "isoDate": "2025-06-11",
+      "timeStr": "17:25",
+      "author": "Etibio Faria",
+      "text": "Vou passar aí",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_90",
+      "dateStr": "11/06/2025",
+      "isoDate": "2025-06-11",
+      "timeStr": "17:34",
+      "author": "Etibio Faria",
+      "text": "Tô na porta",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_91",
+      "dateStr": "11/06/2025",
+      "isoDate": "2025-06-11",
+      "timeStr": "17:34",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Estou indo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_92",
+      "dateStr": "11/06/2025",
+      "isoDate": "2025-06-11",
+      "timeStr": "17:34",
+      "author": "Etibio Faria",
+      "text": "Beleza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_93",
+      "dateStr": "11/06/2025",
+      "isoDate": "2025-06-11",
+      "timeStr": "17:35",
+      "author": "Etibio Faria",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_94",
+      "dateStr": "18/06/2025",
+      "isoDate": "2025-06-18",
+      "timeStr": "09:32",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "<Mídia oculta>\nAluguel 06/25",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_96",
+      "dateStr": "18/06/2025",
+      "isoDate": "2025-06-18",
+      "timeStr": "09:34",
+      "author": "Etibio Faria",
+      "text": "Oi Marcelo brigado você tá por aí vou desce agora",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_97",
+      "dateStr": "18/06/2025",
+      "isoDate": "2025-06-18",
+      "timeStr": "09:35",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Bom dia seu Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_98",
+      "dateStr": "18/06/2025",
+      "isoDate": "2025-06-18",
+      "timeStr": "09:35",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Não estou",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_99",
+      "dateStr": "18/06/2025",
+      "isoDate": "2025-06-18",
+      "timeStr": "09:35",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Vou estar na hora do almoço",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_100",
+      "dateStr": "18/06/2025",
+      "isoDate": "2025-06-18",
+      "timeStr": "09:36",
+      "author": "Etibio Faria",
+      "text": "Beleza então",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_101",
+      "dateStr": "18/06/2025",
+      "isoDate": "2025-06-18",
+      "timeStr": "12:11",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Seu Etibio",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_102",
+      "dateStr": "18/06/2025",
+      "isoDate": "2025-06-18",
+      "timeStr": "12:11",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Vou estar em casa 12:20 pra almoçar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_103",
+      "dateStr": "18/06/2025",
+      "isoDate": "2025-06-18",
+      "timeStr": "12:11",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Se o senhor quiser ir lá",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_104",
+      "dateStr": "18/06/2025",
+      "isoDate": "2025-06-18",
+      "timeStr": "12:12",
+      "author": "Etibio Faria",
+      "text": "Já tô aqui",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_105",
+      "dateStr": "18/06/2025",
+      "isoDate": "2025-06-18",
+      "timeStr": "12:12",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Okay",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_106",
+      "dateStr": "19/08/2025",
+      "isoDate": "2025-08-19",
+      "timeStr": "14:55",
+      "author": "Etibio Faria",
+      "text": "Oi Marcelo tudo bem com você",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_107",
+      "dateStr": "19/08/2025",
+      "isoDate": "2025-08-19",
+      "timeStr": "16:09",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Oi seu Etibio, agora tô melhor",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_108",
+      "dateStr": "19/08/2025",
+      "isoDate": "2025-08-19",
+      "timeStr": "16:09",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Até as 17h lhe pago o aluguel",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_109",
+      "dateStr": "19/08/2025",
+      "isoDate": "2025-08-19",
+      "timeStr": "16:35",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "IMG-20250820-WA0000.jpg (arquivo anexado)\nAluguel 08/2025…",
+      "isSystem": false,
+      "attachment": "IMG-20250820-WA0000.jpg"
+    },
+    {
+      "id": "m_111",
+      "dateStr": "19/08/2025",
+      "isoDate": "2025-08-19",
+      "timeStr": "16:35",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Desculpa a demora 🙏🏽",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_112",
+      "dateStr": "19/08/2025",
+      "isoDate": "2025-08-19",
+      "timeStr": "16:47",
+      "author": "Etibio Faria",
+      "text": "Sem problemas",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_113",
+      "dateStr": "16/09/2025",
+      "isoDate": "2025-09-16",
+      "timeStr": "09:22",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "comprovante.pdf (arquivo anexado)\ncomprovante",
+      "isSystem": false,
+      "attachment": "comprovante.pdf"
+    },
+    {
+      "id": "m_115",
+      "dateStr": "16/09/2025",
+      "isoDate": "2025-09-16",
+      "timeStr": "11:50",
+      "author": "Etibio Faria",
+      "text": "Oi Marcelo bom dia muito obrigado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_116",
+      "dateStr": "22/09/2025",
+      "isoDate": "2025-09-22",
+      "timeStr": "15:29",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "IMG-20250922-WA0002.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20250922-WA0002.jpg"
+    },
+    {
+      "id": "m_117",
+      "dateStr": "22/09/2025",
+      "isoDate": "2025-09-22",
+      "timeStr": "15:29",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "PTT-20250922-WA0001.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20250922-WA0001.opus"
+    },
+    {
+      "id": "m_118",
+      "dateStr": "22/09/2025",
+      "isoDate": "2025-09-22",
+      "timeStr": "15:51",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "IMG-20250922-WA0003.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20250922-WA0003.jpg"
+    },
+    {
+      "id": "m_119",
+      "dateStr": "23/09/2025",
+      "isoDate": "2025-09-23",
+      "timeStr": "07:26",
+      "author": "Etibio Faria",
+      "text": "Marcelo já falei com o Geraldo assim que der e tiver energia ele vai fazer o serviço",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_120",
+      "dateStr": "23/09/2025",
+      "isoDate": "2025-09-23",
+      "timeStr": "07:34",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Ta bom seu Etibio, obrigado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_121",
+      "dateStr": "25/09/2025",
+      "isoDate": "2025-09-25",
+      "timeStr": "11:18",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "Bom dia seu Etibio, tudo bem?\nSabe qdo o Geraldo vai arrumar a porta? Ta ruim ficar sem a porta",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_123",
+      "dateStr": "25/09/2025",
+      "isoDate": "2025-09-25",
+      "timeStr": "13:15",
+      "author": "Etibio Faria",
+      "text": "Vou falar com ele",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_124",
+      "dateStr": "01/10/2025",
+      "isoDate": "2025-10-01",
+      "timeStr": "06:37",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "PTT-20251001-WA0000.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20251001-WA0000.opus"
+    },
+    {
+      "id": "m_125",
+      "dateStr": "01/10/2025",
+      "isoDate": "2025-10-01",
+      "timeStr": "11:59",
+      "author": "Etibio Faria",
+      "text": "Não medi não  vou ver quem fas esse tipo de veneziana colocar uma porta normal não tem ventilação",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_126",
+      "dateStr": "15/10/2025",
+      "isoDate": "2025-10-15",
+      "timeStr": "05:44",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "IMG-20251016-WA0001.jpg (arquivo anexado)\nBom dia seu Etibio. Aluguel mês 10/2025 🙏🏽",
+      "isSystem": false,
+      "attachment": "IMG-20251016-WA0001.jpg"
+    },
+    {
+      "id": "m_128",
+      "dateStr": "16/10/2025",
+      "isoDate": "2025-10-16",
+      "timeStr": "18:50",
+      "author": "Etibio Faria",
+      "text": "Obrigado Marcelo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_129",
+      "dateStr": "17/11/2025",
+      "isoDate": "2025-11-17",
+      "timeStr": "10:02",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "<Mídia oculta>\nBom dia, aluguel mês 11/2025… 🙏🏽",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_131",
+      "dateStr": "17/11/2025",
+      "isoDate": "2025-11-17",
+      "timeStr": "12:39",
+      "author": "Etibio Faria",
+      "text": "Oi Marcelo beleza e obrigado",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_132",
+      "dateStr": "15/12/2025",
+      "isoDate": "2025-12-15",
+      "timeStr": "10:13",
+      "author": "Marcelo Augusto (PAU BRASIL - SOBRADO)",
+      "text": "PTT-20251217-WA0000.opus (arquivo anexado)\n",
+      "isSystem": false,
+      "attachment": "PTT-20251217-WA0000.opus"
+    }
+  ],
+  "mediaFiles": [
+    "IMG-20240816-WA0000.jpg",
+    "PTT-20241018-WA0001.opus",
+    "IMG-20241114-WA0000.jpg",
+    "IMG-20250220-WA0000.jpg",
+    "IMG-20250515-WA0000.jpg",
+    "VID-20250611-WA0000.mp4",
+    "IMG-20250820-WA0000.jpg",
+    "comprovante.pdf",
+    "IMG-20250922-WA0002.jpg",
+    "PTT-20250922-WA0001.opus",
+    "IMG-20250922-WA0003.jpg",
+    "PTT-20251001-WA0000.opus",
+    "IMG-20251016-WA0001.jpg",
+    "PTT-20251217-WA0000.opus"
+  ],
+  "mediaDataUrls": {
+    "IMG-20240816-WA0000.jpg": "./conversas/marcelo-augusto-pau-brasil-sobrado/IMG-20240816-WA0000.jpg",
+    "PTT-20241018-WA0001.opus": "./conversas/marcelo-augusto-pau-brasil-sobrado/PTT-20241018-WA0001.opus",
+    "IMG-20241114-WA0000.jpg": "./conversas/marcelo-augusto-pau-brasil-sobrado/IMG-20241114-WA0000.jpg",
+    "IMG-20250220-WA0000.jpg": "./conversas/marcelo-augusto-pau-brasil-sobrado/IMG-20250220-WA0000.jpg",
+    "IMG-20250515-WA0000.jpg": "./conversas/marcelo-augusto-pau-brasil-sobrado/IMG-20250515-WA0000.jpg",
+    "VID-20250611-WA0000.mp4": "./conversas/marcelo-augusto-pau-brasil-sobrado/VID-20250611-WA0000.mp4",
+    "IMG-20250820-WA0000.jpg": "./conversas/marcelo-augusto-pau-brasil-sobrado/IMG-20250820-WA0000.jpg",
+    "comprovante.pdf": "./conversas/marcelo-augusto-pau-brasil-sobrado/comprovante.pdf",
+    "IMG-20250922-WA0002.jpg": "./conversas/marcelo-augusto-pau-brasil-sobrado/IMG-20250922-WA0002.jpg",
+    "PTT-20250922-WA0001.opus": "./conversas/marcelo-augusto-pau-brasil-sobrado/PTT-20250922-WA0001.opus",
+    "IMG-20250922-WA0003.jpg": "./conversas/marcelo-augusto-pau-brasil-sobrado/IMG-20250922-WA0003.jpg",
+    "PTT-20251001-WA0000.opus": "./conversas/marcelo-augusto-pau-brasil-sobrado/PTT-20251001-WA0000.opus",
+    "IMG-20251016-WA0001.jpg": "./conversas/marcelo-augusto-pau-brasil-sobrado/IMG-20251016-WA0001.jpg",
+    "PTT-20251217-WA0000.opus": "./conversas/marcelo-augusto-pau-brasil-sobrado/PTT-20251217-WA0000.opus"
+  }
+}
