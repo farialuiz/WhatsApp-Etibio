@@ -1,0 +1,619 @@
+{
+  "id": "chat_1794591087372_d4nn",
+  "title": "Marco (celular antigo) - 11 95046-4524",
+  "folderSlug": "55-11-95046-4524",
+  "phoneNote": "11 95046-4524",
+  "pinned": false,
+  "pinnedAt": 0,
+  "avatarDataUrl": null,
+  "createdAt": 1794591087375,
+  "participants": [
+    "+55 11 95046-4524",
+    "Etibio Faria"
+  ],
+  "myUser": "Etibio Faria",
+  "messages": [
+    {
+      "id": "m_0",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:03",
+      "author": null,
+      "text": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. *Saiba mais*",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_1",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:03",
+      "author": "+55 11 95046-4524",
+      "text": "Boa noite tudo bem aí",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_2",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:03",
+      "author": "+55 11 95046-4524",
+      "text": "Domingo vamos assar uma carne na edícula do Sandro",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_3",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:04",
+      "author": "+55 11 95046-4524",
+      "text": "Você soube que o pai do Sandro faleceu",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_4",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:05",
+      "author": "+55 11 95046-4524",
+      "text": "Se o Dudu vir no domingo leva ele lá também",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_5",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:10",
+      "author": "Etibio Faria",
+      "text": "Agora sim tô sabendo vó com o Dudu ou sem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_6",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:13",
+      "author": "Etibio Faria",
+      "text": "Misturei as mensagens da Jak com às suas más beleza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_7",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:14",
+      "author": "+55 11 95046-4524",
+      "text": "Mandei mensagem pra ele mas não respondeu",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_8",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:16",
+      "author": "Etibio Faria",
+      "text": "Domingo ele veio aqui com a Maria",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_9",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:16",
+      "author": "+55 11 95046-4524",
+      "text": "Beleza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_10",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:17",
+      "author": "+55 11 95046-4524",
+      "text": "Tenta convencer ele a vir pra cá",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_11",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:18",
+      "author": "Etibio Faria",
+      "text": "Sei não",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_12",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:18",
+      "author": "+55 11 95046-4524",
+      "text": "Eu vou tentar",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_13",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:18",
+      "author": "+55 11 95046-4524",
+      "text": "Falar com ele",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_14",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:19",
+      "author": "Etibio Faria",
+      "text": "Tenta então",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_15",
+      "dateStr": "11/08/2023",
+      "isoDate": "2023-08-11",
+      "timeStr": "19:19",
+      "author": "+55 11 95046-4524",
+      "text": "👍👍",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_16",
+      "dateStr": "02/09/2023",
+      "isoDate": "2023-09-02",
+      "timeStr": "17:32",
+      "author": "Etibio Faria",
+      "text": "E aí tudo bem com vocês",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_17",
+      "dateStr": "02/09/2023",
+      "isoDate": "2023-09-02",
+      "timeStr": "17:34",
+      "author": "Etibio Faria",
+      "text": "Demorei mais consegui  tenho câncer de próstata",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_18",
+      "dateStr": "02/09/2023",
+      "isoDate": "2023-09-02",
+      "timeStr": "17:35",
+      "author": "Etibio Faria",
+      "text": "Tô fazendo todos os exames tá tranquilo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_19",
+      "dateStr": "03/09/2023",
+      "isoDate": "2023-09-03",
+      "timeStr": "08:14",
+      "author": "+55 11 95046-4524",
+      "text": "Bom dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_20",
+      "dateStr": "03/09/2023",
+      "isoDate": "2023-09-03",
+      "timeStr": "08:14",
+      "author": "+55 11 95046-4524",
+      "text": "Tá tudo bem com você",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_21",
+      "dateStr": "03/09/2023",
+      "isoDate": "2023-09-03",
+      "timeStr": "08:15",
+      "author": "+55 11 95046-4524",
+      "text": "E agora qual o procedimento que vc tem que fazer",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_22",
+      "dateStr": "03/09/2023",
+      "isoDate": "2023-09-03",
+      "timeStr": "10:00",
+      "author": "Etibio Faria",
+      "text": "Bom dia fazer tratamento",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_23",
+      "dateStr": "21/09/2023",
+      "isoDate": "2023-09-21",
+      "timeStr": "18:17",
+      "author": "Etibio Faria",
+      "text": "Segunda feira eu tomei injeção na bunda e tomar todo dia 1 comprimido durante 30 dias e cada 3 meses 1 injeção isso chama castração química prá que a doença deixa de aumentar e depois vou morrer",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_24",
+      "dateStr": "21/09/2023",
+      "isoDate": "2023-09-21",
+      "timeStr": "18:29",
+      "author": "+55 11 95046-4524",
+      "text": "Que conversa é essa",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_25",
+      "dateStr": "21/09/2023",
+      "isoDate": "2023-09-21",
+      "timeStr": "18:32",
+      "author": "Etibio Faria",
+      "text": "Verdade assim que eu tou más morrer eu não sei quando",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_26",
+      "dateStr": "21/09/2023",
+      "isoDate": "2023-09-21",
+      "timeStr": "18:32",
+      "author": "+55 11 95046-4524",
+      "text": "PTT-20230921-WA0001.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20230921-WA0001.opus"
+    },
+    {
+      "id": "m_27",
+      "dateStr": "21/09/2023",
+      "isoDate": "2023-09-21",
+      "timeStr": "18:36",
+      "author": "Etibio Faria",
+      "text": "Mais isso é prá que brar o gelo",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_28",
+      "dateStr": "21/09/2023",
+      "isoDate": "2023-09-21",
+      "timeStr": "18:36",
+      "author": "+55 11 95046-4524",
+      "text": "PTT-20230921-WA0002.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20230921-WA0002.opus"
+    },
+    {
+      "id": "m_29",
+      "dateStr": "21/09/2023",
+      "isoDate": "2023-09-21",
+      "timeStr": "18:38",
+      "author": "Etibio Faria",
+      "text": "Esqueci da hora não li direito a mensagem",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_30",
+      "dateStr": "21/09/2023",
+      "isoDate": "2023-09-21",
+      "timeStr": "18:40",
+      "author": "+55 11 95046-4524",
+      "text": "Nós ficamos até às 6 da tarde lá",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_31",
+      "dateStr": "21/09/2023",
+      "isoDate": "2023-09-21",
+      "timeStr": "18:43",
+      "author": "Etibio Faria",
+      "text": "Como era almoço achei que era tarde pra ir lá",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_32",
+      "dateStr": "21/09/2023",
+      "isoDate": "2023-09-21",
+      "timeStr": "18:43",
+      "author": "+55 11 95046-4524",
+      "text": "👍",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_33",
+      "dateStr": "24/09/2023",
+      "isoDate": "2023-09-24",
+      "timeStr": "09:54",
+      "author": "+55 11 95046-4524",
+      "text": "Bom dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_34",
+      "dateStr": "24/09/2023",
+      "isoDate": "2023-09-24",
+      "timeStr": "09:54",
+      "author": "+55 11 95046-4524",
+      "text": "Vamos assar uma carne na edícula do Sandro",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_35",
+      "dateStr": "24/09/2023",
+      "isoDate": "2023-09-24",
+      "timeStr": "20:56",
+      "author": "Etibio Faria",
+      "text": "Fui com o Dudu dar um rolê importante",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_36",
+      "dateStr": "06/12/2023",
+      "isoDate": "2023-12-06",
+      "timeStr": "20:53",
+      "author": "Etibio Faria",
+      "text": "Compre o carro que a sua mulher quer eu dou o dinheiro pra vc vc sabe que quando a mulher quer não tem jeito",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_37",
+      "dateStr": "06/12/2023",
+      "isoDate": "2023-12-06",
+      "timeStr": "20:54",
+      "author": "+55 11 95046-4524",
+      "text": "Kkkkk",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_38",
+      "dateStr": "24/12/2023",
+      "isoDate": "2023-12-24",
+      "timeStr": "12:14",
+      "author": "+55 11 95046-4524",
+      "text": "Tarde",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_39",
+      "dateStr": "24/12/2023",
+      "isoDate": "2023-12-24",
+      "timeStr": "12:14",
+      "author": "+55 11 95046-4524",
+      "text": "Vai lá na edícula do Sandro depois",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_40",
+      "dateStr": "24/12/2023",
+      "isoDate": "2023-12-24",
+      "timeStr": "12:32",
+      "author": "Etibio Faria",
+      "text": "Beleza",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_41",
+      "dateStr": "06/01/2024",
+      "isoDate": "2024-01-06",
+      "timeStr": "12:56",
+      "author": "+55 11 95046-4524",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_42",
+      "dateStr": "06/01/2024",
+      "isoDate": "2024-01-06",
+      "timeStr": "16:46",
+      "author": "Etibio Faria",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_43",
+      "dateStr": "07/01/2024",
+      "isoDate": "2024-01-07",
+      "timeStr": "09:51",
+      "author": "+55 11 95046-4524",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_44",
+      "dateStr": "04/02/2024",
+      "isoDate": "2024-02-04",
+      "timeStr": "18:21",
+      "author": "Etibio Faria",
+      "text": "IMG-20240204-WA0004.jpg (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "IMG-20240204-WA0004.jpg"
+    },
+    {
+      "id": "m_45",
+      "dateStr": "04/02/2024",
+      "isoDate": "2024-02-04",
+      "timeStr": "18:21",
+      "author": "Etibio Faria",
+      "text": "Lembrei de vc",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_46",
+      "dateStr": "04/02/2024",
+      "isoDate": "2024-02-04",
+      "timeStr": "19:18",
+      "author": "+55 11 95046-4524",
+      "text": "Você foi lá",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_47",
+      "dateStr": "04/02/2024",
+      "isoDate": "2024-02-04",
+      "timeStr": "20:34",
+      "author": "Etibio Faria",
+      "text": "Nessas horas que eles precisam da visita",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_48",
+      "dateStr": "01/04/2024",
+      "isoDate": "2024-04-01",
+      "timeStr": "19:30",
+      "author": "Etibio Faria",
+      "text": "Tá sabendo que o seu tio Luiz faleceu",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_49",
+      "dateStr": "02/04/2024",
+      "isoDate": "2024-04-02",
+      "timeStr": "06:01",
+      "author": "+55 11 95046-4524",
+      "text": "Bom dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_50",
+      "dateStr": "02/04/2024",
+      "isoDate": "2024-04-02",
+      "timeStr": "06:01",
+      "author": "+55 11 95046-4524",
+      "text": "Só vi mensagem agora",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_51",
+      "dateStr": "02/04/2024",
+      "isoDate": "2024-04-02",
+      "timeStr": "06:01",
+      "author": "+55 11 95046-4524",
+      "text": "Ninguém falou nada",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_52",
+      "dateStr": "02/04/2024",
+      "isoDate": "2024-04-02",
+      "timeStr": "06:50",
+      "author": "+55 11 95046-4524",
+      "text": "Sabe que horas é o enterro",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_53",
+      "dateStr": "02/04/2024",
+      "isoDate": "2024-04-02",
+      "timeStr": "06:52",
+      "author": "Etibio Faria",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_54",
+      "dateStr": "02/04/2024",
+      "isoDate": "2024-04-02",
+      "timeStr": "06:58",
+      "author": "Etibio Faria",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_55",
+      "dateStr": "02/04/2024",
+      "isoDate": "2024-04-02",
+      "timeStr": "10:53",
+      "author": "Etibio Faria",
+      "text": "PTT-20240402-WA0002.opus (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "PTT-20240402-WA0002.opus"
+    },
+    {
+      "id": "m_56",
+      "dateStr": "26/05/2024",
+      "isoDate": "2024-05-26",
+      "timeStr": "12:01",
+      "author": "+55 11 95046-4524",
+      "text": "Bom dia",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_57",
+      "dateStr": "26/05/2024",
+      "isoDate": "2024-05-26",
+      "timeStr": "12:02",
+      "author": "+55 11 95046-4524",
+      "text": "Tô assando carne aqui em casa vem pra cá",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_58",
+      "dateStr": "26/05/2024",
+      "isoDate": "2024-05-26",
+      "timeStr": "12:05",
+      "author": "Etibio Faria",
+      "text": "Tô comendo hambúrguer tô fitnes mais vou\n",
+      "isSystem": false,
+      "attachment": null
+    }
+  ],
+  "mediaFiles": [
+    "PTT-20230921-WA0001.opus",
+    "PTT-20230921-WA0002.opus",
+    "IMG-20240204-WA0004.jpg",
+    "PTT-20240402-WA0002.opus"
+  ],
+  "mediaDataUrls": {
+    "PTT-20230921-WA0001.opus": "./conversas/55-11-95046-4524/PTT-20230921-WA0001.opus",
+    "PTT-20230921-WA0002.opus": "./conversas/55-11-95046-4524/PTT-20230921-WA0002.opus",
+    "IMG-20240204-WA0004.jpg": "./conversas/55-11-95046-4524/IMG-20240204-WA0004.jpg",
+    "PTT-20240402-WA0002.opus": "./conversas/55-11-95046-4524/PTT-20240402-WA0002.opus"
+  }
+}

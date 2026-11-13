@@ -1,0 +1,145 @@
+{
+  "id": "chat_1794591087376_xc7j",
+  "title": "Parente do Anizio - 11 97130-5593",
+  "folderSlug": "55-11-97130-5593",
+  "phoneNote": "11 97130-5593",
+  "pinned": false,
+  "pinnedAt": 0,
+  "avatarDataUrl": null,
+  "createdAt": 1794591087380,
+  "participants": [
+    "+55 11 97130-5593",
+    "Etibio Faria"
+  ],
+  "myUser": "Etibio Faria",
+  "messages": [
+    {
+      "id": "m_0",
+      "dateStr": "09/12/2023",
+      "isoDate": "2023-12-09",
+      "timeStr": "12:44",
+      "author": null,
+      "text": "As mensagens e ligações são protegidas com a criptografia de ponta a ponta. Somente as pessoas que fazem parte da conversa podem ler, ouvir e compartilhar esse conteúdo. *Saiba mais*",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_1",
+      "dateStr": "09/12/2023",
+      "isoDate": "2023-12-09",
+      "timeStr": "12:44",
+      "author": null,
+      "text": "",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_2",
+      "dateStr": "09/12/2023",
+      "isoDate": "2023-12-09",
+      "timeStr": "12:44",
+      "author": "+55 11 97130-5593",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_3",
+      "dateStr": "20/12/2023",
+      "isoDate": "2023-12-20",
+      "timeStr": "11:16",
+      "author": null,
+      "text": "",
+      "isSystem": true,
+      "attachment": null
+    },
+    {
+      "id": "m_4",
+      "dateStr": "20/12/2023",
+      "isoDate": "2023-12-20",
+      "timeStr": "11:16",
+      "author": "+55 11 97130-5593",
+      "text": "Oi não, da pro Sr vim mais cedo ou outro dia pq eu tenho que fazer visita no hospital",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_5",
+      "dateStr": "20/12/2023",
+      "isoDate": "2023-12-20",
+      "timeStr": "11:48",
+      "author": "+55 11 97130-5593",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_6",
+      "dateStr": "24/12/2023",
+      "isoDate": "2023-12-24",
+      "timeStr": "12:39",
+      "author": "Etibio Faria",
+      "text": "Tá bom",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_7",
+      "dateStr": "13/11/2024",
+      "isoDate": "2024-11-13",
+      "timeStr": "13:54",
+      "author": "+55 11 97130-5593",
+      "text": "Philip Augusto.vcf (arquivo anexado)",
+      "isSystem": false,
+      "attachment": "Augusto.vcf"
+    },
+    {
+      "id": "m_8",
+      "dateStr": "13/11/2024",
+      "isoDate": "2024-11-13",
+      "timeStr": "14:06",
+      "author": "+55 11 97130-5593",
+      "text": "",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_9",
+      "dateStr": "13/11/2024",
+      "isoDate": "2024-11-13",
+      "timeStr": "14:11",
+      "author": "+55 11 97130-5593",
+      "text": "Sr Etibio eu peguei os endereços  da turma se o sr quiser vim pegar hoje pode vim",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_10",
+      "dateStr": "13/11/2024",
+      "isoDate": "2024-11-13",
+      "timeStr": "14:12",
+      "author": "+55 11 97130-5593",
+      "text": "Pq amanhã vou com meu filho no medico",
+      "isSystem": false,
+      "attachment": null
+    },
+    {
+      "id": "m_11",
+      "dateStr": "13/11/2024",
+      "isoDate": "2024-11-13",
+      "timeStr": "15:25",
+      "author": "Etibio Faria",
+      "text": "E o endereço da sua casa pra mim ir buscar\n",
+      "isSystem": false,
+      "attachment": null
+    }
+  ],
+  "mediaFiles": [
+    "Philip Augusto.vcf",
+    "Augusto.vcf"
+  ],
+  "mediaDataUrls": {
+    "Philip Augusto.vcf": "./conversas/55-11-97130-5593/Philip%20Augusto.vcf",
+    "Augusto.vcf": "./conversas/55-11-97130-5593/Augusto.vcf"
+  }
+}
